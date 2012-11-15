@@ -13,6 +13,8 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/rickshaw.min.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <script type="text/javascript" src="//use.typekit.net/tui0fki.js"></script>
@@ -25,23 +27,31 @@
 
     <!-- Add your site or application content here -->
     <div id="wrapper">
-        <section id="content">
-            <h1>Pigskin</h1>
-            <p>Visualizing Football Tweets</p>
+        <div id="content">
+            <h1>Pigskin • Visualizing Football Tweets</h1>
+            <!-- <p></p> -->
 
-            <h2>All Tweets (by week)</h2>
-            <p>Number of tweets by week.</p>
+            <h2>Football vs. Non-Football Tweets by NFL Week</h2>
+            <div id="legend"></div>
+            <div id="chart1"></div>
 
-            <h2>Football Tweets</h2>
-            <h2>Matchups</h2>
-        </section>
+
+            <h2>Tweets During a Game</h2>
+            <div id="chart2"></div>
+
+        </div>
     </div>
 
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-    <script src="http://d3js.org/d3.v2.js"></script>
-    <script>window.d3 || document.write('<script src="js/vendor/d3.v2.min.js"><\/script>')</script>
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>-->
+    <script src="js/vendor/d3.v2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <!--<script src="http://d3js.org/d3.v2.js"></script>-->
+   <!-- <script>window.d3 || document.write('<script src="js/vendor/d3.v2.min.js"><\/script>')</script>-->
+    <script src="js/rickshaw.js"></script>
+    <script src="js/extensions.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
