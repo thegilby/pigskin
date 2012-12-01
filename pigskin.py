@@ -2,8 +2,9 @@
 import sqlite3
 from contextlib import closing
 from flask import Flask, request, session, redirect, url_for, \
-     abort, render_template, flash
+     abort, render_template, flash, jsonify
 from pysolr import Solr
+import json
 
 # configuration
 DEBUG = True
@@ -33,12 +34,18 @@ def search():
         ]
 
     conn.add(docs)
-    results = conn.search('cat:"science"')
+    results = conn.search('science')
     for result in results:
-        print result['name']
+        print result
 
-    return render_template('search.html')
+    return render_template('search.html', results=docs)
 
+@app.route("/searchsolr")
+def searchsolr():
+    query = request.args.get('query','')
+    print query
+    data = jsonify({'bar': ('baz', query, 1.0, 2)})
+    return data
 
 @app.route("/about/")
 def about():

@@ -3,5 +3,23 @@
   <h1>Pigskin • Visualizing Football Tweets</h1>
   <!-- <p></p> -->
 
-  <input type="search"></input>
+  <input type="search" id="searchBox"></input>
+  <button id="searchButton"></button>
+  <ul id="searchResults">
+    {% for test in results %}
+      <li>{{ test.name }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
+{% block scripts %}
+  <script type="text/javascript">
+      $("#searchButton").on("click",function(event){
+          var query = $("#searchBox").val();
+          
+          $.getJSON("/searchsolr", {query:query},function(data){
+              console.log(data);
+          });
+      });
+  </script>
+
 {% endblock %}
