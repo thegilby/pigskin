@@ -24,7 +24,7 @@ def search():
     # do stuff with solr here. 
     print "im doing stuff"
     conn = Solr('http://127.0.0.1:8983/solr/')
-    results = conn.search('tweet:"/@/"')
+    results = conn.search('cat:"/@/"')
     for result in results:
         print result['name']
 
@@ -44,8 +44,11 @@ def search():
 def searchsolr():
     query = request.args.get('query','')
     print query
-    data = jsonify({'bar': ('baz', query, 1.0, 2)})
-    return data
+    conn = Solr('http://127.0.0.1:8983/solr/')
+    results = conn.search(query, wt='json')
+    print results
+    # data = jsonify({'bar': ('baz', query, 1.0, 2)})
+    return "hi"
 
 @app.route("/about/")
 def about():
