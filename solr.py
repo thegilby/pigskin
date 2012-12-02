@@ -1,19 +1,28 @@
 from pysolr import Solr
+import argparse
 
-f = open('indexed_tweets_w1J.csv','r')
+# take in a file name
+parser = argparse.ArgumentParser()
+parser.add_argument('-f', help = 'inputfile')
+args=parser.parse_args()
 
+# open the file
+f = open(args.f,'r')
+
+
+# initialize solr and clear the index
 conn = Solr('http://127.0.0.1:8983/solr/')
-# clear the index
 conn.delete(q='*:*')
 
+# get the labels
 headers = []
-data = []
-
 for header in f.readline().rstrip('\n').split('\t'):
     headers.append(header)
 
-# print headers
+
+data = []
 i = 0
+index = 1
 for line in f.readlines():
     cols = line.rstrip('\n').split('\t')
     output = {}
@@ -22,7 +31,11 @@ for line in f.readlines():
         # print col
         output[header] = col
     data.append(output)
-    if i > 1000:
+    if i > (10000*index):
         conn.add(data)
         data = []
+        index = index + 1
     i = i + 1
+
+if data:
+    conn.add(data)
