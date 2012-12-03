@@ -133,14 +133,14 @@
    <field name="last_modified" type="date" indexed="true" stored="true"/>
    <field name="links" type="string" indexed="true" stored="true" multiValued="true"/>
 
-   <!-- FOR TWITTER USE -->
-   <field name="tweet_date" type="text_general" indexed="true" stored="true"/>
+      <!-- FOR TWITTER USE -->
+   <field name="date_time" type="text_general" indexed="true" stored="true"/>
    <field name="username" type="text_general" indexed="true" stored="true"/>
    <field name="tweet" type="text_general" indexed="true" stored="true"/>
-   <field name="football" type="text_general" indexed="true" stored="true"/>
-   <field name="location" type="text_general" indexed="true" stored="true"/>
-   <field name="score" type="int" indexed="true" stored="true"/>
-   <field name="truth" type="text_general" indexed="true" stored="true"/>
+   <field name="geoloc" type="text_general" indexed="true" stored="true"/>
+   <field name="hashtags" type="text_general" indexed="true" stored="true"/>
+   <field name="fb_weight" type="int" indexed="true" stored="true"/>
+   <field name="fb_assoc" type="text_general" indexed="true" stored="true"/>
 
    <!-- Main body of document extracted by SolrCell.
         NOTE: This field is not indexed by default, since it is also copied to "text"

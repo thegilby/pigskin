@@ -2,9 +2,10 @@
 {% block body %}
   <h1>Pigskin • Visualizing Football Tweets</h1>
   <!-- <p></p> -->
-
-  <input type="search" id="searchBox"></input>
-  <button id="searchButton"></button>
+  <form id="searchForm">
+    <input type="search" id="searchBox"></input>
+    <input type="submit" id="searchButton"></input>
+  </form>
   <ul id="searchResults">
     {% for test in results %}
       <li>{{ test.name }}</li>
@@ -13,12 +14,18 @@
 {% endblock %}
 {% block scripts %}
   <script type="text/javascript">
-      $("#searchButton").on("click",function(event){
+      $("#searchForm").on("submit",function(event){
           var query = $("#searchBox").val();
           
           $.getJSON("/searchsolr", {query:query},function(data){
               console.log(data);
+              $("#searchResults").html("");
+              $.each(data.tweets, function(index, value){
+                  $("#searchResults").append("<li>" + value.tweet+ "</li>");
+              });
+              
           });
+          return false;
       });
   </script>
 

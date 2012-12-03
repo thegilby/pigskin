@@ -4,6 +4,7 @@ import argparse
 # take in a file name
 parser = argparse.ArgumentParser()
 parser.add_argument('-f', help = 'inputfile')
+parser.add_argument('-ca', help = 'clear the index', action='store_true')
 args=parser.parse_args()
 
 # open the file
@@ -11,8 +12,9 @@ f = open(args.f,'r')
 
 
 # initialize solr and clear the index
-conn = Solr('http://127.0.0.1:8983/solr/')
-conn.delete(q='*:*')
+conn = Solr('http://127.0.0.1:8080/solr/')
+if args.ca:
+    conn.delete(q='*:*')
 
 # get the labels
 headers = []

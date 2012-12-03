@@ -45,10 +45,18 @@ def searchsolr():
     query = request.args.get('query','')
     print query
     conn = Solr('http://127.0.0.1:8983/solr/')
-    results = conn.search(query, wt='json')
-    print results
-    # data = jsonify({'bar': ('baz', query, 1.0, 2)})
-    return "hi"
+    
+    # rows='10' on default
+    results = conn.search("tweet:"+query, wt='json')
+    
+    data = []
+    tweets = {}
+    for result in results:
+        data.append(result)
+    tweets["tweets"] = data
+    tweets['totalHits'] = results.hits
+    # print data    # data = jsonify({'bar': ('baz', query, 1.0, 2)})
+    return jsonify(tweets)
 
 @app.route("/about/")
 def about():
