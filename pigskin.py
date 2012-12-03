@@ -47,8 +47,8 @@ def searchsolr():
     conn = Solr('http://127.0.0.1:8983/solr/')
     
     # rows='10' on default
-    results = conn.search("tweet:"+query, wt='json')
-    
+    results = conn.search("tweet:"+query, wt='python', sort="fb_weight desc")
+
     data = []
     tweets = {}
     for result in results:
