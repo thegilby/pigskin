@@ -47,6 +47,8 @@ for line in f.readlines():
         else:
             output[header] = col
     data.append(output)
+
+    # update the index every 10000 documents (reduces overhead)
     if i > (10000*index):
         conn.add(data)
         data = []
