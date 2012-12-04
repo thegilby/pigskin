@@ -1,13 +1,23 @@
 {% extends "layout.html" %}
 {% block body %}
-  <h1>Pigskin • Visualizing Football Tweets</h1>
-  <!-- <p></p> -->
 
-  <h2>Football vs. Non-Football Tweets by NFL Week</h2>
-  <div id="legend"></div>
-  <div id="chart1"></div>
+  <div class="jumbotron masthead">
+    <div class="container">
+      <h1>Pigskin</h1>
+      <p>Visualizing Football Tweets</p>
+    </div>
+  </div>
 
+  <div class="container">
+    <h2>Football vs. Non-Football Tweets by NFL Week</h2>
+    <div id="legend"></div>
+    <div id="chart1"></div>
 
-  <h2>Tweets During a Game</h2>
-  <div id="chart2"></div>
+    <hr class="soften">
+
+    <h2>Tweets During a Game</h2>
+    <div id="chart2"></div>
+
+  </div> <!-- /container -->
+
 {% endblock %}
