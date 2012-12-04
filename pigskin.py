@@ -15,13 +15,28 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 
 # Rest of app
+#index
 @app.route("/")
 def home():
     return render_template('index.html')
 
+#week
+@app.route("/week/<int:week>/")
+def week(week=None):
+    return render_template('week.html', week=week)
+
+#teams
+@app.route("/teams/")
+@app.route("/teams/<team>/")
+def team(team=None):
+    if team:
+        return render_template('team_single.html', team=team)
+    else:
+        return render_template('teams.html')
+
 @app.route("/search/")
 def search():
-    # do stuff with solr here. 
+    # do stuff with solr here.
     print "im doing stuff"
     conn = Solr('http://127.0.0.1:8983/solr/')
     results = conn.search('cat:"/@/"')
@@ -45,7 +60,7 @@ def searchsolr():
     query = request.args.get('query','')
     print query
     conn = Solr('http://127.0.0.1:8983/solr/')
-    
+
     # rows='10' on default
     results = conn.search("tweet:"+query, wt='python', sort="fb_weight desc")
 
