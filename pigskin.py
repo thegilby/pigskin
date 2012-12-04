@@ -5,6 +5,7 @@ from flask import Flask, request, session, redirect, url_for, \
      abort, render_template, flash, jsonify
 from pysolr import Solr
 import json
+from pigsearch import FootBallIndex
 
 # configuration
 DEBUG = True
@@ -59,19 +60,11 @@ def search():
 def searchsolr():
     query = request.args.get('query','')
     print query
-    conn = Solr('http://127.0.0.1:8983/solr/')
-
+    football = FootBallIndex()
     # rows='10' on default
-    results = conn.search("tweet:"+query, wt='python', sort="fb_weight desc")
-
-    data = []
-    tweets = {}
-    for result in results:
-        data.append(result)
-    tweets["tweets"] = data
-    tweets['totalHits'] = results.hits
+    results = football.search(query)
     # print data    # data = jsonify({'bar': ('baz', query, 1.0, 2)})
-    return jsonify(tweets)
+    return jsonify(results)
 
 @app.route("/about/")
 def about():

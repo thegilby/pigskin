@@ -1,5 +1,6 @@
 from pysolr import Solr
 import argparse
+from datetime import datetime
 
 # take in a file name
 parser = argparse.ArgumentParser()
@@ -31,8 +32,23 @@ for line in f.readlines():
     for col, header in zip(cols, headers):
         # print header
         # print col
-        output[header] = col
+        if header == 'tweet':
+            output[header] = col.decode('utf-8')
+        elif header == 'date_time':
+            # sun oct 21 11:02:56 pdt 2012
+            newTime = datetime.strptime(col,'%a %b %d %H:%M:%S %Z %Y')
+            # print newTime.isoformat()
+            output[header] = newTime.isoformat() + 'Z'
+        elif header == 'geoloc':
+            cleanCol = col.replace('geolocation{latitude=','').replace('longitude=','').replace('}','').replace(', ',',')
+            # print cleanCol
+            if cleanCol != 'null':
+                output[header] = cleanCol
+        else:
+            output[header] = col
     data.append(output)
+
+    # update the index every 10000 documents (reduces overhead)
     if i > (10000*index):
         conn.add(data)
         data = []
