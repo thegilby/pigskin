@@ -32,7 +32,8 @@ class FootballIndex:
 
     def getTweetsPerSecond(self, date, column='all'):
         result = {}
-        if column == 'all':
+        # if column == 'all':
+        return result   
 
 
         
