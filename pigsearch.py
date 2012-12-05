@@ -50,6 +50,17 @@ team_abbrev = [
     'sea'
 ]
 
+weeks = [
+    "2012-10-21T10:00:00",
+    "2012-10-28T10:00:00",
+    "2012-11-4T10:00:00",
+    "2012-11-11T10:00:00",
+    "2012-11-18T10:00:00",
+    "2012-11-25T10:00:00",
+    "2012-12-2T10:00:00",
+]
+
+
 class FootballIndex:
     
     def __init__(self):
@@ -141,13 +152,56 @@ class FootballIndex:
 
         return result
 
+    def getFootballTweetsPerWeek(self):
+        result = {}
+        startdate = datetime.strptime(weeks[0],'%Y-%m-%dT%H:%M:%S')
+        enddate = datetime.strptime(weeks[-1],'%Y-%m-%dT%H:%M:%S') + timedelta(seconds=60*60*13) # 13 hrs later
+        
+        params = {'facet.range' : ['date_time'],
+                    'facet.range.start' : weeks[0] + 'Z',
+                    'facet.range.end' : enddate.isoformat() + 'Z',
+                    'facet.range.gap':'+1DAY',
+                    'facet.mincount' : '1',
+                    'facet.sort' : 'index'
+                    }
+
+        dataset = self.conn.search("fb_weight:[2 TO *]",
+            facet='on', ** params)
+
+        print dataset.hits
+        counts = dataset.facets['facet_ranges']['date_time']['counts']
+        result = convertToDict(counts)
+
+        return result
+
+    def getNonFootballTweetsPerWeek(self):
+        result = {}
+        startdate = datetime.strptime(weeks[0],'%Y-%m-%dT%H:%M:%S')
+        enddate = datetime.strptime(weeks[-1],'%Y-%m-%dT%H:%M:%S') + timedelta(seconds=60*60*13) # 13 hrs later
+        
+        params = {'facet.range' : ['date_time'],
+                    'facet.range.start' : weeks[0] + 'Z',
+                    'facet.range.end' : enddate.isoformat() + 'Z',
+                    'facet.range.gap':'+1DAY',
+                    'facet.mincount' : '1',
+                    'facet.sort' : 'index'
+                    }
+
+        dataset = self.conn.search("fb_weight:[* TO 1]",
+            facet='on', ** params)
+
+        print dataset.hits
+        counts = dataset.facets['facet_ranges']['date_time']['counts']
+        result = convertToDict(counts)
+
+        return result
 
 def outputScript():
     index = FootballIndex()# write out multiple json files
 
     # tweets per second per team
     for team in team_abbrev:
-        tweets = index.getTweetsPerSecondPerTeam(team,'2012-10-21T10:00:00')
+        tweets = index.getTweetsPerSecondPerTeam(team,weeks[0])
         f = open("tweetsPerSecond_" + team + ".json","w")
         f.write(json.dumps(tweets,indent=4))
 
@@ -155,7 +209,10 @@ def outputScript():
 
 # Helper
 def convertToDict(countList):
-    result = {}
+    result = []
+    coordinate = {}
     for key, value in zip(countList[::2],countList[1::2]):
-        result[key] = value
+        coordinate['x'] = key
+        coordinate['y'] = value
+        result.append(coordinate)
     return result

@@ -48,7 +48,9 @@ def search():
     football = FootballIndex()
     # print football.getAllTweetsPerTeam()
     # print football.getTweetsPerSecond()
-    print football.getTweetsPerSecondPerTeam('sf','2012-10-21T10:00:00')
+    # print football.getTweetsPerSecondPerTeam('sf','2012-10-21T10:00:00')
+    print football.getFootballTweetsPerWeek()
+    print football.getNonFootballTweetsPerWeek()
     return render_template('search.html')
 
 @app.route("/searchsolr")
