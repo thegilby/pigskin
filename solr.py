@@ -2,6 +2,14 @@ from pysolr import Solr
 import argparse
 from datetime import datetime
 
+# helper
+def isInt(string):
+    try: 
+        int(string)
+        return True
+    except ValueError:
+        return False
+
 # take in a file name
 parser = argparse.ArgumentParser()
 parser.add_argument('-f', help = 'inputfile')
@@ -26,19 +34,30 @@ for header in f.readline().rstrip('\n').split('\t'):
 data = []
 i = 0
 index = 1
-for line in f.readlines():
+for lineno, line in enumerate(f, start=1):
     cols = line.rstrip('\n').split('\t')
     output = {}
+    validRow = True
     for col, header in zip(cols, headers):
-        # print header
-        # print col
-        if header == 'tweet':
+        if header == 'id' or header == 'fb_weight':
+            # check if row has valid id
+            if not isInt(col):
+                validRow = False
+            output[header] = col
+        elif header == 'tweet':
             output[header] = col.decode('utf-8')
         elif header == 'date_time':
             # sun oct 21 11:02:56 pdt 2012
-            newTime = datetime.strptime(col,'%a %b %d %H:%M:%S %Z %Y')
+            try:
+                newTime = datetime.strptime(col,'%a %b %d %H:%M:%S %Z %Y')
+                output[header] = newTime.isoformat() + 'Z'
+            except:
+                print col
+                print lineno
+                validRow = False
             # print newTime.isoformat()
-            output[header] = newTime.isoformat() + 'Z'
+        elif header == 'fb_assoc':
+            output[header] = col.split(" ")
         elif header == 'geoloc':
             cleanCol = col.replace('geolocation{latitude=','').replace('longitude=','').replace('}','').replace(', ',',')
             # print cleanCol
@@ -46,7 +65,8 @@ for line in f.readlines():
                 output[header] = cleanCol
         else:
             output[header] = col
-    data.append(output)
+    if validRow:
+        data.append(output)
 
     # update the index every 10000 documents (reduces overhead)
     if i > (10000*index):
