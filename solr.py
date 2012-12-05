@@ -52,12 +52,12 @@ for lineno, line in enumerate(f, start=1):
                 newTime = datetime.strptime(col,'%a %b %d %H:%M:%S %Z %Y')
                 output[header] = newTime.isoformat() + 'Z'
             except:
-                print col
-                print lineno
+                # print col
+                # print lineno
                 validRow = False
             # print newTime.isoformat()
         elif header == 'fb_assoc':
-            output[header] = col.split(" ")
+            output[header] = col.strip().split(' ')
         elif header == 'geoloc':
             cleanCol = col.replace('geolocation{latitude=','').replace('longitude=','').replace('}','').replace(', ',',')
             # print cleanCol
