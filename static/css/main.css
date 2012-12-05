@@ -40,9 +40,12 @@ body {
   width: 50px;
   height: auto;
 }
-.logoTiny {
+.logoTiny, .logoTinyConf {
   width: 25px;
   height: auto;
+  margin: 5px 20px;
+}
+.logoTinyConf {
   margin: 10px 0 0 17px;
 }
 

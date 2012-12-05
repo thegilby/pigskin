@@ -46,7 +46,7 @@
                     <li class="column-menu span3 firstcolumn">
                         <ul>
                           <li><a tabindex="-1" href="/teams/">All Teams</a></li>
-                          <li><img class="logoTiny" src="{{ url_for('static', filename='img/logo/NFC.gif') }}"></li>
+                          <li><img class="logoTinyConf" src="{{ url_for('static', filename='img/logo/NFC.gif') }}"></li>
                           <li class="divider"></li>
                           <li><a tabindex="-1" href="/teams/dal">Dallas Cowboys</a></li>
                           <li><a tabindex="-1" href="/teams/nyg">New York Giants</a></li>
@@ -72,7 +72,7 @@
                     <li class="column-menu span3">
                         <ul>
                           <li><a href="#">&nbsp;</a></li>
-                          <li><img class="logoTiny" src="{{ url_for('static', filename='img/logo/AFC.gif') }}"></li>
+                          <li><img class="logoTinyConf" src="{{ url_for('static', filename='img/logo/AFC.gif') }}"></li>
                           <li class="divider"></li>
                           <li><a tabindex="-1" href="/teams/buf">Buffalo Bills</a></li>
                           <li><a tabindex="-1" href="/teams/mia">Miami Dolphins</a></li>
@@ -97,27 +97,6 @@
                     </li>
                 </ul>
               </li>
-              <li class="">
-                <a href="/week/7/">Week 7</a>
-              </li>
-              <li class="">
-                <a href="/week/8/">Week 8</a>
-              </li>
-              <li class="">
-                <a href="/week/9/">Week 9</a>
-              </li>
-              <li class="">
-                <a href="/week/10/">Week 10</a>
-              </li>
-              <li class="">
-                <a href="/week/11/">Week 11</a>
-              </li>
-              <li class="">
-                <a href="/week/12/">Week 12</a>
-              </li>
-              <li class="">
-                <a href="/week/13/">Week 13</a>
-              </li>
               <!--
               <li class="">
                 <a href="/search/">Search</a>
@@ -131,7 +110,7 @@
 
     {% block body %}{% endblock %}
 
-    <div class="footer clearfix">
+    <div class="footer">
         <div class="container">
             <p class="pull-right"><a href="#"><i class="icon-chevron-up icon-white"></i></a></p>
             <p>Pigskin | Visualizing Football Tweets</p>

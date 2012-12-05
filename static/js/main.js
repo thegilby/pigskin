@@ -139,16 +139,50 @@ $(function() {
       "pit_bal":{"date":"Sun Dec 2","start":"13:25:00","away":"pit","home":"bal","awayScore":23,"homeScore":20,"stadium":"M&T Bank Stadium"},
       "phi_dal":{"date":"Sun Dec 2","start":"17:20:00","away":"phi","home":"dal","awayScore":33,"homeScore":38,"stadium":"Cowboys Stadium"}
       }
-      }
+      };
 
-  // Nav week dropdowns
+generateMatchups();
+// Nav week dropdowns
+function generateMatchups() {
   $.each( matchups, function(w) {
-    console.log(w + matchups[w]);
+    var weekNav = $('<li>').attr('class','dropdown'),
+        weekLink = $('<a>')
+                      .attr({
+                          'id':'dweek'+w,
+                          'href':'#',
+                          'role':'button',
+                          'class':'dropdown-toggle',
+                          'data-toggle':'dropdown'
+                          })
+                      .html('Week '+w+' <b class="caret"></b>'),
+        allLink = $('<li>').html('<a tabindex="-1" href="/week/'+w+'/">All Matchups</a>'),
+        weekList = $('<ul>').attr({'class':'dropdown-menu', 'role':'menu', 'aria-labelledby':'dweek'+w});
+    weekLink.appendTo(weekNav);
+    weekList.appendTo(weekNav);
+    weekNav.appendTo('.nav');
+
+    allLink.appendTo(weekList);
 
     $.each( matchups[w], function(i) {
-      console.log(" "+i);
+      var matchupInfo = matchups[w][i],
+          awayTeam = matchupInfo.away;
+          homeTeam = matchupInfo.home;
+          matchupNav = $('<li>'),
+          matchupLink = $('<a>').attr({'tabindex':'-1','href':'/week/'+w+'/matchup/'+i+'/'})
+                                .html('<img class="logoTiny" src="/pigskin/static/img/logo/'+awayTeam+'.gif">' +' vs ' + '<img class="logoTiny" src="/pigskin/static/img/logo/'+homeTeam+'.gif">');
+      matchupLink.appendTo(matchupNav);
+      matchupNav.appendTo(weekList);
     });
   });
+}
+
+// <li class="dropdown">
+//   <a id="dLabel" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Week <b class="caret"></b></a>
+//   <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+//     <li><a tabindex="-1" href="#">Action</a></li>
+//   </ul>
+// </li>
+
 
   //Teams page
   if ( $('#teams').length ) {

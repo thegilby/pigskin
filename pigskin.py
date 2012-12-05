@@ -23,16 +23,20 @@ def home():
     return render_template('index.html')
 
 #week
-@app.route("/week/<int:week>/")
-def week(week=None):
-    return render_template('week.html', week=week)
+@app.route("/week/<week>/")
+@app.route("/week/<week>/matchup/<matchup>/")
+def week(week=None, matchup=None):
+    if matchup:
+        return render_template('matchup.html', week=week, matchup=matchup)
+    else:
+        return render_template('week.html', week=week)
 
 #teams
 @app.route("/teams/")
 @app.route("/teams/<team>/")
 def team(team=None):
     if team:
-        return render_template('team_single.html', team=team)
+        return render_template('team.html', team=team)
     else:
         return render_template('teams.html')
 
@@ -40,7 +44,7 @@ def team(team=None):
 def search():
     # do stuff with solr here.
     print "im doing stuff"
-    
+
     football = FootballIndex()
     # print football.getAllTweetsPerTeam()
     # print football.getTweetsPerSecond()
