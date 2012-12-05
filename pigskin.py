@@ -5,7 +5,7 @@ from flask import Flask, request, session, redirect, url_for, \
      abort, render_template, flash, jsonify
 from pysolr import Solr
 import json
-from pigsearch import FootballIndex
+import pigsearch
 
 # configuration
 DEBUG = True
@@ -26,8 +26,15 @@ def home():
 @app.route("/week/<week>/")
 @app.route("/week/<week>/matchup/<matchup>/")
 def week(week=None, matchup=None):
+    
     if matchup:
-        return render_template('matchup.html', week=week, matchup=matchup)
+        teams = matchup.split("_")
+        teamData = {}
+        for team in teams:
+            data = open('tweetsPerSecond_'+team+'.json','r')
+            teamData[team] = json.load(data)
+        print teamData
+        return render_template('matchup.html', week=week, matchup=matchup, teamData=teamData)
     else:
         return render_template('week.html', week=week)
 
@@ -45,7 +52,7 @@ def search():
     # do stuff with solr here.
     print "im doing stuff"
 
-    football = FootballIndex()
+    football = pigsearch.FootballIndex()
     # print football.getAllTweetsPerTeam()
     # print football.getTweetsPerSecond()
     # print football.getTweetsPerSecondPerTeam('sf','2012-10-21T10:00:00')
@@ -57,7 +64,7 @@ def search():
 def searchsolr():
     query = request.args.get('query','')
     print query
-    football = FootballIndex()
+    football = pigsearch.FootballIndex()
     # rows='10' on default
     results = football.search(query)
 

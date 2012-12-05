@@ -165,8 +165,8 @@ function generateMatchups() {
 
     $.each( matchups[w], function(i) {
       var matchupInfo = matchups[w][i],
-          awayTeam = matchupInfo.away;
-          homeTeam = matchupInfo.home;
+          awayTeam = matchupInfo.away,
+          homeTeam = matchupInfo.home,
           matchupNav = $('<li>'),
           matchupLink = $('<a>').attr({'tabindex':'-1','href':'/week/'+w+'/matchup/'+i+'/'})
                                 .html('<img class="logoTiny" src="/pigskin/static/img/logo/'+awayTeam+'.gif">' +' vs ' + '<img class="logoTiny" src="/pigskin/static/img/logo/'+homeTeam+'.gif">');

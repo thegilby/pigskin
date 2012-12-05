@@ -132,6 +132,7 @@
     <script src="{{ url_for('static', filename='js/extensions.js') }}"></script>
     <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
     <script src="{{ url_for('static', filename='js/plugins.js') }}"></script>
+    {% block scripts %}{% endblock %}
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 
     <!-- Google Analytics: UA-31630965-1 (lab.thegilby.com) -->
@@ -141,7 +142,5 @@
         g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
         s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
-    {% block scripts %}
-    {% endblock %}
   </body>
 </html>
