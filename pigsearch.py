@@ -145,11 +145,12 @@ class FootballIndex:
 def outputScript():
     index = FootballIndex()# write out multiple json files
 
-    # football
+    # tweets per second per team
     for team in team_abbrev:
         tweets = index.getTweetsPerSecondPerTeam(team,'2012-10-21T10:00:00')
         f = open("tweetsPerSecond_" + team + ".json","w")
         f.write(json.dumps(tweets,indent=4))
+
     return
 
 # Helper
