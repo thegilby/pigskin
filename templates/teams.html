@@ -1,10 +1,25 @@
 {% extends "layout.html" %}
 {% block body %}
 
+  <div class="jumbotron">
+    <div class="container">
+      <!-- <h1>Pigskin</h1> -->
+      <img class="logo" src="{{ url_for('static', filename='img/logo/NFL.gif') }}">
+      <h2>TEAMS</h2>
+    </div>
+  </div>
+
   <div id="teams" class="container">
-    <h3>Teams</h3>
-    <ul>
-    </ul>
+    <div class="row">
+      <div class="span6" id="nfc">
+        <img class="span2 offset2 logo" src="{{ url_for('static', filename='img/logo/NFC.gif') }}">
+      </div>
+
+      <div class="span6" id="afc">
+        <img class="span2 offset2 logo" src="{{ url_for('static', filename='img/logo/AFC.gif') }}">
+      </div>
+    </div>
+
   </div> <!-- /container -->
 
 {% endblock %}

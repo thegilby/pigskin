@@ -1,10 +1,22 @@
 {% extends "layout.html" %}
 {% block body %}
+  <div class="jumbotron">
+    <div class="container">
+      <img class="logo" src="{{ url_for('static', filename='img/logo/'+team+'.gif') }}">
+      <h2 id="teamName"></h2>
+    </div>
+  </div>
 
-  <div id="team" class="container">
-    <h3>Team: {{ team }}</h3>
-    <ul>
-    </ul>
+  <div id="team" data-team="{{team}}" class="container">
+    <div class="row">
+      <div class="span4">
+
+      </div>
+
+      <div class="span8">
+        <p></p>
+      </div>
+    </div>
   </div> <!-- /container -->
 
 {% endblock %}

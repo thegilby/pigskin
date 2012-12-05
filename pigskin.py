@@ -5,14 +5,15 @@ from flask import Flask, request, session, redirect, url_for, \
      abort, render_template, flash, jsonify
 from pysolr import Solr
 import json
-from pigsearch import FootBallIndex
+from pigsearch import FootballIndex
 
 # configuration
 DEBUG = True
 SECRET_KEY = 'development key'
 
 # create application
-app = Flask(__name__)
+app = Flask('pigskin', static_url_path='/pigskin/static')
+# app = Flask(__name__)
 app.config.from_object(__name__)
 
 # Rest of app
@@ -71,4 +72,5 @@ def about():
     return "about.html"
 
 if __name__ == "__main__":
-    app.run();
+    # app.run(app.config.get('SERVER_NAME'), app.config.get('SERVER_PORT'));
+    app.run(port=61001);

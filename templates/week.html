@@ -1,9 +1,13 @@
 {% extends "layout.html" %}
 {% block body %}
+  <div class="jumbotron">
+    <div class="container">
+      <img class="logo" src="{{ url_for('static', filename='img/logo/NFL.gif') }}">
+      <h2>Week {{ week }} Matchups</h2>
+    </div>
+  </div>
 
   <div id="week" class="container">
-    <h3>Week {{ week }}</h3>
-    Matchups
     <ul>
     </ul>
   </div> <!-- /container -->

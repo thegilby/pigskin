@@ -1,35 +1,44 @@
-
-
-/* ==========================================================================
-   Chrome Frame prompt
-   ========================================================================== */
-
-.chromeframe {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
 body {
     font-family: "proxima-nova", Helvetica, Arial, sans-serif;
-    /*color: #333;*/
     padding-top: 40px; /* 60px to make the container go all the way to the bottom of the topbar */
-    /*background: #f5f5f5;*/
 }
 
-/*#wrapper {
-    background: #f5f5f5;
-    margin: 0 auto;
-    padding: 10px;
-    width: 1024px;
-}*/
+.jumbotron .logo {
+  height: 150px;
+}
+.logo {
+  /*width: 150px;*/
+  width: auto;
+  height: 100px;
+  margin-bottom: 10px;
+}
 
-#content {
+
+#team, #teams {
+  margin-top: 60px;
+}
+
+.teamListing {
+  /*margin-top: 10px;*/
+  margin-left: 10px;
+  height: 60px;
+  float: left;
+  width: 220px;
+  display: block;
+  position: relative;
+}
+.teamListing span {
+  position: absolute;
+  top: 24px;
+  left: 65px;
+  font-size: 15px;
+}
+.logoSmall {
+  position: absolute;
+  top: 50%;
+  margin-top: -25%;
+  width: 50px;
+  height: auto;
 
 }
 
