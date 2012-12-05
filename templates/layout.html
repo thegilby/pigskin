@@ -37,8 +37,65 @@
           <a class="brand" href="/">Pigskin</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active">
+              <li class="">
                 <a href="/">Home</a>
+              </li>
+              <li class="dropdown">
+                <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Teams <b class="caret"></b></a>
+                <ul class="dropdown-menu span6" role="menu" aria-labelledby="drop1">
+                    <li class="column-menu span3 firstcolumn">
+                        <ul>
+                          <li><a tabindex="-1" href="/teams/">All Teams</a></li>
+                          <li><img class="logoTiny" src="{{ url_for('static', filename='img/logo/NFC.gif') }}"></li>
+                          <li class="divider"></li>
+                          <li><a tabindex="-1" href="/teams/dal">Dallas Cowboys</a></li>
+                          <li><a tabindex="-1" href="/teams/nyg">New York Giants</a></li>
+                          <li><a tabindex="-1" href="/teams/phi">Philadelphia Eagles</a></li>
+                          <li><a tabindex="-1" href="/teams/was">Washington Redskins</a></li>
+                          <li class="divider"></li>
+                          <li><a tabindex="-1" href="/teams/chi">Chicago Bears</a></li>
+                          <li><a tabindex="-1" href="/teams/det">Detroit Lions</a></li>
+                          <li><a tabindex="-1" href="/teams/gb">Green Bay Packers</a></li>
+                          <li><a tabindex="-1" href="/teams/min">Minnesota Vikings</a></li>
+                          <li class="divider"></li>
+                          <li><a tabindex="-1" href="/teams/atl">Atlanta Falcons</a></li>
+                          <li><a tabindex="-1" href="/teams/car">Carolina Panthers</a></li>
+                          <li><a tabindex="-1" href="/teams/no">New Orleans Saints</a></li>
+                          <li><a tabindex="-1" href="/teams/tb">Tampa Bay Buccaneers</a></li>
+                          <li class="divider"></li>
+                          <li><a tabindex="-1" href="/teams/ari">Arizona Cardinals</a></li>
+                          <li><a tabindex="-1" href="/teams/stl">Saint Louis Rams</a></li>
+                          <li><a tabindex="-1" href="/teams/sf">San Francisco 49ers</a></li>
+                          <li><a tabindex="-1" href="/teams/sea">Seattle Seahawks</a></li>
+                        </ul>
+                    </li>
+                    <li class="column-menu span3">
+                        <ul>
+                          <li><a href="#">&nbsp;</a></li>
+                          <li><img class="logoTiny" src="{{ url_for('static', filename='img/logo/AFC.gif') }}"></li>
+                          <li class="divider"></li>
+                          <li><a tabindex="-1" href="/teams/buf">Buffalo Bills</a></li>
+                          <li><a tabindex="-1" href="/teams/mia">Miami Dolphins</a></li>
+                          <li><a tabindex="-1" href="/teams/ne">New England Patriots</a></li>
+                          <li><a tabindex="-1" href="/teams/nyj">New York Jets</a></li>
+                          <li class="divider"></li>
+                          <li><a tabindex="-1" href="/teams/bal">Baltimore Ravens</a></li>
+                          <li><a tabindex="-1" href="/teams/cin">Cincinnati Bengals</a></li>
+                          <li><a tabindex="-1" href="/teams/cle">Cleveland Browns</a></li>
+                          <li><a tabindex="-1" href="/teams/pit">Pittsburgh Steelers</a></li>
+                          <li class="divider"></li>
+                          <li><a tabindex="-1" href="/teams/ten">Tennessee Titans</a></li>
+                          <li><a tabindex="-1" href="/teams/hou">Houston Texans</a></li>
+                          <li><a tabindex="-1" href="/teams/ind">Indianapolis Colts</a></li>
+                          <li><a tabindex="-1" href="/teams/jac">Jacksonville Jaguars</a></li>
+                          <li class="divider"></li>
+                          <li><a tabindex="-1" href="/teams/den">Denver Broncos</a></li>
+                          <li><a tabindex="-1" href="/teams/kc">Kansas City Chiefs</a></li>
+                          <li><a tabindex="-1" href="/teams/oak">Oakland Raiders</a></li>
+                          <li><a tabindex="-1" href="/teams/sd">San Diego Chargers</a></li>
+                        </ul>
+                    </li>
+                </ul>
               </li>
               <li class="">
                 <a href="/week/7/">Week 7</a>
@@ -61,49 +118,11 @@
               <li class="">
                 <a href="/week/13/">Week 13</a>
               </li>
-              <li class="dropdown">
-                <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Teams <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
-                  <li><a tabindex="-1" href="/teams/">All Teams</a></li>
-                  <li class="divider"></li>
-                  <li><a tabindex="-1" href="/teams/ari">Arizona Cardinals</a></li>
-                  <li><a tabindex="-1" href="/teams/atl">Atlanta Falcons</a></li>
-                  <li><a tabindex="-1" href="/teams/bal">Baltimore Ravens</a></li>
-                  <li><a tabindex="-1" href="/teams/buf">Buffalo Bills</a></li>
-                  <li><a tabindex="-1" href="/teams/car">Carolina Panthers</a></li>
-                  <li><a tabindex="-1" href="/teams/chi">Chicago Bears</a></li>
-                  <li><a tabindex="-1" href="/teams/cin">Cincinnati Bengals</a></li>
-                  <li><a tabindex="-1" href="/teams/cle">Cleveland Browns</a></li>
-                  <li><a tabindex="-1" href="/teams/dal">Dallas Cowboys</a></li>
-                  <li><a tabindex="-1" href="/teams/den">Denver Broncos</a></li>
-                  <li><a tabindex="-1" href="/teams/det">Detroit Lions</a></li>
-                  <li><a tabindex="-1" href="/teams/gb">Green Bay Packers</a></li>
-                  <li><a tabindex="-1" href="/teams/hou">Houston Texans</a></li>
-                  <li><a tabindex="-1" href="/teams/ind">Indianapolis Colts</a></li>
-                  <li><a tabindex="-1" href="/teams/jac">Jacksonville Jaguars</a></li>
-                  <li><a tabindex="-1" href="/teams/kc">Kansas City Chiefs</a></li>
-                  <li><a tabindex="-1" href="/teams/mia">Miami Dolphins</a></li>
-                  <li><a tabindex="-1" href="/teams/min">Minnesota Vikings</a></li>
-                  <li><a tabindex="-1" href="/teams/ne">New England Patriots</a></li>
-                  <li><a tabindex="-1" href="/teams/no">New Orleans Saints</a></li>
-                  <li><a tabindex="-1" href="/teams/nyg">New York Giants</a></li>
-                  <li><a tabindex="-1" href="/teams/nyj">New York Jets</a></li>
-                  <li><a tabindex="-1" href="/teams/oak">Oakland Raiders</a></li>
-                  <li><a tabindex="-1" href="/teams/phi">Philadelphia Eagles</a></li>
-                  <li><a tabindex="-1" href="/teams/pit">Pittsburgh Steelers</a></li>
-                  <li><a tabindex="-1" href="/teams/sd">San Diego Chargers</a></li>
-                  <li><a tabindex="-1" href="/teams/sea">Seattle Seahawks</a></li>
-                  <li><a tabindex="-1" href="/teams/sf">San Francisco 49ers</a></li>
-                  <li><a tabindex="-1" href="/teams/stl">Saint Louis Rams</a></li>
-                  <li><a tabindex="-1" href="/teams/tb">Tampa Bay Buccaneers</a></li>
-                  <li><a tabindex="-1" href="/teams/ten">Tennessee Titans</a></li>
-                  <li><a tabindex="-1" href="/teams/was">Washington Redskins</a></li>
-                </ul>
-              </li>
+              <!--
               <li class="">
-                <a href="/search">Search</a>
+                <a href="/search/">Search</a>
               </li>
-
+              -->
             </ul>
           </div>
         </div>
@@ -112,11 +131,13 @@
 
     {% block body %}{% endblock %}
 
-    <footer class="footer">
+    <div class="footer clearfix">
         <div class="container">
-            <p>Pigskin</p>
+            <p class="pull-right"><a href="#"><i class="icon-chevron-up icon-white"></i></a></p>
+            <p>Pigskin | Visualizing Football Tweets</p>
+            <p><small>NFL and the NFL shield design are registered trademarks of the National Football League.The team names and logo designs are registered trademarks of the teams indicated. All other NFL-related trademarks are trademarks of the National Football League.</small></p>
         </div>
-    </footer>
+    </div>
 
     <!-- Le javascript
     ================================================== -->

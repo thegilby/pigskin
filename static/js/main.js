@@ -1,4 +1,4 @@
-$(function(){
+$(function() {
   var teams = {
     "buf":{"name":"Buffalo Bills","username":"buffalobills","color":"#194B8C","followers":124222,"conf":"AFC"},
     "mia":{"name":"Miami Dolphins","username":"MiamiDolphins","color":"#007883","followers":174389,"conf":"AFC"},
@@ -33,31 +33,147 @@ $(function(){
     "sf":{"name":"San Francisco 49ers","username":"49ers","color":"#A1003E","followers":261629,"conf":"NFC"},
     "sea":{"name":"Seattle Seahawks","username":"Seahawks","color":"#3C5179","followers":134746,"conf":"NFC"}
   },
-    matchups = {};
+    matchups = {
+      "7":{
+      "ten_buf":{"date":"Sun Oct 21","start":"10:00:00","away":"ten","home":"buf","awayScore":35,"homeScore":34,"stadium":"Ralph Wilson Stadium"},
+      "cle_ind":{"date":"Sun Oct 21","start":"10:00:00","away":"cle","home":"ind","awayScore":13,"homeScore":17,"stadium":"Lucas Oil Stadium"},
+      "bal_hou":{"date":"Sun Oct 21","start":"10:00:00","away":"bal","home":"hou","awayScore":13,"homeScore":43,"stadium":"Reliant Stadium"},
+      "gb_stl":{"date":"Sun Oct 21","start":"10:00:00","away":"gb","home":"stl","awayScore":30,"homeScore":20,"stadium":"Edward Jones Dome"},
+      "no_tb":{"date":"Sun Oct 21","start":"10:00:00","away":"no","home":"tb","awayScore":35,"homeScore":28,"stadium":"Raymond James Stadium"},
+      "dal_car":{"date":"Sun Oct 21","start":"10:00:00","away":"dal","home":"car","awayScore":19,"homeScore":14,"stadium":"Bank of America Stadium"},
+      "ari_min":{"date":"Sun Oct 21","start":"10:00:00","away":"ari","home":"min","awayScore":14,"homeScore":21,"stadium":"Mall of America Field at H.H.H. Metrodome"},
+      "was_nyg":{"date":"Sun Oct 21","start":"10:00:00","away":"was","home":"nyg","awayScore":23,"homeScore":27,"stadium":"MetLife Stadium"},
+      "nyj_ne":{"date":"Sun Oct 21","start":"13:25:00","away":"nyj","home":"ne","awayScore":26,"homeScore":29,"stadium":"Gillette Stadium"},
+      "jac_oak":{"date":"Sun Oct 21","start":"13:25:00","away":"jac","home":"oak","awayScore":23,"homeScore":26,"stadium":"O.co Coliseum"},
+      "pit_cin":{"date":"Sun Oct 21","start":"17:20:00","away":"pit","home":"cin","awayScore":24,"homeScore":17,"stadium":"Paul Brown Stadium"}
+      },
 
-    //Teams page
-    if ( $('#teams').length ) {
-      $.each(teams, function(i){
-        var info = teams[i],
-            entry = $('<div>')
-                      .attr('class','teamListing')
-                      .html('<a href="/teams/'+i+'"><img class="logoSmall" src="/pigskin/static/img/logo/'+i+'.gif"><span>'+info.name+'</span></a>');
-        if (info.conf == "NFC") {
-          entry.appendTo('#nfc');
-        } else {
-          entry.appendTo('#afc');
-        }
-      });
-    }
+      "8":{
+      "was_pit":{"date":"Sun Oct 28","start":"10:00:00","away":"was","home":"pit","awayScore":12,"homeScore":27,"stadium":"Heinz Field"},
+      "sea_det":{"date":"Sun Oct 28","start":"10:00:00","away":"sea","home":"det","awayScore":24,"homeScore":28,"stadium":"Ford Field"},
+      "car_chi":{"date":"Sun Oct 28","start":"10:00:00","away":"car","home":"chi","awayScore":22,"homeScore":23,"stadium":"Soldier Field"},
+      "atl_phi":{"date":"Sun Oct 28","start":"10:00:00","away":"atl","home":"phi","awayScore":30,"homeScore":17,"stadium":"Lincoln Financial Field"},
+      "ne_stl":{"date":"Sun Oct 28","start":"10:00:00","away":"ne","home":"stl","awayScore":14,"homeScore":34,"stadium":"Wembley Stadium"},
+      "ind_ten":{"date":"Sun Oct 28","start":"10:00:00","away":"ind","home":"ten","awayScore":19,"homeScore":13,"stadium":"LP Field"},
+      "sd_cle":{"date":"Sun Oct 28","start":"10:00:00","away":"sd","home":"cle","awayScore":6,"homeScore":7,"stadium":"Cleveland Browns Stadium"},
+      "mia_nyj":{"date":"Sun Oct 28","start":"10:00:00","away":"mia","home":"nyj","awayScore":30,"homeScore":9,"stadium":"MetLife Stadium"},
+      "jac_gb":{"date":"Sun Oct 28","start":"10:00:00","away":"jac","home":"gb","awayScore":15,"homeScore":24,"stadium":"Lambeau Field"},
+      "oak_kc":{"date":"Sun Oct 28","start":"13:05:00","away":"oak","home":"kc","awayScore":26,"homeScore":16,"stadium":"Arrowhead Stadium"},
+      "nyg_dal":{"date":"Sun Oct 28","start":"13:25:00","away":"nyg","home":"dal","awayScore":29,"homeScore":24,"stadium":"Cowboys Stadium"},
+      "no_den":{"date":"Sun Oct 28","start":"17:20:00","away":"no","home":"den","awayScore":14,"homeScore":34,"stadium":"Sports Authority Field at Mile High"}
+      },
 
-    //Single team page
-    if ( $('#team').length ) {
-      var team = $('#team').data('team'),
-          info = teams[team];
-      console.log(info);
-      $('#teamName').text(info.name);
-    }
+      "9":{
+      "mia_ind":{"date":"Sun Nov 4","start":"10:00:00","away":"mia","home":"ind","awayScore":20,"homeScore":23,"stadium":"Lucas Oil Stadium"},
+      "buf_hou":{"date":"Sun Nov 4","start":"10:00:00","away":"buf","home":"hou","awayScore":9,"homeScore":21,"stadium":"Reliant Stadium"},
+      "bal_cle":{"date":"Sun Nov 4","start":"10:00:00","away":"bal","home":"cle","awayScore":25,"homeScore":15,"stadium":"Cleveland Browns Stadium"},
+      "den_cin":{"date":"Sun Nov 4","start":"10:00:00","away":"den","home":"cin","awayScore":31,"homeScore":23,"stadium":"Paul Brown Stadium"},
+      "chi_ten":{"date":"Sun Nov 4","start":"10:00:00","away":"chi","home":"ten","awayScore":51,"homeScore":20,"stadium":"LP Field"},
+      "det_jac":{"date":"Sun Nov 4","start":"10:00:00","away":"det","home":"jac","awayScore":31,"homeScore":14,"stadium":"EverBank Field"},
+      "ari_gb":{"date":"Sun Nov 4","start":"10:00:00","away":"ari","home":"gb","awayScore":17,"homeScore":31,"stadium":"Lambeau Field"},
+      "car_was":{"date":"Sun Nov 4","start":"10:00:00","away":"car","home":"was","awayScore":21,"homeScore":13,"stadium":"FedEx Field"},
+      "min_sea":{"date":"Sun Nov 4","start":"13:05:00","away":"min","home":"sea","awayScore":20,"homeScore":30,"stadium":"CenturyLink Field"},
+      "tb_oak":{"date":"Sun Nov 4","start":"13:05:00","away":"tb","home":"oak","awayScore":42,"homeScore":32,"stadium":"O.co Coliseum"},
+      "pit_nyg":{"date":"Sun Nov 4","start":"13:25:00","away":"pit","home":"nyg","awayScore":24,"homeScore":20,"stadium":"MetLife Stadium"},
+      "dal_atl":{"date":"Sun Nov 4","start":"17:20:00","away":"dal","home":"atl","awayScore":13,"homeScore":19,"stadium":"Georgia Dome"}
+      },
 
-    // $('ul.nav > li > a[href="' + document.location.pathname + '"]').parent().addClass('active');
+      "10":{
+      "det_min":{"date":"Sun Nov 11","start":"10:00:00","away":"det","home":"min","awayScore":24,"homeScore":34,"stadium":"Mall of America Field at H.H.H. Metrodome"},
+      "atl_no":{"date":"Sun Nov 11","start":"10:00:00","away":"atl","home":"no","awayScore":27,"homeScore":31,"stadium":"Mercedes-Benz Superdome"},
+      "nyg_cin":{"date":"Sun Nov 11","start":"10:00:00","away":"nyg","home":"cin","awayScore":13,"homeScore":31,"stadium":"Paul Brown Stadium"},
+      "oak_bal":{"date":"Sun Nov 11","start":"10:00:00","away":"oak","home":"bal","awayScore":20,"homeScore":55,"stadium":"M&T Bank Stadium"},
+      "buf_ne":{"date":"Sun Nov 11","start":"10:00:00","away":"buf","home":"ne","awayScore":31,"homeScore":37,"stadium":"Gillette Stadium"},
+      "ten_mia":{"date":"Sun Nov 11","start":"10:00:00","away":"ten","home":"mia","awayScore":37,"homeScore":3,"stadium":"Sun Life Stadium"},
+      "sd_tb":{"date":"Sun Nov 11","start":"10:00:00","away":"sd","home":"tb","awayScore":24,"homeScore":34,"stadium":"Raymond James Stadium"},
+      "den_car":{"date":"Sun Nov 11","start":"10:00:00","away":"den","home":"car","awayScore":36,"homeScore":14,"stadium":"Bank of America Stadium"},
+      "nyj_sea":{"date":"Sun Nov 11","start":"13:05:00","away":"nyj","home":"sea","awayScore":7,"homeScore":28,"stadium":"CenturyLink Field"},
+      "dal_phi":{"date":"Sun Nov 11","start":"13:25:00","away":"dal","home":"phi","awayScore":38,"homeScore":23,"stadium":"Lincoln Financial Field"},
+      "stl_sf":{"date":"Sun Nov 11","start":"13:25:00","away":"stl","home":"sf","awayScore":24,"homeScore":24,"stadium":"Candlestick Park"},
+      "hou_chi":{"date":"Sun Nov 11","start":"17:20:00","away":"hou","home":"chi","awayScore":13,"homeScore":6,"stadium":"Soldier Field"}
+      },
+
+      "11":{
+      "cin_kc":{"date":"Sun Nov 18","start":"10:00:00","away":"cin","home":"kc","awayScore":28,"homeScore":6,"stadium":"Arrowhead Stadium"},
+      "jac_hou":{"date":"Sun Nov 18","start":"10:00:00","away":"jac","home":"hou","awayScore":37,"homeScore":43,"stadium":"Reliant Stadium"},
+      "nyj_stl":{"date":"Sun Nov 18","start":"10:00:00","away":"nyj","home":"stl","awayScore":27,"homeScore":13,"stadium":"Edward Jones Dome"},
+      "cle_dal":{"date":"Sun Nov 18","start":"10:00:00","away":"cle","home":"dal","awayScore":20,"homeScore":23,"stadium":"Cowboys Stadium"},
+      "tb_car":{"date":"Sun Nov 18","start":"10:00:00","away":"tb","home":"car","awayScore":27,"homeScore":21,"stadium":"Bank of America Stadium"},
+      "ari_atl":{"date":"Sun Nov 18","start":"10:00:00","away":"ari","home":"atl","awayScore":19,"homeScore":23,"stadium":"Georgia Dome"},
+      "gb_det":{"date":"Sun Nov 18","start":"10:00:00","away":"gb","home":"det","awayScore":24,"homeScore":20,"stadium":"Ford Field"},
+      "phi_was":{"date":"Sun Nov 18","start":"10:00:00","away":"phi","home":"was","awayScore":6,"homeScore":31,"stadium":"FedEx Field"},
+      "no_oak":{"date":"Sun Nov 18","start":"13:05:00","away":"no","home":"oak","awayScore":38,"homeScore":17,"stadium":"O.co Coliseum"},
+      "sd_den":{"date":"Sun Nov 18","start":"13:25:00","away":"sd","home":"den","awayScore":23,"homeScore":30,"stadium":"Sports Authority Field at Mile High"},
+      "ind_ne":{"date":"Sun Nov 18","start":"13:25:00","away":"ind","home":"ne","awayScore":24,"homeScore":59,"stadium":"Gillette Stadium"},
+      "bal_pit":{"date":"Sun Nov 18","start":"17:20:00","away":"bal","home":"pit","awayScore":13,"homeScore":10,"stadium":"Heinz Field"}
+      },
+
+      "12":{
+      "sea_mia":{"date":"Sun Nov 25","start":"10:00:00","away":"sea","home":"mia","awayScore":21,"homeScore":24,"stadium":"Sun Life Stadium"},
+      "atl_tb" :{"date":"Sun Nov 25","start":"10:00:00","away":"atl","home":"tb","awayScore":24,"homeScore":23,"stadium":"Raymond James Stadium"},
+      "min_chi":{"date":"Sun Nov 25","start":"10:00:00","away":"min","home":"chi","awayScore":10,"homeScore":28,"stadium":"Soldier Field"},
+      "den_kc" :{"date":"Sun Nov 25","start":"10:00:00","away":"den","home":"kc","awayScore":17,"homeScore":9,"stadium":"Arrowhead Stadium"},
+      "ten_jac":{"date":"Sun Nov 25","start":"10:00:00","away":"ten","home":"jac","awayScore":19,"homeScore":24,"stadium":"EverBank Field"},
+      "buf_ind":{"date":"Sun Nov 25","start":"10:00:00","away":"buf","home":"ind","awayScore":13,"homeScore":20,"stadium":"Lucas Oil Stadium"},
+      "pit_cle":{"date":"Sun Nov 25","start":"10:00:00","away":"pit","home":"cle","awayScore":14,"homeScore":20,"stadium":"Cleveland Browns Stadium"},
+      "oak_cin":{"date":"Sun Nov 25","start":"10:00:00","away":"oak","home":"cin","awayScore":10,"homeScore":34,"stadium":"Paul Brown Stadium"},
+      "bal_sd" :{"date":"Sun Nov 25","start":"13:05:00","away":"bal","home":"sd","awayScore":16,"homeScore":13,"stadium":"Qualcomm Stadium"},
+      "sf_no"  :{"date":"Sun Nov 25","start":"13:25:00","away":"sf","home":"no","awayScore":31,"homeScore":21,"stadium":"Mercedes-Benz Superdome"},
+      "stl_ari":{"date":"Sun Nov 25","start":"13:25:00","away":"stl","home":"ari","awayScore":31,"homeScore":17,"stadium":"University of Phoenix Stadium"},
+      "gb_nyg" :{"date":"Sun Nov 25","start":"17:20:00","away":"gb","home":"nyg","awayScore":10,"homeScore":38,"stadium":"MetLife Stadium"}
+      },
+
+      "13":{
+      "hou_ten":{"date":"Sun Dec 2","start":"10:00:00","away":"hou","home":"ten","awayScore":24,"homeScore":10,"stadium":"LP Field"},
+      "ne_mia" :{"date":"Sun Dec 2","start":"10:00:00","away":"ne","home":"mia","awayScore":23,"homeScore":16,"stadium":"Sun Life Stadium"},
+      "jac_buf":{"date":"Sun Dec 2","start":"10:00:00","away":"jac","home":"buf","awayScore":18,"homeScore":34,"stadium":"Ralph Wilson Stadium"},
+      "ind_det":{"date":"Sun Dec 2","start":"10:00:00","away":"ind","home":"det","awayScore":35,"homeScore":33,"stadium":"Ford Field"},
+      "car_kc" :{"date":"Sun Dec 2","start":"10:00:00","away":"car","home":"kc","awayScore":21,"homeScore":27,"stadium":"Arrowhead Stadium"},
+      "ari_nyj":{"date":"Sun Dec 2","start":"10:00:00","away":"ari","home":"nyj","awayScore":6,"homeScore":7,"stadium":"MetLife Stadium"},
+      "sf_stl" :{"date":"Sun Dec 2","start":"10:00:00","away":"sf","home":"stl","awayScore":13,"homeScore":16,"stadium":"Edward Jones Dome"},
+      "min_gb" :{"date":"Sun Dec 2","start":"10:00:00","away":"min","home":"gb","awayScore":14,"homeScore":23,"stadium":"Lambeau Field"},
+      "sea_chi":{"date":"Sun Dec 2","start":"10:00:00","away":"sea","home":"chi","awayScore":23,"homeScore":17,"stadium":"Soldier Field"},
+      "tb_den" :{"date":"Sun Dec 2","start":"13:05:00","away":"tb","home":"den","awayScore":23,"homeScore":31,"stadium":"Sports Authority Field at Mile High"},
+      "cin_sd" :{"date":"Sun Dec 2","start":"13:25:00","away":"cin","home":"sd","awayScore":20,"homeScore":13,"stadium":"Qualcomm Stadium"},
+      "cle_oak":{"date":"Sun Dec 2","start":"13:25:00","away":"cle","home":"oak","awayScore":20,"homeScore":17,"stadium":"O.co Coliseum"},
+      "pit_bal":{"date":"Sun Dec 2","start":"13:25:00","away":"pit","home":"bal","awayScore":23,"homeScore":20,"stadium":"M&T Bank Stadium"},
+      "phi_dal":{"date":"Sun Dec 2","start":"17:20:00","away":"phi","home":"dal","awayScore":33,"homeScore":38,"stadium":"Cowboys Stadium"}
+      }
+      }
+
+  // Nav week dropdowns
+  $.each( matchups, function(w) {
+    console.log(w + matchups[w]);
+
+    $.each( matchups[w], function(i) {
+      console.log(" "+i);
+    });
+  });
+
+  //Teams page
+  if ( $('#teams').length ) {
+    $.each(teams, function(i){
+      var info = teams[i],
+          entry = $('<div>')
+                    .attr('class','teamListing')
+                    .html('<a href="/teams/'+i+'"><img class="logoSmall" src="/pigskin/static/img/logo/'+i+'.gif"><span>'+info.name+'</span></a>');
+      if (info.conf == "NFC") {
+        entry.appendTo('#nfc');
+      } else {
+        entry.appendTo('#afc');
+      }
+    });
+  }
+
+  //Single team page
+  if ( $('#team').length ) {
+    var team = $('#team').data('team'),
+        info = teams[team];
+    $(document).attr('title', info.name+' | Pigskin | Visualizing Football Tweets');
+    $('#teamName').text(info.name);
+    $(".twitter-follow-button").attr('href','https://twitter.com/'+info.username).text('Follow @'+info.username)
+  }
+
+  // $('ul.nav > li > a[href="' + document.location.pathname + '"]').parent().addClass('active');
 
 });
