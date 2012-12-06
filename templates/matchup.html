@@ -11,22 +11,21 @@
   </div>
 
   <div id="matchup" class="container">
-    <ul>
-    </ul>
+    <ul></ul>
+    <div class="row">
+      <div class="span8" id="chart">
+      </div>
+
+      <div class="span4">
+      </div>
+    </div>
   </div> <!-- /container -->
 
 {% endblock %}
 
 {% block scripts %}
 <script type="text/javascript">
-    $(function(){
-        var teamData = {{ teamData | tojson | safe }};
-        console.log(teamData);
-        $.each(teamData,function(key, array){
-            $.each(array, function(index, pair){
-                $("#matchup ul").append("<li>" + key + "(x:" + pair["x"] + ", y:" + pair["y"] + ")</li>");
-            });
-        });
-    })
+  var teamData = {{ teamData | tojson | safe }},
+      matchup = {{ matchup | tojson | safe }};
 </script>
 {% endblock %}

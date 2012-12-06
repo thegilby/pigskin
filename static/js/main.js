@@ -176,30 +176,85 @@ function generateMatchups() {
   });
 }
 
-  //Teams page
-  if ( $('#teams').length ) {
-    $.each(teams, function(i){
-      var info = teams[i],
-          entry = $('<div>')
-                    .attr('class','teamListing')
-                    .html('<a href="/teams/'+i+'"><img class="logoSmall" src="/pigskin/static/img/logo/'+i+'.gif"><span>'+info.name+'</span></a>');
-      if (info.conf == "NFC") {
-        entry.appendTo('#nfc');
-      } else {
-        entry.appendTo('#afc');
-      }
+// Teams page
+if ( $('#teams').length ) {
+  $.each(teams, function(i){
+    var info = teams[i],
+        entry = $('<div>')
+                  .attr('class','teamListing')
+                  .html('<a href="/teams/'+i+'"><img class="logoSmall" src="/pigskin/static/img/logo/'+i+'.gif"><span>'+info.name+'</span></a>');
+    if (info.conf == "NFC") {
+      entry.appendTo('#nfc');
+    } else {
+      entry.appendTo('#afc');
+    }
+  });
+}
+
+// Team page
+if ( $('#team').length ) {
+  var team = $('#team').data('team'),
+      info = teams[team];
+  $(document).attr('title', info.name+' | Pigskin | Visualizing Football Tweets');
+  $('#teamName').text(info.name);
+  $(".twitter-follow-button").attr('href','https://twitter.com/'+info.username).text('Follow @'+info.username)
+}
+
+// Matchup page
+if ( $('#matchup').length ) {
+  // console.log(teamData);
+  var currentMatchup = matchup.split("_"), //split matchup into the different teams
+      awayTeam = currentMatchup[0],
+      homeTeam = currentMatchup[1];
+
+  $.each(teamData,function(key, array){
+    $.each(array, function(index, pair){
+        var formatDate = d3.time.format.iso;
+        // console.log(formatDate.parse(pair["x"]).getTime());
+        $("#matchup ul").append("<li>" + key + "(x:" + pair["x"] + ", y:" + pair["y"] + ")</li>");
     });
-  }
+  });
 
-  //Single team page
-  if ( $('#team').length ) {
-    var team = $('#team').data('team'),
-        info = teams[team];
-    $(document).attr('title', info.name+' | Pigskin | Visualizing Football Tweets');
-    $('#teamName').text(info.name);
-    $(".twitter-follow-button").attr('href','https://twitter.com/'+info.username).text('Follow @'+info.username)
-  }
+  // instantiate our graph!
+  var graph = new Rickshaw.Graph( {
+    element: $("#chart"),
+    width: 960,
+    height: 500,
+    renderer: 'line',
+    series: [
+      {
+        color: teams[awayTeam]["color"],
+        data: teamData[awayTeam],
+        name: teams[awayTeam]["name"]
+      }, {
+        color: teams[homeTeam]["color"],
+        data: teamData[homeTeam],
+        name: teams[awayTeam]["name"]
+      }
+    ]
+  } );
 
-  // $('ul.nav > li > a[href="' + document.location.pathname + '"]').parent().addClass('active');
+  graph.render();
+
+  var hoverDetail = new Rickshaw.Graph.HoverDetail( {
+    graph: graph
+  } );
+
+  var legend = new Rickshaw.Graph.Legend( {
+    graph: graph,
+    element: document.getElementById('legend')
+  } );
+
+  var shelving = new Rickshaw.Graph.Behavior.Series.Toggle( {
+    graph: graph,
+    legend: legend
+  } );
+
+  var axes = new Rickshaw.Graph.Axis.Time( {
+    graph: graph
+  } );
+  axes.render();
+}
+
 
 });
