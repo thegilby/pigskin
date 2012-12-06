@@ -12,9 +12,44 @@
     <h3>Football vs. Non-Football Tweets by NFL Week</h3>
     <!-- <div id="legend"></div> -->
     <!-- <div id="chart1"></div> -->
+    <div class="row">
+      <div class="span8" id="chart">
+      </div>
+
+      <div id="legend"></div>
+
+      <div class="span4">
+      </div>
+    </div>
 
     <hr class="soften">
 
   </div> <!-- /container -->
 
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+  var data = {{ data | tojson | safe }};
+  var graph = new Rickshaw.Graph( {
+    element: document.querySelector("#chart"),
+    width: 960,
+    height: 500,
+    renderer: 'bar',
+    series: [
+      {
+        color: "#007883",
+        data: data['football'],
+        name: "football tweets"
+      },
+      {
+        color: "#FF7883",
+        data: data['nonfootball'],
+        name: "non football tweets"
+      }
+      ]
+  });
+
+  graph.render();
+</script>
 {% endblock %}

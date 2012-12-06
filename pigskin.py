@@ -20,7 +20,9 @@ app.config.from_object(__name__)
 #index
 @app.route("/")
 def home():
-    return render_template('index.html')
+    f = open('allFootballTweetsAndNon.json','r')
+    data = json.load(f)
+    return render_template('index.html', data=data)
 
 #week
 @app.route("/week/<week>/")
