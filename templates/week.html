@@ -9,9 +9,12 @@
 
   <div id="week" class="container">
     <div class="row">
-      <div class="span11">
+      <div class="span2">
+        <h6>Trending Football Topics</h6>
+        <ol id="trending"></ol>
+      </div>
+      <div class="span9">
         <h3>Number of Tweets per Minute during the day for all teams</h3>
-
         <div id="chart"></div>
         <div id="y_axis"></div>
         <div id="slider"></div>
@@ -20,6 +23,13 @@
         <div id="legend"></div>
       </div>
     </div>
+
+<!--     <div class="row">
+      <div class="span12">
+        <h3>Trending</h3>
+        <ol id="trending"></ol>
+      </div>
+    </div> -->
   </div> <!-- /container -->
 
 {% endblock %}
@@ -27,6 +37,9 @@
 {% block scripts %}
 <script type="text/javascript">
   var teamData = {{ teamData | tojson | safe }},
+      trendingTopics = {{ trendingTopics | tojson | safe }},
       week = {{ week | tojson | safe }};
+
+      trendingTopics = trendingTopics[{{week}}];
 </script>
 {% endblock %}

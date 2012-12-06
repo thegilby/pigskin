@@ -42,7 +42,9 @@ def week(week=None, matchup=None):
         for team in teams:
             data = open('tweetsPerMinute_'+team+'.json','r')
             teamData[team] = json.load(data)
-        return render_template('week.html', week=week, teamData=teamData)
+        data = open('trendingTopics.json','r')
+        trendingTopics = json.load(data)
+        return render_template('week.html', week=week, teamData=teamData, trendingTopics=trendingTopics)
 
 #teams
 @app.route("/teams/")

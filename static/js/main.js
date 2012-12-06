@@ -258,6 +258,10 @@ if ( $('#team').length ) {
 // Week page
 if ( $('#week').length ) {
   // console.log(teamData);
+  // console.log(trendingTopics);
+  $.each(trendingTopics, function(i){
+    $("<li>").text(trendingTopics[i]["term"]).appendTo("#trending");
+  });
 
   var seriesData = [];
   $.each(teamData, function(i){
