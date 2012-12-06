@@ -97,6 +97,21 @@ class FootballIndex:
             data.append(result)
         return data
 
+    def getTopTenTweetsForTeams(self):
+        tweets = {}
+        for team in team_abbrev:
+            fq = 'fb_assoc:' + team
+            results = self.conn.search('fb_weight:[2 TO *]',fq=fq,wt='python',sort='fb_weight desc')
+            array = []
+            for result in results:    
+                print team
+                print result
+                array.append({'tweet':result['tweet'],
+                                'username':result['screen_name'],
+                                'fb_weight':result['fb_weight']})
+            tweets[team] = array
+        return tweets
+
     def getTweetsPerMinute(self, date='2012-10-21T10:00:00', column='football'):
         result = {}
         startdate = datetime.strptime(date,'%Y-%m-%dT%H:%M:%S') + timedelta(seconds=60*60*8)
@@ -213,6 +228,8 @@ class FootballIndex:
 
         return result
 
+
+
 def outputAllTweets():
     index = FootballIndex()
     results = {}
@@ -240,6 +257,13 @@ def outputScript():
         
         f.write(json.dumps(output,indent=4))
 
+    return
+
+def outputAllTopTen():
+    index = FootballIndex()
+    data = index.getTopTenTweetsForTeams()
+    f = open('all_top_ten_tweets.json','w')
+    f.write(json.dumps(data,indent=4))
     return
 
 def outputTopTenTweets():
