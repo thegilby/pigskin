@@ -176,6 +176,61 @@ function generateMatchups() {
   });
 }
 
+// Index page
+if ( $('#index').length ) {
+  var graph = new Rickshaw.Graph( {
+    element: document.querySelector("#chart"),
+    // width: 960,
+    height: 500,
+    renderer: 'bar',
+    series: [
+      {
+        color: "#007883",
+        data: data['football'],
+        name: "Football Tweets"
+      },
+      {
+        color: "#FF7883",
+        data: data['nonfootball'],
+        name: "Non-football Tweets"
+      }
+      ]
+  });
+
+  var legend = new Rickshaw.Graph.Legend( {
+    graph: graph,
+    element: document.getElementById('legend')
+  } );
+
+  var shelving = new Rickshaw.Graph.Behavior.Series.Toggle( {
+    graph: graph,
+    legend: legend
+  });
+
+  graph.render();
+
+  var hoverDetail = new Rickshaw.Graph.HoverDetail( {
+    graph: graph
+  });
+
+  var ticksTreatment = 'glow';
+
+  var xAxis = new Rickshaw.Graph.Axis.Time( {
+    graph: graph,
+    ticksTreatment: ticksTreatment
+  } );
+
+  xAxis.render();
+
+  var yAxis = new Rickshaw.Graph.Axis.Y( {
+    graph: graph,
+    tickFormat: Rickshaw.Fixtures.Number.formatKMBT,
+    ticksTreatment: ticksTreatment
+  } );
+
+  yAxis.render();
+}
+
 // Teams page
 if ( $('#teams').length ) {
   $.each(teams, function(i){

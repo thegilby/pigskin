@@ -12,10 +12,10 @@ body {
   height: 100px;*/
   margin-bottom: 10px;
 }
-#team, #teams,#matchups {
-  margin-top: 60px;
+#team, #teams, #matchups {
+  margin-top: 40px;
 }
-#matchup {
+#index, #matchup, #week {
   margin-top: 40px;
 }
 .teamListing {
@@ -65,6 +65,10 @@ a.matchup {
   /*width: 960px;*/
   height: 500px;
   margin: 0 auto;
+}
+
+#index h3, #matchup h3, #week h3 {
+  text-align: center;
 }
 
 /* Tweak navbar brand link to be super sleek
