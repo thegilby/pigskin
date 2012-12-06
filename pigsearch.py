@@ -81,7 +81,21 @@ class FootballIndex:
         tweets['totalHits'] = results.hits
         return tweets
 
+    def getTopTweetsForTeamWeek(self, team, date):
+        startdate = datetime.strptime(date,'%Y-%m-%dT%H:%M:%S') + timedelta(seconds=60*60*8)
+        enddate = startdate + timedelta(seconds=60*60*13) # 13 hrs later
 
+        fq1 = 'fb_assoc:' + team
+        fq2 = ' date_time:[' + startdate.isoformat() + 'Z TO ' + enddate.isoformat() + 'Z]'
+        
+        results = self.conn.search("fb_weight:[2 TO *]", fq=[fq1,fq2],
+             wt='python', sort="fb_weight desc")
+
+        data = []
+        tweets = {}
+        for result in results:
+            data.append(result)
+        return data
 
     def getTweetsPerMinute(self, date='2012-10-21T10:00:00', column='football'):
         result = {}
@@ -227,6 +241,24 @@ def outputScript():
         f.write(json.dumps(output,indent=4))
 
     return
+
+def outputTopTenTweets():
+    index = FootballIndex()
+    for team in team_abbrev:
+        for week, i in zip(weeks, range(7,14)):
+            f = open("top_ten_wk_" + str(i) + "_" + team + ".json", 'w')
+            results = index.getTopTweetsForTeamWeek(team,week)
+            array = []
+            for result in results:
+                print team
+                print result
+                array.append({'tweet':result['tweet'],
+                                'username':result['screen_name'],
+                                'fb_weight':result['fb_weight']})
+            output = {team:array}
+            f.write(json.dumps(output,indent=4))
+    return
+
 
 # Helper
 def convertToDict(countList):
