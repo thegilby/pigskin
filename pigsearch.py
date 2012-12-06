@@ -163,7 +163,7 @@ class FootballIndex:
                     'facet.range.start' : weeks[0] + 'Z',
                     'facet.range.end' : enddate.isoformat() + 'Z',
                     'facet.range.gap':'+1DAY',
-                    'facet.mincount' : '1',
+                    # 'facet.mincount' : '1',
                     'facet.sort' : 'index'
                     }
 
@@ -185,7 +185,7 @@ class FootballIndex:
                     'facet.range.start' : weeks[0] + 'Z',
                     'facet.range.end' : enddate.isoformat() + 'Z',
                     'facet.range.gap':'+1DAY',
-                    'facet.mincount' : '1',
+                    # 'facet.mincount' : '1',
                     'facet.sort' : 'index'
                     }
 
@@ -197,6 +197,16 @@ class FootballIndex:
         result = convertToDict(counts)
 
         return result
+
+def outputAllTweets():
+    index = FootballIndex()
+    results = {}
+    results['nonfootball'] = index.getNonFootballTweetsPerWeek()
+    results['football'] = index.getFootballTweetsPerWeek()
+    f = open("allFootballTweetsAndNon.json",'w')
+    print results
+    f.write(json.dumps(results,indent=4))
+    return
 
 def outputScript():
     index = FootballIndex()# write out multiple json files
