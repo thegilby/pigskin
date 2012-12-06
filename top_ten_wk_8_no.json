@@ -1,0 +1,54 @@
+{
+    "no": [
+        {
+            "username": "dumb_shit_two", 
+            "tweet": "rt @dumb_shit_one: #saints #saints #saints #saints", 
+            "fb_weight": 20
+        }, 
+        {
+            "username": "sheldonmickles", 
+            "tweet": "#broncos increase lead with 33-yard matt prater fg on the final play of the first half...#broncos 17, #saints 7.", 
+            "fb_weight": 20
+        }, 
+        {
+            "username": "lifehacker519", 
+            "tweet": "great sunday night #nfl game on tap #broncos #saints and game 4 of the world series #giants #tigers", 
+            "fb_weight": 19
+        }, 
+        {
+            "username": "was_i_u", 
+            "tweet": "rt @espnstatsinfo: jags ot guy whimper now has more td catches than: justin blackmon,  steve smith, jason avant, fred davis, & davone bess.", 
+            "fb_weight": 18
+        }, 
+        {
+            "username": "davekrieger", 
+            "tweet": "lots of talk about who could cover #saints te jimmy graham. rookie #broncos lb danny trevathan knocks away third down pass from brees.", 
+            "fb_weight": 18
+        }, 
+        {
+            "username": "flyy_boy_chris", 
+            "tweet": "rt \"@nflhistory: @saints qb drew brees is 1st player in #nfl history with td pass in 50 consecutive games. #novsden\" #saints", 
+            "fb_weight": 18
+        }, 
+        {
+            "username": "alexguzman19_08", 
+            "tweet": "rt @chicagobears: tim jennings jumps in front of the cam newton pass at the chi 25 and takes it to the end zone for a touchdown! #bears  ...", 
+            "fb_weight": 16
+        }, 
+        {
+            "username": "ryannumber15", 
+            "tweet": "rt @chicagobears: tim jennings jumps in front of the cam newton pass at the chi 25 and takes it to the end zone for a touchdown! #bears  ...", 
+            "fb_weight": 16
+        }, 
+        {
+            "username": "mirvoller", 
+            "tweet": "rt @chicagobears: tim jennings jumps in front of the cam newton pass at the chi 25 and takes it to the end zone for a touchdown! #bears  ...", 
+            "fb_weight": 16
+        }, 
+        {
+            "username": "_anna_clark", 
+            "tweet": "rt @chicagobears: tim jennings jumps in front of the cam newton pass at the chi 25 and takes it to the end zone for a touchdown! #bears  ...", 
+            "fb_weight": 16
+        }
+    ]
+}

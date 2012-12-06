@@ -1,0 +1,54 @@
+{
+    "sea": [
+        {
+            "username": "sefigue", 
+            "tweet": "#nfl parciales 2doq: panthers 10-7 bears / chergers 0-7 browns / seahawks 17-14 lions / jaguars 3-14 packers / colts 3-3 titans ...", 
+            "fb_weight": 37
+        }, 
+        {
+            "username": "alvarin_98", 
+            "tweet": "rt @nflmx: resultados hasta el momento: #panthers 13-#bears 7, #chargers 3 -#browns 7, #seahawks 17-#lions 14, #jaguars 12-#packers14...", 
+            "fb_weight": 35
+        }, 
+        {
+            "username": "laladatgapeach", 
+            "tweet": "rt @sigamike: cowboys, eagles, giants, redskins, patriots, steelers, jets, falcons, texans, seahawks, chargers, panthers, colts, rt if y ...", 
+            "fb_weight": 26
+        }, 
+        {
+            "username": "mackdiesel06", 
+            "tweet": "rt @sigamike: cowboys, eagles, giants, redskins, patriots, steelers, jets, falcons, texans, seahawks, chargers, panthers, colts, rt if y ...", 
+            "fb_weight": 26
+        }, 
+        {
+            "username": "_iambeautyx3", 
+            "tweet": "rt @sigamike: cowboys, eagles, giants, redskins, patriots, steelers, jets, falcons, texans, seahawks, chargers, panthers, colts, rt if y ...", 
+            "fb_weight": 26
+        }, 
+        {
+            "username": "marksgonee", 
+            "tweet": "rt @sigamike: cowboys, eagles, giants, redskins, patriots, steelers, jets, falcons, texans, seahawks, chargers, panthers, colts, rt if y ...", 
+            "fb_weight": 26
+        }, 
+        {
+            "username": "alyssagilpin", 
+            "tweet": "rt @sigamike: cowboys, eagles, giants, redskins, patriots, steelers, jets, falcons, texans, seahawks, chargers, panthers, colts, rt if y ...", 
+            "fb_weight": 26
+        }, 
+        {
+            "username": "twouchdown", 
+            "tweet": "seahawks - td russell wilson passed to sidney rice to the left for 9 yard gain (steven hauschka made pat) (sea 17, det 7) #nfl #seahawks", 
+            "fb_weight": 23
+        }, 
+        {
+            "username": "mbsshow", 
+            "tweet": "halftime score: seahawks 17: lions 14. #nfl #seahawks #lions", 
+            "fb_weight": 17
+        }, 
+        {
+            "username": "bmass253nw", 
+            "tweet": "rt @seahawks: #beastmode breaks off a 77-yard touchdown run on the seahawks' first play of the drive.  seahawks 10, lions 7 #seavsdet", 
+            "fb_weight": 15
+        }
+    ]
+}

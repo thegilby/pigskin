@@ -1,0 +1,54 @@
+{
+    "sea": [
+        {
+            "username": "he_all_mine", 
+            "tweet": "i'm goin 4 #tampa #seahawks #broncos #bengals #buffalo #vikings #browns", 
+            "fb_weight": 25
+        }, 
+        {
+            "username": "td_deportes", 
+            "tweet": "#nfl: titans 9-14 jaguars, broncos 14-9 chiefs, seahawks 14-7 dolphins, falcons 17-20 buccaneers, al culminar el tercer cuarto", 
+            "fb_weight": 19
+        }, 
+        {
+            "username": "valleyshook", 
+            "tweet": "rt @jeffduncantp: everything falling #saints' way today. bucs, seahawks & vikings all lose. if the saints beat 49ers, they'll be sit ...", 
+            "fb_weight": 19
+        }, 
+        {
+            "username": "jdawg31ll", 
+            "tweet": "rt @espnstatsinfo: #seahawks leon washington - 8th kickoff return td of career (t-most all-time with josh cribbs)", 
+            "fb_weight": 15
+        }, 
+        {
+            "username": "samjlong", 
+            "tweet": "dolphins beat seahawks 24-21. #seahawks #dolphins", 
+            "fb_weight": 14
+        }, 
+        {
+            "username": "jenlambert", 
+            "tweet": "rt @art_thiel: late hit on #dolphins tannehill by #seahawks earl thomas means nfl now requires airborne defenders to levitate.", 
+            "fb_weight": 14
+        }, 
+        {
+            "username": "heckelr_", 
+            "tweet": "rt @art_thiel: late hit on #dolphins tannehill by #seahawks earl thomas means nfl now requires airborne defenders to levitate.", 
+            "fb_weight": 14
+        }, 
+        {
+            "username": "tibidysports", 
+            "tweet": "#seattle #seahawks travel to face #miami #dolphins: http://t.co/vb6rpuhv | #nfl #rss #gmt #nov #fri #jmxekpso", 
+            "fb_weight": 13
+        }, 
+        {
+            "username": "thephinsider", 
+            "tweet": "60 yard punt w/ touchback negated by #seahawks penalty. #dolphins elect to have them rekick.", 
+            "fb_weight": 13
+        }, 
+        {
+            "username": "abbycrabbypatty", 
+            "tweet": "rt @seahawks: seahawks first possession of the second half sees the return of james carpenter at left guard. #seavsmia", 
+            "fb_weight": 13
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "car": [
+        {
+            "username": "pumiitag", 
+            "tweet": "rt @nflmx: resultados hasta el momento: #dolphins 17-#colts 13, #lions 21-#jaguars 0, #bears 31-#titans 5, #panthers 14-#redskins 3", 
+            "fb_weight": 40
+        }, 
+        {
+            "username": "maykel__", 
+            "tweet": "rt @nflamerica: #resultadosnfl 4q > #broncos 31-20 #bengals || #ravens 22-15  #browns || #cardinals 17-31 #packers || #panthers 21-6  ...", 
+            "fb_weight": 32
+        }, 
+        {
+            "username": "rena_bae_bae", 
+            "tweet": "rt @shawnketchens: texans eagles 49ers giants skins pats colts panthers bills lions falcons steelers packers ravens . #rt if you see you ...", 
+            "fb_weight": 30
+        }, 
+        {
+            "username": "nfl_panthersfan", 
+            "tweet": "nfl #panthers cam newton, panthers stifle rg3 and redskins - carolina panthers quarterback cam newton has been... http://t.co/iwqdhjdd", 
+            "fb_weight": 24
+        }, 
+        {
+            "username": "bgrommer", 
+            "tweet": "rt @panthers: touchdown @panthers! newton breaks through the #redskins defense to extend the #panthers lead to 21-6. #carvswas #keeppounding", 
+            "fb_weight": 21
+        }, 
+        {
+            "username": "chanelbmcclain", 
+            "tweet": "rt @panthers: touchdown @panthers! newton breaks through the #redskins defense to extend the #panthers lead to 21-6. #carvswas #keeppounding", 
+            "fb_weight": 21
+        }, 
+        {
+            "username": "nissan4jay", 
+            "tweet": "after a pass interference call on the #redskins, newton rushes in from the 1 for a #panthers td! panthers lead 21-6. @panthers #carvswas", 
+            "fb_weight": 21
+        }, 
+        {
+            "username": "dat_mali", 
+            "tweet": "rt @panthers: touchdown @panthers! newton breaks through the #redskins defense to extend the #panthers lead to 21-6. #carvswas #keeppounding", 
+            "fb_weight": 21
+        }, 
+        {
+            "username": "pudge_5", 
+            "tweet": "rt @panthers: touchdown @panthers! newton breaks through the #redskins defense to extend the #panthers lead to 21-6. #carvswas #keeppounding", 
+            "fb_weight": 21
+        }, 
+        {
+            "username": "denersonmota", 
+            "tweet": "rt @realscores: carolina panthers 14 washington redskins 6 end of 3rd #panthers #redskins #nfl", 
+            "fb_weight": 20
+        }
+    ]
+}

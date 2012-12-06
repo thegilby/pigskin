@@ -1,0 +1,54 @@
+{
+    "ten": [
+        {
+            "username": "sefigue", 
+            "tweet": "#nfl parciales 2doq: panthers 10-7 bears / chergers 0-7 browns / seahawks 17-14 lions / jaguars 3-14 packers / colts 3-3 titans ...", 
+            "fb_weight": 37
+        }, 
+        {
+            "username": "justnflscores", 
+            "tweet": "indianapolis colts 13 tennessee titans 13 end of 4th #colts #titans #nfl", 
+            "fb_weight": 20
+        }, 
+        {
+            "username": "vickygnavarro", 
+            "tweet": "\u201c@nflmx: resultados hasta el momento: #patriots 28-#rams 7, #colts 3- #titans 10\u201d eso es todo", 
+            "fb_weight": 20
+        }, 
+        {
+            "username": "ffb4teens", 
+            "tweet": "excitement in tennessee before the half. #titans defense blocks a #colts field goal. jordan babineaux returns it 42 yards but gets tackled.", 
+            "fb_weight": 15
+        }, 
+        {
+            "username": "tibidysports", 
+            "tweet": "#luck's td pass in ot leads #colts past #titans: http://t.co/16zuk5yo | #nashville #indianapolis #tenn #vick #ballard", 
+            "fb_weight": 15
+        }, 
+        {
+            "username": "ecookie13", 
+            "tweet": "rt @tennesseetitans: kendall wright has scored on a 23-yard touchdown pass from matt hasselbeck! #titans lead 10-3 with 1 minute remaini ...", 
+            "fb_weight": 14
+        }, 
+        {
+            "username": "brianrives", 
+            "tweet": "#titans block field goal, but check replay,in-called face mask on tackle. #titans should have one untimely down! #indvsten #titanup", 
+            "fb_weight": 14
+        }, 
+        {
+            "username": "omega_veff", 
+            "tweet": "rt @tennesseetitans: kendall wright has scored on a 23-yard touchdown pass from matt hasselbeck! #titans lead 10-3 with 1 minute remaini ...", 
+            "fb_weight": 14
+        }, 
+        {
+            "username": "titansexaminer", 
+            "tweet": "#colts get tying td on one yard run by delone carter. tied at 13-13 with #titans.", 
+            "fb_weight": 14
+        }, 
+        {
+            "username": "erica_michaela", 
+            "tweet": "rt @teresamwalker: matt hasselbeck joins manning, brady and brees as only active qbs with 200 career td passes. #titans #nfl", 
+            "fb_weight": 14
+        }
+    ]
+}

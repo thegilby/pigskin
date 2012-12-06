@@ -1,0 +1,54 @@
+{
+    "oak": [
+        {
+            "username": "justnflscores", 
+            "tweet": "tampa bay buccaneers 0 oakland raiders 3 end of 1st #buccaneers #raiders #nfl", 
+            "fb_weight": 20
+        }, 
+        {
+            "username": "morningwood05", 
+            "tweet": "rt @raiders: td buccaneers - 45-yard touchdown run by rb doug martin. pat is good. buccaneers 14 raiders 10.", 
+            "fb_weight": 18
+        }, 
+        {
+            "username": "dat_taco80", 
+            "tweet": "rt @raiders: td buccaneers - 45-yard touchdown run by rb doug martin. pat is good. buccaneers 14 raiders 10.", 
+            "fb_weight": 18
+        }, 
+        {
+            "username": "delstwts", 
+            "tweet": "i was hoping that was a replay of an earlier doug martin td. but it's not. 3 tds, 244 yds.  #raiders #buccaneers  #nfl", 
+            "fb_weight": 17
+        }, 
+        {
+            "username": "raiderluv33", 
+            "tweet": "rt @_gonzerelli: oakland raiders oakland raiders oakland raiders oakland raiders oakland raiders", 
+            "fb_weight": 15
+        }, 
+        {
+            "username": "cumheahoe", 
+            "tweet": "rt @raiders: raiders defense forces a punt. db phillip adams deep for the raiders. buccaneers down it at the 5. 1st and 10 raiders with  ...", 
+            "fb_weight": 15
+        }, 
+        {
+            "username": "dammitigavein", 
+            "tweet": "rt \u201c@jerkman88: is it harder to be a #raiders fan or a #cowboys fan? #bothsuck\u201d i'm not sure cowboys suck as bad as @raiders #coachingsucks", 
+            "fb_weight": 15
+        }, 
+        {
+            "username": "filmlovernyc", 
+            "tweet": "rt @nflonfox: the rookie makes it look easy...  doug martin bursts for a 45 yard touchdown run. #buccaneers 14, #raiders 10 in the 3rd.  ...", 
+            "fb_weight": 14
+        }, 
+        {
+            "username": "94p_viramontes", 
+            "tweet": "rt @raiders: de andre carter @mr_carter93 and lb miles burris @milesburris sack qb josh freeman to force a buccaneer punt.", 
+            "fb_weight": 13
+        }, 
+        {
+            "username": "redzonechannel", 
+            "tweet": "td wr v. jackson 20 yard reception from j. freeman. #buccaneers 7 #raiders 3", 
+            "fb_weight": 13
+        }
+    ]
+}

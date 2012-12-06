@@ -1,0 +1,54 @@
+{
+    "min": [
+        {
+            "username": "petiesteve", 
+            "tweet": "dear #bears, please beat the #texans. remember that the #colts beat the #vikings and #packers. it's the least you could do. thanks! #fb", 
+            "fb_weight": 25
+        }, 
+        {
+            "username": "andre20fs", 
+            "tweet": "who better at yards after contact: adrian peterson or arian foster? #texans #vikings #bears", 
+            "fb_weight": 22
+        }, 
+        {
+            "username": "lynncatwalters", 
+            "tweet": "rt @detroitlionsnfl: #vikings called for a 15-yard personal foul and the #lions are at their own 43. #lionsatmin #detvsmin", 
+            "fb_weight": 21
+        }, 
+        {
+            "username": "ddre19", 
+            "tweet": "rt @detroitlionsnfl: #lions d forces a three-and-out. #vikings punt with 10:11 remaining. #lionsatmin #detvsmin", 
+            "fb_weight": 20
+        }, 
+        {
+            "username": "sportsbrothersr", 
+            "tweet": "@hidetag sports brothers report: shout out!  anklebitters football http://t.co/gc2ly27s #nfl #packers #vikings #bears ons", 
+            "fb_weight": 18
+        }, 
+        {
+            "username": "espnae816", 
+            "tweet": "jarius wright 3 yard td pass from christian ponder has the #vikings up 7-0 vs #lions with 7:52 left in the 1st q", 
+            "fb_weight": 17
+        }, 
+        {
+            "username": "nmiranda81", 
+            "tweet": "rt @detroitlionsnfl: stafford with lots of time and completes a bomb to #megatron down to the #vikings 11. #lionsatmin", 
+            "fb_weight": 16
+        }, 
+        {
+            "username": "jadehansonn", 
+            "tweet": "rt @detroitlionsnfl: stafford with lots of time and completes a bomb to #megatron down to the #vikings 11. #lionsatmin", 
+            "fb_weight": 16
+        }, 
+        {
+            "username": "lionstherapy", 
+            "tweet": "rt @detroitlionsnfl: #keystat for #lions: 0-for-7 on third down, -1 in turnover ratio. #lionsatmin #detvsmin", 
+            "fb_weight": 16
+        }, 
+        {
+            "username": "timlw32", 
+            "tweet": "rt @vikingsfootball: adrian peterson & other #vikings greeting military personnel in the tunnel prior to today's game #detvsminsuppo ...", 
+            "fb_weight": 14
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "min": [
+        {
+            "username": "he_all_mine", 
+            "tweet": "i'm goin 4 #tampa #seahawks #broncos #bengals #buffalo #vikings #browns", 
+            "fb_weight": 25
+        }, 
+        {
+            "username": "unicconfl", 
+            "tweet": "@nfl @tackleo medio tiempo #jaguars7-6 #titans,#broncos 7-7 #chiefs, #bears 25-3 #vikings", 
+            "fb_weight": 25
+        }, 
+        {
+            "username": "badgercubinmn", 
+            "tweet": "can we just play the #bears, #vikings, and #lions and decline the other games for the rest of the season? #packers #stillwinthedivision", 
+            "fb_weight": 21
+        }, 
+        {
+            "username": "ivoomarquez", 
+            "tweet": "rt @td_deportes: #nfl: vikings 3-25 bears, steelers 14-13 browns, bills 6-10 colts, broncos 7-6 chiefs, al culminar el segundo cuarto", 
+            "fb_weight": 19
+        }, 
+        {
+            "username": "valleyshook", 
+            "tweet": "rt @jeffduncantp: everything falling #saints' way today. bucs, seahawks & vikings all lose. if the saints beat 49ers, they'll be sit ...", 
+            "fb_weight": 19
+        }, 
+        {
+            "username": "bincky23", 
+            "tweet": "rt @0961vega: @bincky23 ill get bears & giants & vikings :d ! & u can get ur weak ass packers. lol", 
+            "fb_weight": 18
+        }, 
+        {
+            "username": "melbournesaint", 
+            "tweet": "rt @ap_nfl: \u201c@aseligmanap: #bears 10, #vikings 3 after 47-yard fg by robbie gould with 32 seconds left.\u201d #nfl", 
+            "fb_weight": 17
+        }, 
+        {
+            "username": "hannahjmagda19", 
+            "tweet": "rt @chicagobears: on 3rd and 1 at midfield, adrian peterson fumbles the football and it's recovered by major wright! #bears ball! #minvschi", 
+            "fb_weight": 15
+        }, 
+        {
+            "username": "lilmizzqueenb", 
+            "tweet": "rt @chicagobears: on 3rd and 1 at midfield, adrian peterson fumbles the football and it's recovered by major wright! #bears ball! #minvschi", 
+            "fb_weight": 15
+        }, 
+        {
+            "username": "adavis045", 
+            "tweet": "rt @chicagobears: on 3rd and 1 at midfield, adrian peterson fumbles the football and it's recovered by major wright! #bears ball! #minvschi", 
+            "fb_weight": 15
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "min": [
+        {
+            "username": "textnfl", 
+            "tweet": "#nfl saints get back to .500 with 38-17 win vs. raiders (yahoo! sports): oakland, calif. (ap) -- drew brees i... http://t.co/5wghy7er #q", 
+            "fb_weight": 14
+        }, 
+        {
+            "username": "loyalnflfans", 
+            "tweet": "pats starting guards out, mathis back for colts: yahoo! sports \u00bb foxborough, mass. (ap) -- the new e... http://t.co/uabincht #nfl #colts", 
+            "fb_weight": 14
+        }, 
+        {
+            "username": "dolledupnerd", 
+            "tweet": "\"@treejtv: we good still. #steelers all day\"---> #steelernation all day!", 
+            "fb_weight": 10
+        }, 
+        {
+            "username": "lpislame", 
+            "tweet": "win or lose #steelersnation all day everyday #steelers http://t.co/uz7few00", 
+            "fb_weight": 9
+        }, 
+        {
+            "username": "mr_jwhittaker", 
+            "tweet": "waiting all day for sunday night! let's go steelers!!!!!!!!! #nfl #steelersnation", 
+            "fb_weight": 9
+        }, 
+        {
+            "username": "babynilla", 
+            "tweet": "ive been waiting all day! ravens we got this <3 love ma boys, bleed purple an black (: #football #ravens", 
+            "fb_weight": 8
+        }, 
+        {
+            "username": "clifton611", 
+            "tweet": "rt @nolarr: i can watch @ivory_29 embarrass the falcons all day. #saints", 
+            "fb_weight": 8
+        }, 
+        {
+            "username": "jford_9", 
+            "tweet": "packers > viqueens", 
+            "fb_weight": 8
+        }, 
+        {
+            "username": "paulwhittington", 
+            "tweet": "we have been waiting all day for #sundaynight!! @nfl let's go @ravens! beat them @steelers!!", 
+            "fb_weight": 7
+        }, 
+        {
+            "username": "colincasey1", 
+            "tweet": "\"i've been waitin all day for sunday night...because that's when the eagles don't play.\" #snf #remix", 
+            "fb_weight": 7
+        }
+    ]
+}

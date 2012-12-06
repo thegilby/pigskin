@@ -1,0 +1,54 @@
+{
+    "min": [
+        {
+            "username": "rock27269594", 
+            "tweet": "rt @td_deportes: #nfl jaguars 0\u20137 bills; seahawks 0\u20137 bears; colts 7\u201310 lions; vikings 0\u201310 packers; rams 7\u20130 49ers fin primer cuarto", 
+            "fb_weight": 25
+        }, 
+        {
+            "username": "scottl08", 
+            "tweet": "@tivo @49ers @stlouisrams @cardinals @nyjets @packers @vikingsfootball did you forget the #bears are playing? other than the bears, #redzone", 
+            "fb_weight": 25
+        }, 
+        {
+            "username": "kaufmannali", 
+            "tweet": "vikings & lions & bears. fuck them! packers going for division leaders. what's up", 
+            "fb_weight": 19
+        }, 
+        {
+            "username": "trae_doby", 
+            "tweet": "espn fantasy - rb adrian peterson 220 yds, td, qb russell wilson 293 pass yds, 2 td, 71 rush, wr golden tate 5-96-td", 
+            "fb_weight": 17
+        }, 
+        {
+            "username": "weedworlock", 
+            "tweet": "except your promise for jobs!rt @govwalker: #packers win against #vikings. #badgers great russell wilson defeats #bears in ot. life is good!", 
+            "fb_weight": 17
+        }, 
+        {
+            "username": "bigo_187", 
+            "tweet": "rt @checktheticker: #vikings adrian peterson 82-yard td is the longest rushing td by an opponent in the history of lambeau field. <--- wow", 
+            "fb_weight": 16
+        }, 
+        {
+            "username": "kayshea8", 
+            "tweet": "rt @packers: turnover: morgan burnett intercepts minnesota qb christian ponder in the end zone. #packers", 
+            "fb_weight": 16
+        }, 
+        {
+            "username": "blacc_al_bundy", 
+            "tweet": "rt @packers: turnover: rodgers intercepted by harrison smith at min6, trick play, underthrown on deep pass to greg jennings. #packers", 
+            "fb_weight": 16
+        }, 
+        {
+            "username": "superbentindo", 
+            "tweet": "aaron rodgers put up less points against the #vikings today than russell wilson who was playing the #bears #howwasisupposedtoknow?", 
+            "fb_weight": 15
+        }, 
+        {
+            "username": "hanna_thompson", 
+            "tweet": "rt @packers: final score: packers 23, vikings 14. your green bay packers are 8-4. #packers #minvsgb", 
+            "fb_weight": 15
+        }
+    ]
+}
