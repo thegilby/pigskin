@@ -1,6 +1,6 @@
 from pysolr import Solr
 import argparse
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # helper
 def isInt(string):
@@ -49,7 +49,7 @@ for lineno, line in enumerate(f, start=1):
         elif header == 'date_time':
             # sun oct 21 11:02:56 pdt 2012
             try:
-                newTime = datetime.strptime(col,'%a %b %d %H:%M:%S %Z %Y')
+                newTime = datetime.strptime(col,'%a %b %d %H:%M:%S %Z %Y') + timedelta(seconds=60*60*8)
                 output[header] = newTime.isoformat() + 'Z'
             except:
                 # print col
