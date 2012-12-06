@@ -19,7 +19,14 @@
 
 {% block scripts %}
 <script type="text/javascript">
-    var teamData = {{ teamData | tojson | safe }};
-    console.log(teamData);
+    $(function(){
+        var teamData = {{ teamData | tojson | safe }};
+        console.log(teamData);
+        $.each(teamData,function(key, array){
+            $.each(array, function(index, pair){
+                $("#matchup ul").append("<li>" + key + "(x:" + pair["x"] + ", y:" + pair["y"] + ")</li>");
+            });
+        });
+    })
 </script>
 {% endblock %}
