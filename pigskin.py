@@ -26,14 +26,13 @@ def home():
 @app.route("/week/<week>/")
 @app.route("/week/<week>/matchup/<matchup>/")
 def week(week=None, matchup=None):
-    
     if matchup:
         teams = matchup.split("_")
         teamData = {}
         for team in teams:
-            data = open('tweetsPerSecond_'+team+'.json','r')
+            data = open('tweetsPerMinute_'+team+'.json','r')
             teamData[team] = json.load(data)
-        print teamData
+        # print teamData
         return render_template('matchup.html', week=week, matchup=matchup, teamData=teamData)
     else:
         return render_template('week.html', week=week)

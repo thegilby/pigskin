@@ -202,37 +202,36 @@ if ( $('#team').length ) {
 
 // Matchup page
 if ( $('#matchup').length ) {
-  // console.log(teamData);
   var currentMatchup = matchup.split("_"), //split matchup into the different teams
       awayTeam = currentMatchup[0],
       homeTeam = currentMatchup[1];
 
-  $.each(teamData,function(key, array){
-    $.each(array, function(index, pair){
-        var formatDate = d3.time.format.iso;
-        // console.log(formatDate.parse(pair["x"]).getTime());
-        $("#matchup ul").append("<li>" + key + "(x:" + pair["x"] + ", y:" + pair["y"] + ")</li>");
-    });
-  });
+  $("#matchupName").html(teams[awayTeam]["name"] +' <br/>@<br/> '+ teams[homeTeam]["name"]);
 
-  // instantiate our graph!
+  awayLogo = $('<img>').attr({"class":"logo","src":"/pigskin/static/img/logo/"+awayTeam+".gif"});
+  awayLogo.appendTo("#away");
+  homeLogo = $('<img>').attr({"class":"logo","src":"/pigskin/static/img/logo/"+homeTeam+".gif"});
+  homeLogo.appendTo("#home");
+
+  // Instantiate our graph!
   var graph = new Rickshaw.Graph( {
-    element: $("#chart"),
+    element: document.querySelector("#chart"),
     width: 960,
     height: 500,
     renderer: 'line',
     series: [
       {
         color: teams[awayTeam]["color"],
-        data: teamData[awayTeam],
+        data: teamData[awayTeam][week],
         name: teams[awayTeam]["name"]
-      }, {
+      },
+      {
         color: teams[homeTeam]["color"],
-        data: teamData[homeTeam],
-        name: teams[awayTeam]["name"]
+        data: teamData[homeTeam][week],
+        name: teams[homeTeam]["name"]
       }
-    ]
-  } );
+      ]
+  });
 
   graph.render();
 

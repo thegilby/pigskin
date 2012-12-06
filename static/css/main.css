@@ -7,8 +7,9 @@ body {
 }
 .logo {
   /*width: 150px;*/
-  width: auto;
-  height: 100px;
+  /*height: auto;*/
+  /*width: auto;
+  height: 100px;*/
   margin-bottom: 10px;
 }
 #team, #teams {

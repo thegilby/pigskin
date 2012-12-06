@@ -2,10 +2,19 @@
 {% block body %}
   <div class="jumbotron">
     <div class="container">
-      <img class="logo" src="{{ url_for('static', filename='img/logo/NFL.gif') }}">
-      <h2>Week {{ week }} Matchups</h2>
+      <div class="row">
+        <div class="span3" id="away">
 
-      {{ matchup }}
+        </div>
+
+        <div class="span6">
+          <h2 id="matchupName"></h2>
+        </div>
+
+        <div class="span3" id="home">
+
+        </div>
+      </div>
 
     </div>
   </div>
@@ -15,6 +24,8 @@
     <div class="row">
       <div class="span8" id="chart">
       </div>
+
+      <div id="legend"></div>
 
       <div class="span4">
       </div>
@@ -26,6 +37,7 @@
 {% block scripts %}
 <script type="text/javascript">
   var teamData = {{ teamData | tojson | safe }},
-      matchup = {{ matchup | tojson | safe }};
+      matchup = {{ matchup | tojson | safe }},
+      week = {{ week | tojson | safe }};
 </script>
 {% endblock %}
