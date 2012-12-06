@@ -206,11 +206,12 @@ def outputScript():
         f = open("tweetsPerMinute_" + team + ".json","w")
 
         for week, i in zip(weeks, range(7,14)):
+            print team
             print week
             print i
             tweets = index.getTweetsPerMinutePerTeam(team,week)
             output[i] = tweets 
-            print output
+            # print output
         
         f.write(json.dumps(output,indent=4))
 
