@@ -51,6 +51,7 @@ team_abbrev = [
     'sea'
 ]
 
+# these times are in pacific time
 weeks = [
     "2012-10-21T10:00:00",
     "2012-10-28T10:00:00",
@@ -84,12 +85,12 @@ class FootballIndex:
 
     def getTweetsPerMinute(self, date='2012-10-21T10:00:00', column='football'):
         result = {}
-        startdate = datetime.strptime(date,'%Y-%m-%dT%H:%M:%S')
+        startdate = datetime.strptime(date,'%Y-%m-%dT%H:%M:%S') + timedelta(seconds=60*60*8)
         enddate = startdate + timedelta(seconds=60*60*13) # 13 hrs later
         
         params = {  'facet.field' : ['fb_assoc'],
                     'facet.range' : ['date_time'],
-                    'facet.range.start' : date + 'Z',
+                    'facet.range.start' : startdate.isoformat() + 'Z',
                     'facet.range.end' : enddate.isoformat() + 'Z',
                     'facet.range.gap':'+60000MILLISECOND',
                     'facet.mincount' : '1',
@@ -133,11 +134,11 @@ class FootballIndex:
     # returns a dictionary of teamname:count
     def getTweetsPerMinutePerTeam(self, team, date):
         result = {}
-        startdate = datetime.strptime(date,'%Y-%m-%dT%H:%M:%S')
+        startdate = datetime.strptime(date,'%Y-%m-%dT%H:%M:%S') + timedelta(seconds=60*60*8)
         enddate = startdate + timedelta(seconds=60*60*13) # 13 hrs later
         
         params = {'facet.range' : ['date_time'],
-                    'facet.range.start' : date + 'Z',
+                    'facet.range.start' : startdate.isoformat() + 'Z',
                     'facet.range.end' : enddate.isoformat() + 'Z',
                     'facet.range.gap':'+60000MILLISECOND',
                     # 'facet.mincount' : '1',
@@ -156,11 +157,11 @@ class FootballIndex:
 
     def getFootballTweetsPerWeek(self):
         result = {}
-        startdate = datetime.strptime(weeks[0],'%Y-%m-%dT%H:%M:%S')
+        startdate = datetime.strptime(weeks[0],'%Y-%m-%dT%H:%M:%S') + timedelta(seconds=60*60*8)
         enddate = datetime.strptime(weeks[-1],'%Y-%m-%dT%H:%M:%S') + timedelta(seconds=60*60*13) # 13 hrs later
         
         params = {'facet.range' : ['date_time'],
-                    'facet.range.start' : weeks[0] + 'Z',
+                    'facet.range.start' : startdate.isoformat() + 'Z',
                     'facet.range.end' : enddate.isoformat() + 'Z',
                     'facet.range.gap':'+1DAY',
                     # 'facet.mincount' : '1',
@@ -178,11 +179,11 @@ class FootballIndex:
 
     def getNonFootballTweetsPerWeek(self):
         result = {}
-        startdate = datetime.strptime(weeks[0],'%Y-%m-%dT%H:%M:%S')
+        startdate = datetime.strptime(weeks[0],'%Y-%m-%dT%H:%M:%S') + timedelta(seconds=60*60*8)
         enddate = datetime.strptime(weeks[-1],'%Y-%m-%dT%H:%M:%S') + timedelta(seconds=60*60*13) # 13 hrs later
         
         params = {'facet.range' : ['date_time'],
-                    'facet.range.start' : weeks[0] + 'Z',
+                    'facet.range.start' : startdate.isoformat() + 'Z',
                     'facet.range.end' : enddate.isoformat() + 'Z',
                     'facet.range.gap':'+1DAY',
                     # 'facet.mincount' : '1',
@@ -237,5 +238,6 @@ def convertToDict(countList):
     return result
 
 def convertToEpochTime(t):
-    timestamp = datetime.strptime(t,'%Y-%m-%dT%H:%M:%SZ')
+    # t is in gmt; must conver to pst
+    timestamp = datetime.strptime(t,'%Y-%m-%dT%H:%M:%SZ') - timedelta(seconds=60*60*8)
     return int(time.mktime(timestamp.timetuple()))
