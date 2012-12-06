@@ -3,16 +3,25 @@
   <div class="jumbotron">
     <div class="container">
       <div class="row">
-        <div class="span3" id="away">
-
+        <div class="span4" id="away">
+            <!-- <h2>AWAY</h2> -->
+            <img class="logo" src="">
+            <h3></h3>
+            <a href="" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true"></a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
 
-        <div class="span6">
-          <h2 id="matchupName"></h2>
+        <div class="span4">
+          <h4 id="matchupLocation"></h4>
+          <span id="matchupScore"></span>
         </div>
 
-        <div class="span3" id="home">
-
+        <div class="span4" id="home">
+            <!-- <h2>HOME</h2> -->
+            <img class="logo" src="">
+            <h3></h3>
+            <a href="" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true"></a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
       </div>
 
@@ -22,12 +31,15 @@
   <div id="matchup" class="container">
     <ul></ul>
     <div class="row">
-      <div class="span8" id="chart">
+      <div class="span11">
+        <h3>Number of Tweets per Minute during the day</h3>
+
+        <div id="chart"></div>
+        <div id="y_axis"></div>
+        <div id="slider"></div>
       </div>
-
-      <div id="legend"></div>
-
-      <div class="span4">
+      <div class="span1">
+        <div id="legend"></div>
       </div>
     </div>
   </div> <!-- /container -->
