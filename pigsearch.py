@@ -3,6 +3,7 @@
 
 from pysolr import Solr
 from datetime import datetime, timedelta
+import time
 
 import json
 
@@ -148,6 +149,7 @@ class FootballIndex:
 
         print dataset.hits
         counts = dataset.facets['facet_ranges']['date_time']['counts']
+        # print counts
         result = convertToDict(counts)
 
         return result
@@ -210,9 +212,12 @@ def outputScript():
 # Helper
 def convertToDict(countList):
     result = []
-    coordinate = {}
-    for key, value in zip(countList[::2],countList[1::2]):
-        coordinate['x'] = key
-        coordinate['y'] = value
-        result.append(coordinate)
+    for t, value in zip(countList[::2],countList[1::2]):
+        result.append({'x':convertToEpochTime(t), 'y':value})
+
+    # print result
     return result
+
+def convertToEpochTime(t):
+    timestamp = datetime.strptime(t,'%Y-%m-%dT%H:%M:%SZ')
+    return int(time.mktime(timestamp.timetuple()))
