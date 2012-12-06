@@ -197,27 +197,101 @@ if ( $('#team').length ) {
       info = teams[team];
   $(document).attr('title', info.name+' | Pigskin | Visualizing Football Tweets');
   $('#teamName').text(info.name);
-  $(".twitter-follow-button").attr('href','https://twitter.com/'+info.username).text('Follow @'+info.username)
+  $(".twitter-follow-button").attr('href','https://twitter.com/'+info.username).text('Follow @'+info.username);
+}
+
+// Week page
+if ( $('#week').length ) {
+  // console.log(teamData);
+
+  var seriesData = [];
+  $.each(teamData, function(i){
+      var seriesEntry = {};
+      seriesEntry.color = teams[i]["color"];
+      seriesEntry.data = teamData[i][week];
+      seriesEntry.name = teams[i]["name"];
+      seriesData.push(seriesEntry);
+  });
+
+  // Instantiate our graph!
+  var graph = new Rickshaw.Graph( {
+    element: document.querySelector("#chart"),
+    // width: 800,
+    height: 400,
+    renderer: 'line',
+    series: seriesData
+  });
+
+  graph.render();
+
+  var hoverDetail = new Rickshaw.Graph.HoverDetail( {
+    graph: graph,
+    formatter: function(series, x, y) {
+      var date = '<span class="date">' + new Date((x * 1000) ).toUTCString() + '</span>';
+      var swatch = '<span class="detail_swatch" style="background-color: ' + series.color + '"></span>';
+      var content = swatch + series.name + ": " + parseInt(y) + '<br>' + date;
+      return content;
+    }
+  } );
+
+  var legend = new Rickshaw.Graph.Legend( {
+    graph: graph,
+    element: document.getElementById('legend')
+  } );
+
+  var shelving = new Rickshaw.Graph.Behavior.Series.Toggle( {
+    graph: graph,
+    legend: legend
+  });
+
+  var slider = new Rickshaw.Graph.RangeSlider( {
+    graph: graph,
+    element: $('#slider')
+  } );
+
+  var ticksTreatment = 'glow';
+
+  var xAxis = new Rickshaw.Graph.Axis.Time( {
+    graph: graph,
+    ticksTreatment: ticksTreatment
+  } );
+
+  xAxis.render();
+
+  var yAxis = new Rickshaw.Graph.Axis.Y( {
+    graph: graph,
+    tickFormat: Rickshaw.Fixtures.Number.formatKMBT,
+    ticksTreatment: ticksTreatment
+  } );
+
+  yAxis.render();
+
 }
 
 // Matchup page
 if ( $('#matchup').length ) {
   var currentMatchup = matchup.split("_"), //split matchup into the different teams
       awayTeam = currentMatchup[0],
-      homeTeam = currentMatchup[1];
+      homeTeam = currentMatchup[1],
+      matchupInfo = matchups[week][matchup];
 
-  $("#matchupName").html(teams[awayTeam]["name"] +' <br/>@<br/> '+ teams[homeTeam]["name"]);
+  $("#matchupLocation").html(matchupInfo["stadium"]);
+  $("#matchupScore").html(matchupInfo["awayScore"] +' - '+ matchupInfo["homeScore"]);
 
-  awayLogo = $('<img>').attr({"class":"logo","src":"/pigskin/static/img/logo/"+awayTeam+".gif"});
-  awayLogo.appendTo("#away");
-  homeLogo = $('<img>').attr({"class":"logo","src":"/pigskin/static/img/logo/"+homeTeam+".gif"});
-  homeLogo.appendTo("#home");
+  $('#away img').attr("src","/pigskin/static/img/logo/"+awayTeam+".gif");
+  $('#home img').attr("src","/pigskin/static/img/logo/"+homeTeam+".gif");
+
+  $('#away h3').text(teams[awayTeam]["name"]);
+  $('#home h3').text(teams[homeTeam]["name"]);
+
+  $("#away .twitter-follow-button").attr('href','https://twitter.com/'+teams[awayTeam]["username"]).text('Follow @'+teams[awayTeam]["username"]);
+  $("#home .twitter-follow-button").attr('href','https://twitter.com/'+teams[homeTeam]["username"]).text('Follow @'+teams[homeTeam]["username"]);
 
   // Instantiate our graph!
   var graph = new Rickshaw.Graph( {
     element: document.querySelector("#chart"),
-    width: 960,
-    height: 500,
+    // width: 800,
+    height: 400,
     renderer: 'line',
     series: [
       {
@@ -233,11 +307,23 @@ if ( $('#matchup').length ) {
       ]
   });
 
+  // graph.renderer.unstack = true;
   graph.render();
 
+  // var hoverDetail = new Rickshaw.Graph.HoverDetail( {
+  //   graph: graph
+  // } );
+
   var hoverDetail = new Rickshaw.Graph.HoverDetail( {
-    graph: graph
+    graph: graph,
+    formatter: function(series, x, y) {
+      var date = '<span class="date">' + new Date((x * 1000) ).toUTCString() + '</span>';
+      var swatch = '<span class="detail_swatch" style="background-color: ' + series.color + '"></span>';
+      var content = swatch + series.name + ": " + parseInt(y) + '<br>' + date;
+      return content;
+    }
   } );
+
 
   var legend = new Rickshaw.Graph.Legend( {
     graph: graph,
@@ -247,12 +333,36 @@ if ( $('#matchup').length ) {
   var shelving = new Rickshaw.Graph.Behavior.Series.Toggle( {
     graph: graph,
     legend: legend
+  });
+
+  var slider = new Rickshaw.Graph.RangeSlider( {
+    graph: graph,
+    element: $('#slider')
   } );
 
-  var axes = new Rickshaw.Graph.Axis.Time( {
-    graph: graph
+    // var axes = new Rickshaw.Graph.Axis.Time( {
+    //   graph: graph
+    // } );
+    // axes.render();
+
+  var ticksTreatment = 'glow';
+
+  var xAxis = new Rickshaw.Graph.Axis.Time( {
+    graph: graph,
+    ticksTreatment: ticksTreatment
   } );
-  axes.render();
+
+  xAxis.render();
+
+  var yAxis = new Rickshaw.Graph.Axis.Y( {
+    graph: graph,
+    tickFormat: Rickshaw.Fixtures.Number.formatKMBT,
+    ticksTreatment: ticksTreatment
+  } );
+
+  yAxis.render();
+
+
 }
 
 

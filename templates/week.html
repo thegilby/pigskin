@@ -3,13 +3,30 @@
   <div class="jumbotron">
     <div class="container">
       <img class="logo" src="{{ url_for('static', filename='img/logo/NFL.gif') }}">
-      <h2>Week {{ week }} Matchups</h2>
+      <h2>Week {{ week }}</h2>
     </div>
   </div>
 
   <div id="week" class="container">
-    <ul>
-    </ul>
+    <div class="row">
+      <div class="span11">
+        <h3>Number of Tweets per Minute during the day</h3>
+
+        <div id="chart"></div>
+        <div id="y_axis"></div>
+        <div id="slider"></div>
+      </div>
+      <div class="span1">
+        <div id="legend"></div>
+      </div>
+    </div>
   </div> <!-- /container -->
 
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+  var teamData = {{ teamData | tojson | safe }},
+      week = {{ week | tojson | safe }};
+</script>
 {% endblock %}
