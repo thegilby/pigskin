@@ -142,7 +142,7 @@ $(function() {
       };
 
 generateMatchups();
-// Nav week dropdowns
+// Generate week/matchup dropdowns for nav bar
 function generateMatchups() {
   $.each( matchups, function(w) {
     var weekNav = $('<li>').attr('class','dropdown'),
@@ -168,21 +168,13 @@ function generateMatchups() {
           awayTeam = matchupInfo.away,
           homeTeam = matchupInfo.home,
           matchupNav = $('<li>'),
-          matchupLink = $('<a>').attr({'tabindex':'-1','href':'/week/'+w+'/matchup/'+i+'/'})
-                                .html('<img class="logoTiny" src="/pigskin/static/img/logo/'+awayTeam+'.gif">' +' vs ' + '<img class="logoTiny" src="/pigskin/static/img/logo/'+homeTeam+'.gif">');
+          matchupLink = $('<a>').attr({'class':'matchup','tabindex':'-1','href':'/week/'+w+'/matchup/'+i+'/'})
+                                .html('<img class="pull-left logoTiny" src="/pigskin/static/img/logo/'+awayTeam+'.gif">'+ awayTeam.toUpperCase() +' vs ' + homeTeam.toUpperCase() + '<img class="pull-right logoTiny" src="/pigskin/static/img/logo/'+homeTeam+'.gif">');
       matchupLink.appendTo(matchupNav);
       matchupNav.appendTo(weekList);
     });
   });
 }
-
-// <li class="dropdown">
-//   <a id="dLabel" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Week <b class="caret"></b></a>
-//   <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-//     <li><a tabindex="-1" href="#">Action</a></li>
-//   </ul>
-// </li>
-
 
   //Teams page
   if ( $('#teams').length ) {
