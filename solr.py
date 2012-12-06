@@ -53,16 +53,20 @@ for lineno, line in enumerate(f, start=1):
                 output[header] = newTime.isoformat() + 'Z'
             except:
                 # print col
-                # print lineno
+                print lineno
                 validRow = False
             # print newTime.isoformat()
         elif header == 'fb_assoc':
             output[header] = col.strip().split(' ')
         elif header == 'geoloc':
-            cleanCol = col.replace('geolocation{latitude=','').replace('longitude=','').replace('}','').replace(', ',',')
-            # print cleanCol
-            if cleanCol != 'null':
-                output[header] = cleanCol
+            try:
+                cleanCol = col.replace('geolocation{latitude=','').replace('longitude=','').replace('}','').replace(', ',',')
+                # print cleanCol
+                if cleanCol != 'null':
+                    output[header] = cleanCol
+            except:
+                print lineno
+                validRow = False
         else:
             output[header] = col
     if validRow:

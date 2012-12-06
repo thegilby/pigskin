@@ -82,7 +82,7 @@ class FootballIndex:
 
 
 
-    def getTweetsPerSecond(self, date='2012-10-21T10:00:00', column='football'):
+    def getTweetsPerMinute(self, date='2012-10-21T10:00:00', column='football'):
         result = {}
         startdate = datetime.strptime(date,'%Y-%m-%dT%H:%M:%S')
         enddate = startdate + timedelta(seconds=60*60*13) # 13 hrs later
@@ -91,7 +91,7 @@ class FootballIndex:
                     'facet.range' : ['date_time'],
                     'facet.range.start' : date + 'Z',
                     'facet.range.end' : enddate.isoformat() + 'Z',
-                    'facet.range.gap':'+1000MILLISECOND',
+                    'facet.range.gap':'+60000MILLISECOND',
                     'facet.mincount' : '1',
                     'facet.sort' : 'index'
                     }
@@ -131,7 +131,7 @@ class FootballIndex:
     #   team - official abbreviated teamname
     #   date - %Y-%m-%dT%H:%M:%S format 2012-10-21T10:00:00
     # returns a dictionary of teamname:count
-    def getTweetsPerSecondPerTeam(self, team, date):
+    def getTweetsPerMinutePerTeam(self, team, date):
         result = {}
         startdate = datetime.strptime(date,'%Y-%m-%dT%H:%M:%S')
         enddate = startdate + timedelta(seconds=60*60*13) # 13 hrs later
@@ -139,8 +139,8 @@ class FootballIndex:
         params = {'facet.range' : ['date_time'],
                     'facet.range.start' : date + 'Z',
                     'facet.range.end' : enddate.isoformat() + 'Z',
-                    'facet.range.gap':'+1000MILLISECOND',
-                    'facet.mincount' : '1',
+                    'facet.range.gap':'+60000MILLISECOND',
+                    # 'facet.mincount' : '1',
                     'facet.sort' : 'index'
                     }
 
@@ -200,12 +200,19 @@ class FootballIndex:
 
 def outputScript():
     index = FootballIndex()# write out multiple json files
-
+    output = {}
     # tweets per second per team
     for team in team_abbrev:
-        tweets = index.getTweetsPerSecondPerTeam(team,weeks[0])
-        f = open("tweetsPerSecond_" + team + ".json","w")
-        f.write(json.dumps(tweets,indent=4))
+        f = open("tweetsPerMinute_" + team + ".json","w")
+
+        for week, i in zip(weeks, range(7,14)):
+            print week
+            print i
+            tweets = index.getTweetsPerMinutePerTeam(team,week)
+            output[i] = tweets 
+            print output
+        
+        f.write(json.dumps(output,indent=4))
 
     return
 
