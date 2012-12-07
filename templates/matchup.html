@@ -29,7 +29,6 @@
   </div>
 
   <div id="matchup" class="container">
-    <ul></ul>
     <div class="row">
       <div class="span11">
         <h3>Number of Tweets per Minute about teams over the course of the day</h3>
@@ -41,6 +40,19 @@
         <div id="legend"></div>
       </div>
     </div>
+
+    <div class="row">
+      <div class="span6">
+        <h3>Away Top Ten Tweets</h3>
+        <ul id="awayTopTen"></ul>
+      </div>
+      <!-- <div class="span4">
+      </div> -->
+      <div class="span6">
+        <h3>Home Top Ten Tweets</h3>
+        <ul id="homeTopTen"></ul>
+      </div>
+    </div>
   </div> <!-- /container -->
 
 {% endblock %}
@@ -48,7 +60,10 @@
 {% block scripts %}
 <script type="text/javascript">
   var teamData = {{ teamData | tojson | safe }},
+      topTen = {{ topTen | tojson | safe }},
       matchup = {{ matchup | tojson | safe }},
       week = {{ week | tojson | safe }};
+
+      // console.log(topTen);
 </script>
 {% endblock %}
