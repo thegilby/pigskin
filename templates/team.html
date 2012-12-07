@@ -11,14 +11,24 @@
 
   <div id="team" data-team="{{team}}" class="container">
     <div class="row">
-      <div class="span4">
-
+      <div class="span10">
+        <h3>Number of Tweets about Team per Week</h3>
+        <div id="chart"></div>
+        <div id="y_axis"></div>
       </div>
-
-      <div class="span8">
-        <p></p>
+      <div class="span2">
+        <div id="legend"></div>
+        <h4 id="teamTweets"></h4>
       </div>
     </div>
   </div> <!-- /container -->
 
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+  var teamCounts = {{ teamCounts | tojson | safe }},
+      teamCount = {{ teamCount | tojson | safe }};
+      teamCounts = teamCounts["{{team}}"];
+</script>
 {% endblock %}

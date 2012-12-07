@@ -57,7 +57,11 @@ def week(week=None, matchup=None):
 @app.route("/teams/<team>/")
 def team(team=None):
     if team:
-        return render_template('team.html', team=team)
+        teamCount = {}
+        data = open('teamCount_'+team+'.json','r')
+        teamCount = json.load(data)
+        teamCounts = json.load(open('teamCounts.json','r'))
+        return render_template('team.html', team=team, teamCount=teamCount, teamCounts=teamCounts)
     else:
         return render_template('teams.html')
 

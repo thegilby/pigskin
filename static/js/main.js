@@ -253,6 +253,58 @@ if ( $('#team').length ) {
   $(document).attr('title', info.name+' | Pigskin | Visualizing Football Tweets');
   $('#teamName').text(info.name);
   $(".twitter-follow-button").attr('href','https://twitter.com/'+info.username).text('Follow @'+info.username);
+  $('#teamTweets').html(teamCounts + ' tweets <small> total about team</small>');
+    // Instantiate our graph!
+  var graph = new Rickshaw.Graph( {
+    element: document.querySelector("#chart"),
+    width: 800,
+    height: 400,
+    renderer: 'bar',
+    series: [{
+      color: info.color,
+      data: teamCount,
+      name: info.name
+    }]
+  });
+
+  graph.render();
+
+  var hoverDetail = new Rickshaw.Graph.HoverDetail( {
+    graph: graph,
+    formatter: function(series, x, y) {
+      var date = '<span class="date">' + new Date((x * 1000) ).toUTCString() + '</span>';
+      var swatch = '<span class="detail_swatch" style="background-color: ' + series.color + '"></span>';
+      var content = swatch + series.name + ": " + parseInt(y) + '<br>' + date;
+      return content;
+    }
+  } );
+
+  var legend = new Rickshaw.Graph.Legend( {
+    graph: graph,
+    element: document.getElementById('legend')
+  } );
+
+  var shelving = new Rickshaw.Graph.Behavior.Series.Toggle( {
+    graph: graph,
+    legend: legend
+  });
+
+  var ticksTreatment = 'glow';
+
+  var xAxis = new Rickshaw.Graph.Axis.Time( {
+    graph: graph,
+    ticksTreatment: ticksTreatment
+  } );
+
+  xAxis.render();
+
+  var yAxis = new Rickshaw.Graph.Axis.Y( {
+    graph: graph,
+    tickFormat: Rickshaw.Fixtures.Number.formatKMBT,
+    ticksTreatment: ticksTreatment
+  } );
+
+  yAxis.render();
 }
 
 // Week page
