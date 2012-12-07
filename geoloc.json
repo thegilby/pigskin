@@ -642,27 +642,6 @@
             "geoloc": "39.17305958,-86.53153183"
         }, 
         {
-            "date_time": "sun nov 18 15:39:26 pst 2012", 
-            "tweet": "@mayfieldxc 26. bill rodgers: \"a change of pace in terms of your running pace will give you strength psychologically.\"", 
-            "fb_assoc": "buf gb ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='shaftsbury',streetaddress='null',countrycode='us',id='d12b9b5d0e2cfc8c',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/d12b9b5d0e2cfc8c.json',fullname='shaftsbury,vt',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@1dfd90d9],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:50:49 pst 2012", 
-            "tweet": "is it me, or does aaron rodgers seem the most pissed during his david gruber commercial? #onecallthatsall", 
-            "fb_assoc": "gb ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='cedarburg',streetaddress='null',countrycode='us',id='3130430d98b7b9a7',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/3130430d98b7b9a7.json',fullname='cedarburg,wi',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@50b937e],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:58:08 pst 2012", 
-            "tweet": "so uh... the packers won. woohoo", 
-            "fb_assoc": "gb ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='deerfield beach',streetaddress='null',countrycode='us',id='4ebdbc556ccd2f12',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/4ebdbc556ccd2f12.json',fullname='deerfield beach,fl',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@ea11d31],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
             "date_time": "sun nov 25 16:09:53 pst 2012", 
             "tweet": "@thepackerfan @packers  living the pack life http://t.co/l74c76mu", 
             "fb_assoc": "gb ", 
@@ -1232,27 +1211,6 @@
             "geoloc": "43.67652118,-79.56498866"
         }, 
         {
-            "date_time": "sun nov 18 17:43:51 pst 2012", 
-            "tweet": "galaxy versus sounders in seattle.... playoffs ya baby!! go galaxy!!!! @ centurylink field http://t.co/dvjjdsky", 
-            "fb_assoc": "fb sea ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='seattle',streetaddress='null',countrycode='us',id='f42a863798156617',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/f42a863798156617.json',fullname='seattle,wa',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@41f74f0f],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:01:46 pst 2012", 
-            "tweet": "#rightseats, bro @ centurylink field http://t.co/vouj8sbg", 
-            "fb_assoc": "sea ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='seattle',streetaddress='null',countrycode='us',id='f42a863798156617',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/f42a863798156617.json',fullname='seattle,wa',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6121237b],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:22:14 pst 2012", 
-            "tweet": "keep calm and beast mode", 
-            "fb_assoc": "sea ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='kaneohe station',streetaddress='null',countrycode='us',id='df32dd0ac7c1cfc2',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/df32dd0ac7c1cfc2.json',fullname='kaneohe station,hi',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6d258c1b],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
             "date_time": "sun nov 25 11:05:59 pst 2012", 
             "tweet": "#seahawks time to respond!", 
             "fb_assoc": "sea ", 
@@ -1661,118 +1619,6 @@
             "geoloc": "41.61833644,-86.26738934"
         }, 
         {
-            "date_time": "sun nov 18 15:12:43 pst 2012", 
-            "tweet": "the patriots cant go for these fuckboy colts!", 
-            "fb_assoc": "ne ind ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='salt creek',streetaddress='null',countrycode='us',id='1bfc92792baa03b5',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/1bfc92792baa03b5.json',fullname='salt creek,in',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4463a4bb],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:14:39 pst 2012", 
-            "tweet": "yeah it might be over for the colts .", 
-            "fb_assoc": "ind ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='syracuse',streetaddress='null',countrycode='us',id='138181506c13418e',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/138181506c13418e.json',fullname='syracuse,ny',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@75ebcd54],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:18:05 pst 2012", 
-            "tweet": "andrew luck is an 'effing strong kid.", 
-            "fb_assoc": "ind ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='thousand oaks',streetaddress='null',countrycode='us',id='0509a6acb3d27ec4',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/0509a6acb3d27ec4.json',fullname='thousand oaks,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@d86edfb],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:25:11 pst 2012", 
-            "tweet": "come on @nflcolts d how bout a stop!!!", 
-            "fb_assoc": "ind ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='indianapolis',streetaddress='null',countrycode='us',id='206837afe6e13d1c',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/206837afe6e13d1c.json',fullname='indianapolis,in',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@2c84c1c3],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:27:29 pst 2012", 
-            "tweet": "i have a #badbadfeeling that the @patriots will let the #colts back into the game. @nfloncbs #indvsne", 
-            "fb_assoc": "ne ind ", 
-            "fb_weight": "11", 
-            "geoloc": "placejsonimpl{name='canton',streetaddress='null',countrycode='us',id='11ad2827efa16878',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/11ad2827efa16878.json',fullname='canton,ga',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@240e4cbb],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:28:24 pst 2012", 
-            "tweet": "stop trying to be the #patriots and try to score on the punt return! just go down #colts", 
-            "fb_assoc": "fb ne ind ", 
-            "fb_weight": "13", 
-            "geoloc": "placejsonimpl{name='manhattan',streetaddress='null',countrycode='us',id='086752cb03de1d5d',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/086752cb03de1d5d.json',fullname='manhattan,ny',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@37021de],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:37:46 pst 2012", 
-            "tweet": "i bet the colts wish they had manning back. lmao!", 
-            "fb_assoc": "ind fb ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='rancho cucamonga',streetaddress='null',countrycode='us',id='36ac79e68ace76e4',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/36ac79e68ace76e4.json',fullname='rancho cucamonga,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@66886381],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:46:28 pst 2012", 
-            "tweet": "my patriots raping the colts", 
-            "fb_assoc": "ne ind ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='florida',streetaddress='null',countrycode='us',id='4ec01c9dbc693497',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/4ec01c9dbc693497.json',fullname='florida,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@93271bd],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:56:11 pst 2012", 
-            "tweet": "oh snap! lol rt @bastarddrinker: has someone told the colts that they don't have to suck for luck anymore? @nflrt", 
-            "fb_assoc": "fb ind ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='lakeside',streetaddress='null',countrycode='us',id='5c1e04e89b26b3fb',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/5c1e04e89b26b3fb.json',fullname='lakeside,va',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@77fb2e99],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:08:33 pst 2012", 
-            "tweet": "@peytonshead man you were suppose to call andrew luck and have him beat new england http://t.co/bhpmtpdv", 
-            "fb_assoc": "ind ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='paradise',streetaddress='null',countrycode='us',id='8fa6d7a33b83ef26',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/8fa6d7a33b83ef26.json',fullname='paradise,nv',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@3a1e003b],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:09:12 pst 2012", 
-            "tweet": "oooooooooommmmmmmmmggggggggggggg defense?!?!?!?!?!?!? really?!?!?!?!?!?!? #patsvscolts #coltsnation #bleedingblue always #believinginblue", 
-            "fb_assoc": "fb ind ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='flowood',streetaddress='null',countrycode='us',id='d636960dae7df7c7',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/d636960dae7df7c7.json',fullname='flowood,ms',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@59ba21ac],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:19:24 pst 2012", 
-            "tweet": "i hope you #colts are enjoying your spanking. #newenglandpatriots", 
-            "fb_assoc": "ind ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='natick',streetaddress='null',countrycode='us',id='20d1697d5aa5c8cf',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/20d1697d5aa5c8cf.json',fullname='natick,ma',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6c364890],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:32:25 pst 2012", 
-            "tweet": "patriots fuckin the colts up", 
-            "fb_assoc": "ne ind ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='baltimore',streetaddress='null',countrycode='us',id='c0b8e8dc81930292',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/c0b8e8dc81930292.json',fullname='baltimore,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@5a0a4ec7],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:35:20 pst 2012", 
-            "tweet": "my colts made me mad today but it's cool", 
-            "fb_assoc": "ind ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='ettrick',streetaddress='null',countrycode='us',id='68a0bfb12798b6fc',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/68a0bfb12798b6fc.json',fullname='ettrick,va',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6c94d5ea],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:58:43 pst 2012", 
-            "tweet": "the pats are so petty, they ran up the score on the colts 59, so they could have the highest score on the season,over the ravens 55,  weak!!", 
-            "fb_assoc": "ne ind bal ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='elkridge',streetaddress='null',countrycode='us',id='d4f00e013186b461',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/d4f00e013186b461.json',fullname='elkridge,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@258185ce],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 21:23:02 pst 2012", 
-            "tweet": "colts insider: this game is gone in 61 seconds: foxborough, mass. -- sixty-one seconds. that's how long it took for... http://t.co/relbva2n", 
-            "fb_assoc": "ind ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='indianapolis',streetaddress='null',countrycode='us',id='206837afe6e13d1c',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/206837afe6e13d1c.json',fullname='indianapolis,in',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4af84bf9],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
             "date_time": "sun nov 25 09:51:47 pst 2012", 
             "tweet": "i'm at lucas oil stadium for buffalo bills vs indianapolis colts (indianapolis, in) w/ 317 others http://t.co/mewugy1h", 
             "fb_assoc": "buf ind ", 
@@ -2095,13 +1941,6 @@
             "fb_assoc": "ari ", 
             "fb_weight": "2", 
             "geoloc": "3.07276666,101.52148247"
-        }, 
-        {
-            "date_time": "sun nov 18 20:55:29 pst 2012", 
-            "tweet": "watching @icee0359  play cards they abt to. get it in", 
-            "fb_assoc": "fb ari ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='dallas',streetaddress='null',countrycode='us',id='18810aa5b43e76c7',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/18810aa5b43e76c7.json',fullname='dallas,tx',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@263d48b0],geometrytype='null',geometrycoordinates=null,containedwithin=null"
         }, 
         {
             "date_time": "sun nov 25 14:01:57 pst 2012", 
@@ -3364,482 +3203,6 @@
             "fb_assoc": "pit ", 
             "fb_weight": "2", 
             "geoloc": "39.31823356,-81.54847196"
-        }, 
-        {
-            "date_time": "sun nov 18 15:02:38 pst 2012", 
-            "tweet": "#steelersnation", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='indiana',streetaddress='null',countrycode='us',id='1010ecfa7d3a40f8',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/1010ecfa7d3a40f8.json',fullname='indiana,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@16176786],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:08:18 pst 2012", 
-            "tweet": "ready to see my #steelers take on them #ravens hopefully it'll be a great game win or lose", 
-            "fb_assoc": "pit bal ", 
-            "fb_weight": "10", 
-            "geoloc": "placejsonimpl{name='cayce',streetaddress='null',countrycode='us',id='11067e379dc320b8',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/11067e379dc320b8.json',fullname='cayce,sc',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@ccd26df],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:22:21 pst 2012", 
-            "tweet": "@kristinhaw8 fucking keselowski but the steelers got this", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='richmond',streetaddress='null',countrycode='us',id='04037ce87a99ba8e',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/04037ce87a99ba8e.json',fullname='richmond,va',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@2783890e],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:14:07 pst 2012", 
-            "tweet": "steelers jerseys #swag", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='north carolina',streetaddress='null',countrycode='us',id='3b98b02fba3f9753',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/3b98b02fba3f9753.json',fullname='north carolina,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@3dc5a51f],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:14:25 pst 2012", 
-            "tweet": "it's almost time for the real football game #steelersnation", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='bell',streetaddress='null',countrycode='us',id='2c1b78093786a74a',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/2c1b78093786a74a.json',fullname='bell,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@5d3818c2],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:23:14 pst 2012", 
-            "tweet": "please byron leftwich, don't suck.", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='tennessee',streetaddress='null',countrycode='us',id='7f7d58e5229c6b6c',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/7f7d58e5229c6b6c.json',fullname='tennessee,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4afc818c],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:24:12 pst 2012", 
-            "tweet": "steelers about to win .!! #pumpedaf' : )))", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='maryland',streetaddress='null',countrycode='us',id='dea1eac2d7ef8878',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/dea1eac2d7ef8878.json',fullname='maryland,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@408df350],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:24:34 pst 2012", 
-            "tweet": "fuck the steelers think they reyy win ? dfl", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='baltimore',streetaddress='null',countrycode='us',id='c0b8e8dc81930292',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/c0b8e8dc81930292.json',fullname='baltimore,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4294c7c3],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:25:05 pst 2012", 
-            "tweet": "da fuck are the steelers wearing?", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='bristol',streetaddress='null',countrycode='us',id='edc15b1873286650',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/edc15b1873286650.json',fullname='bristol,oh',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@232a81c9],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:25:28 pst 2012", 
-            "tweet": "lets go steelers!", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='rancho cucamonga',streetaddress='null',countrycode='us',id='36ac79e68ace76e4',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/36ac79e68ace76e4.json',fullname='rancho cucamonga,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@3a9cfedf],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:27:12 pst 2012", 
-            "tweet": "rt @steelers: \"here we go @steelers\"has started in heinz field.  this crowd is ready to roll!", 
-            "fb_assoc": "pit fb ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='los angeles',streetaddress='null',countrycode='us',id='3b77caf94bfc81fe',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/3b77caf94bfc81fe.json',fullname='los angeles,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@7fab6def],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:27:18 pst 2012", 
-            "tweet": "4 quarters of fury: ravens @steelers", 
-            "fb_assoc": "bal pit ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='rosaryville',streetaddress='null',countrycode='us',id='99057e9806f6d0e0',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/99057e9806f6d0e0.json',fullname='rosaryville,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@7da07162],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:27:41 pst 2012", 
-            "tweet": "flipping back &forth between the amas &the steelers #gameplan", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='ohio',streetaddress='null',countrycode='us',id='de599025180e2ee7',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/de599025180e2ee7.json',fullname='ohio,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@5c76d06a],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:32:05 pst 2012", 
-            "tweet": "ew! what are the steelers wearing?", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='littlestown',streetaddress='null',countrycode='us',id='35cb15d355ed9f1a',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/35cb15d355ed9f1a.json',fullname='littlestown,pa',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6e5ef727],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:32:36 pst 2012", 
-            "tweet": "the steelers look like they just got out of prison", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='university heights',streetaddress='null',countrycode='us',id='b47f2a32b49af59a',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/b47f2a32b49af59a.json',fullname='university heights,oh',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6d45e460],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:35:44 pst 2012", 
-            "tweet": "byron leftwich, not a bad start sir!", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='lawrence',streetaddress='null',countrycode='us',id='08e2b37735301da6',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/08e2b37735301da6.json',fullname='lawrence,in',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@51d50fde],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:37:15 pst 2012", 
-            "tweet": "byron leftwich should pull himself out. go out on top.", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='queens',streetaddress='null',countrycode='us',id='b6ea2e341ba4356f',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/b6ea2e341ba4356f.json',fullname='queens,ny',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@62b1f96f],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:39:15 pst 2012", 
-            "tweet": "@24k_dakidd yeah he was haha but the steelers have been playing real good lately", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='union',streetaddress='null',countrycode='us',id='45c9de11f68e4343',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/45c9de11f68e4343.json',fullname='union,pa',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@5705b2d3],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:40:34 pst 2012", 
-            "tweet": "i hope the #steelers field goal holder yanks the ball away at the last minute and the kicker lands on his back. #charliebrownstyle #nflfail", 
-            "fb_assoc": "fb pit ", 
-            "fb_weight": "7", 
-            "geoloc": "placejsonimpl{name='conover',streetaddress='null',countrycode='us',id='9674f9a2627aa2a6',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/9674f9a2627aa2a6.json',fullname='conover,wi',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@44685ce1],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:40:52 pst 2012", 
-            "tweet": "@jemelehill what are the steelers wearing?", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='fargo',streetaddress='null',countrycode='us',id='5c8fea63bc3faa5b',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/5c8fea63bc3faa5b.json',fullname='fargo,nd',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@2e3130c4],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:44:32 pst 2012", 
-            "tweet": "my babies have got this one in the bag. #steelersnation", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='upper allen',streetaddress='null',countrycode='us',id='fff89693fa6d9a7d',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/fff89693fa6d9a7d.json',fullname='upper allen,pa',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@405f4f03],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:45:18 pst 2012", 
-            "tweet": "glad to see saturday night live brought back the killer bees. oh wait, that's the pittsburgh steelers... #buzzz", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='north randall',streetaddress='null',countrycode='us',id='01856c8f5f14457f',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/01856c8f5f14457f.json',fullname='north randall,tx',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@450295c9],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:46:06 pst 2012", 
-            "tweet": "@justcallmetibbs you aint no head coach. you dont own the steelers!!", 
-            "fb_assoc": "pit fb ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='montgomery village',streetaddress='null',countrycode='us',id='a28bb9b582adac23',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/a28bb9b582adac23.json',fullname='montgomery village,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@1e38b6fa],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:47:23 pst 2012", 
-            "tweet": "so close@markajacob: with or without roethlisberger, ravens-steelers is always an exciting game! ed reed will score tonight in a ravens win!", 
-            "fb_assoc": "pit bal ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='rosemount',streetaddress='null',countrycode='us',id='1f0c90a1556ced8b',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/1f0c90a1556ced8b.json',fullname='rosemount,mn',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4a7d4add],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:47:52 pst 2012", 
-            "tweet": "go ravens kick the steelers ass #ravensnation", 
-            "fb_assoc": "bal fb pit ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='maryland',streetaddress='null',countrycode='us',id='dea1eac2d7ef8878',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/dea1eac2d7ef8878.json',fullname='maryland,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6ca5db85],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:56:06 pst 2012", 
-            "tweet": "theres so many steelers fans on my tl <<<", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='oak creek',streetaddress='null',countrycode='us',id='05d07f0891432eaa',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/05d07f0891432eaa.json',fullname='oak creek,wi',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@28b6520b],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:57:16 pst 2012", 
-            "tweet": "steelers uniforms are ugly af fb they need to burn them thangs", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='south carolina',streetaddress='null',countrycode='us',id='6057f1e35bcc6c20',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/6057f1e35bcc6c20.json',fullname='south carolina,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@30344e58],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:59:22 pst 2012", 
-            "tweet": "i'm a steelers fan but tbh the jersey they got on right now looks ugy af", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='avenel',streetaddress='null',countrycode='us',id='bda900177f5d9f42',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/bda900177f5d9f42.json',fullname='avenel,nj',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6292fab0],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:00:49 pst 2012", 
-            "tweet": "no offence steelers fans, but those uniforms...uh...yeah. #halfnakedbumblebee", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='amarillo',streetaddress='null',countrycode='us',id='52a0517c2183cf22',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/52a0517c2183cf22.json',fullname='amarillo,tx',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@7c3fb83e],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:01:45 pst 2012", 
-            "tweet": "#steelers nice job ike!", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='henderson',streetaddress='null',countrycode='us',id='0e2242eb8691df96',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/0e2242eb8691df96.json',fullname='henderson,nv',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@11e70f62],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:05:40 pst 2012", 
-            "tweet": "what's with the bumble bee suits? #yuck #steelers", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='ottawa',streetaddress='null',countrycode='ca',id='06183ca2a30a18e8',country='canada',placetype='city',url='http://api.twitter.com/1/geo/id/06183ca2a30a18e8.json',fullname='ottawa,ontario',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@65c9a477],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:06:38 pst 2012", 
-            "tweet": "typical ravens steelers game.  3 and out then punt.  typically the team that wins the turnover battle in these games wins. # snf", 
-            "fb_assoc": "bal pit fb ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='georgia',streetaddress='null',countrycode='us',id='7142eb97ae21e839',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/7142eb97ae21e839.json',fullname='georgia,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6d6849cf],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:07:33 pst 2012", 
-            "tweet": "fuck you ravons. we got you! #steelernation", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='ohio',streetaddress='null',countrycode='us',id='de599025180e2ee7',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/de599025180e2ee7.json',fullname='ohio,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@1e313298],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:09:19 pst 2012", 
-            "tweet": "\"@si_peterking: great to see another hideous set of uniforms on the steelers tonight.\" does anyone actually buy them?", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='texas',streetaddress='null',countrycode='us',id='e0060cda70f5f341',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/e0060cda70f5f341.json',fullname='texas,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@170a2f29],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:12:01 pst 2012", 
-            "tweet": "whoever is responsible for these ugly throwbacks for steelers should be fired....", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='montgomery',streetaddress='null',countrycode='us',id='7f061ded71fdc974',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/7f061ded71fdc974.json',fullname='montgomery,al',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@3d5807d],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:14:12 pst 2012", 
-            "tweet": "@macmiller your a fuck your current music represents steeler football... shitty #gobrowns", 
-            "fb_assoc": "pit cle ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='st. petersburg',streetaddress='null',countrycode='us',id='33ab2c2ae7a9e89d',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/33ab2c2ae7a9e89d.json',fullname='st. petersburg,fl',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@645bb9b8],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:14:51 pst 2012", 
-            "tweet": "let's go steelers!", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='kentucky',streetaddress='null',countrycode='us',id='6ffcf3b0b904bbcb',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/6ffcf3b0b904bbcb.json',fullname='kentucky,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6061bb01],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:15:41 pst 2012", 
-            "tweet": "steelers are gona get tired early !", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='baltimore',streetaddress='null',countrycode='us',id='c0b8e8dc81930292',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/c0b8e8dc81930292.json',fullname='baltimore,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@487c8c05],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:18:58 pst 2012", 
-            "tweet": "the steelers jerseys are so gross", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='georgia',streetaddress='null',countrycode='us',id='7142eb97ae21e839',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/7142eb97ae21e839.json',fullname='georgia,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@144e5ea5],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:32:42 pst 2012", 
-            "tweet": "shitsburgh steelers..", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='brentwood',streetaddress='null',countrycode='us',id='550261b0fc17fbe3',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/550261b0fc17fbe3.json',fullname='brentwood,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@24b48c3a],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:36:19 pst 2012", 
-            "tweet": "@dvebillcrawford i hope the steelers d starts playing some takeaway!", 
-            "fb_assoc": "pit fb ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='carnot-moon',streetaddress='null',countrycode='us',id='32b738914ba87cd4',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/32b738914ba87cd4.json',fullname='carnot-moon,pa',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@25972a5b],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:40:48 pst 2012", 
-            "tweet": "byron leftwich have a ugly release !", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='wisconsin',streetaddress='null',countrycode='us',id='7dc5c6d3bfb10ccc',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/7dc5c6d3bfb10ccc.json',fullname='wisconsin,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@22e9ac75],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:41:35 pst 2012", 
-            "tweet": "are the steelers losing yet? #snf", 
-            "fb_assoc": "pit fb ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='huber heights',streetaddress='null',countrycode='us',id='bd842967f7b1c643',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/bd842967f7b1c643.json',fullname='huber heights,oh',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@645c1312],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:47:41 pst 2012", 
-            "tweet": "who the hell made the steelers uniforms?", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='olive hill',streetaddress='null',countrycode='us',id='779b45c5bc6c3fda',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/779b45c5bc6c3fda.json',fullname='olive hill,nc',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@41ce82b],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:48:09 pst 2012", 
-            "tweet": "got another birthday gift today (: two browns tickets to the browns and steelers game (:", 
-            "fb_assoc": "cle pit ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='north ridgeville',streetaddress='null',countrycode='us',id='dba7a6611427dc73',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/dba7a6611427dc73.json',fullname='north ridgeville,oh',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@200db873],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:52:35 pst 2012", 
-            "tweet": "those #steelers jerseys are just awful.", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='indianapolis',streetaddress='null',countrycode='us',id='206837afe6e13d1c',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/206837afe6e13d1c.json',fullname='indianapolis,in',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@3da7d1b0],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:14:32 pst 2012", 
-            "tweet": "let's go steelers!", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='mount penn',streetaddress='null',countrycode='us',id='786c3bc2e1e59b4e',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/786c3bc2e1e59b4e.json',fullname='mount penn,pa',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@28d4b13d],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:18:34 pst 2012", 
-            "tweet": "everyone get your epi-pens out the steelers are playing in their throwbacks #gobrowns", 
-            "fb_assoc": "pit cle ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='boston',streetaddress='null',countrycode='us',id='67b98f17fdcf20be',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/67b98f17fdcf20be.json',fullname='boston,ma',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6bb33971],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:27:47 pst 2012", 
-            "tweet": "@noellazo1 it's a throwback uniform...respect the steelers u meanie", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='rutherford',streetaddress='null',countrycode='us',id='25d1ef4322ba8e3c',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/25d1ef4322ba8e3c.json',fullname='rutherford,nj',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@7501c2e1],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:34:46 pst 2012", 
-            "tweet": "steelers quarterback be throwing rocks, he's one of them swampboys lol", 
-            "fb_assoc": "pit fb ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='pennsylvania',streetaddress='null',countrycode='us',id='dd9c503d6c35364b',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/dd9c503d6c35364b.json',fullname='pennsylvania,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@2ee88bd0],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:35:31 pst 2012", 
-            "tweet": "dear pittsburgh steelers: please \"retire\" those horrible throwback uniforms. so ugly!", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='san jose',streetaddress='null',countrycode='us',id='7d62cffe6f98f349',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/7d62cffe6f98f349.json',fullname='san jose,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@cf562cb],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:35:32 pst 2012", 
-            "tweet": "#steelers are again, gaining momentum on this current drive.", 
-            "fb_assoc": "fb pit ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='sunnyvale',streetaddress='null',countrycode='us',id='45cadd6ef118ec9f',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/45cadd6ef118ec9f.json',fullname='sunnyvale,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@12ca5bad],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:37:03 pst 2012", 
-            "tweet": "steelers got some ugly ass jerseys on.", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='maryland',streetaddress='null',countrycode='us',id='dea1eac2d7ef8878',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/dea1eac2d7ef8878.json',fullname='maryland,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@51c5f232],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:44:54 pst 2012", 
-            "tweet": "this ravens steelers game is on point!!!", 
-            "fb_assoc": "bal pit ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='morton',streetaddress='null',countrycode='us',id='6f3cb43929d42a99',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/6f3cb43929d42a99.json',fullname='morton,ms',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@2a747a37],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:48:41 pst 2012", 
-            "tweet": "we have got to stop giving steelers chances and convert", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='columbia',streetaddress='null',countrycode='us',id='923f01273a937690',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/923f01273a937690.json',fullname='columbia,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@7b764b9f],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:49:52 pst 2012", 
-            "tweet": "qb de los #steelers esta muy lento lento", 
-            "fb_assoc": "fb pit ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='hermosillo',streetaddress='null',countrycode='mx',id='0fb3c76f0e3df6d1',country='mexico',placetype='city',url='http://api.twitter.com/1/geo/id/0fb3c76f0e3df6d1.json',fullname='hermosillo,sonora',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@5ea28b80],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:54:59 pst 2012", 
-            "tweet": "john legend?....  oh...  nah that's charlie batch", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='atlanta',streetaddress='null',countrycode='us',id='8173485c72e78ca5',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/8173485c72e78ca5.json',fullname='atlanta,ga',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6ed8b6fd],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:58:26 pst 2012", 
-            "tweet": "charlie batch sighting. theres no way he plays in this game. i mean, c'mon, he's gotta be pushing 50, right? #snf", 
-            "fb_assoc": "pit fb ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='baugo',streetaddress='null',countrycode='us',id='cf63cf441cfbe6a8',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/cf63cf441cfbe6a8.json',fullname='baugo,in',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@161add8c],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:15:10 pst 2012", 
-            "tweet": "don't give up boys! #herewegosteelers #steelersnation #mytweetsshouldbehelpingyouwinright?", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='canton',streetaddress='null',countrycode='us',id='821ffeeb4470a6ac',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/821ffeeb4470a6ac.json',fullname='canton,oh',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@486ce6c6],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:18:42 pst 2012", 
-            "tweet": "go back to your hive, steelers", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='framingham',streetaddress='null',countrycode='us',id='dbd1411661903bb0',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/dbd1411661903bb0.json',fullname='framingham,ma',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@5e95cdac],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:28:44 pst 2012", 
-            "tweet": "let's go leftwich . get this drive going. i hate the steelers and the ravens but i hate the ravens more", 
-            "fb_assoc": "fb pit bal ", 
-            "fb_weight": "7", 
-            "geoloc": "placejsonimpl{name='white marsh',streetaddress='null',countrycode='us',id='3d15925dbe48f7e6',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/3d15925dbe48f7e6.json',fullname='white marsh,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4f5992e6],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:30:55 pst 2012", 
-            "tweet": "heath miller just got fucked.", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='bellevue',streetaddress='null',countrycode='us',id='097379ee263e675d',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/097379ee263e675d.json',fullname='bellevue,ne',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6d4d9023],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:35:27 pst 2012", 
-            "tweet": "bernard pollard just killed jerricho cotchery #thatswhathedoes", 
-            "fb_assoc": "bal pit ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='taunton',streetaddress='null',countrycode='us',id='642651131f2e976b',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/642651131f2e976b.json',fullname='taunton,ma',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@311a3c9d],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:35:45 pst 2012", 
-            "tweet": "where's all the steelers haters now? #ravensnation", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='ohio',streetaddress='null',countrycode='us',id='de599025180e2ee7',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/de599025180e2ee7.json',fullname='ohio,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@46488fac],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:38:48 pst 2012", 
-            "tweet": "get well ben. see you in 2 weeks. i see you @ike_swagginu @keenanlewis23 shut it down on the outside tonight. #steelernation", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='florida',streetaddress='null',countrycode='us',id='4ec01c9dbc693497',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/4ec01c9dbc693497.json',fullname='florida,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4936f63e],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:41:47 pst 2012", 
-            "tweet": "steelers fan claim they aint have nobody...  and we did?", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='baltimore',streetaddress='null',countrycode='us',id='c0b8e8dc81930292',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/c0b8e8dc81930292.json',fullname='baltimore,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@57385d16],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:43:18 pst 2012", 
-            "tweet": "the @steelers fans look sick right now.", 
-            "fb_assoc": "pit ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='baltimore',streetaddress='null',countrycode='us',id='c0b8e8dc81930292',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/c0b8e8dc81930292.json',fullname='baltimore,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@74ced4e1],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 21:50:33 pst 2012", 
-            "tweet": "charlie batch should  of been the starting tonight at qb", 
-            "fb_assoc": "fb pit ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='south carolina',streetaddress='null',countrycode='us',id='6057f1e35bcc6c20',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/6057f1e35bcc6c20.json',fullname='south carolina,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@1934d131],geometrytype='null',geometrycoordinates=null,containedwithin=null"
         }, 
         {
             "date_time": "sun nov 25 10:03:25 pst 2012", 
@@ -5202,76 +4565,6 @@
             "geoloc": "36.11358173,-115.07817962"
         }, 
         {
-            "date_time": "sun nov 18 15:27:55 pst 2012", 
-            "tweet": "ancora oggi nel 2012 la gente si diverte a prendere in giro qualcuno definendolo grasso e brutto tnt ad indurlo a farsi del male.che schifo.", 
-            "fb_assoc": "min ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='carloforte',streetaddress='null',countrycode='it',id='d0106758bc56e1e3',country='italy',placetype='city',url='http://api.twitter.com/1/geo/id/d0106758bc56e1e3.json',fullname='carloforte,carbonia-iglesias',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@28acb67a],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:41:51 pst 2012", 
-            "tweet": "@kitri_odette ci sentiamo domani ;) buonanotte ad entrambe :d", 
-            "fb_assoc": "min ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='foggia',streetaddress='null',countrycode='it',id='69ea85b235fbc6ac',country='italy',placetype='city',url='http://api.twitter.com/1/geo/id/69ea85b235fbc6ac.json',fullname='foggia,foggia',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@78b8f5f5],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:43:34 pst 2012", 
-            "tweet": "ad ap dg diriku akhir2 ini?????", 
-            "fb_assoc": "min ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='padang utara',streetaddress='null',countrycode='id',id='ef4502813391696a',country='indonesia',placetype='city',url='http://api.twitter.com/1/geo/id/ef4502813391696a.json',fullname='padang utara,kota padang',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@215a463d],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:48:52 pst 2012", 
-            "tweet": "ad acara ap bro? \"@garyxl_pladgest: @efraim_anto @ellandak @istauton apakah hari ini mau latihan? jamberapa? 5 hari lg ya? hahahahaha.....\"", 
-            "fb_assoc": "min ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='setia budi',streetaddress='null',countrycode='id',id='66555622726ab358',country='indonesia',placetype='city',url='http://api.twitter.com/1/geo/id/66555622726ab358.json',fullname='setia budi,jakarta selatan',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@48d3b591],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:51:19 pst 2012", 
-            "tweet": "@chrisblackmon95 lol hahaha bro i could think of shit all day to post on this", 
-            "fb_assoc": "fb min ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='tyler',streetaddress='null',countrycode='us',id='9d4c71b7937a3a90',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/9d4c71b7937a3a90.json',fullname='tyler,tx',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@368c7bd5],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:06:47 pst 2012", 
-            "tweet": "@sahabat_pku ntar lagi @noah_id manggung ad kgitan apa nehh sahabat,....", 
-            "fb_assoc": "min ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='rumbai',streetaddress='null',countrycode='id',id='b2927bfe01505f46',country='indonesia',placetype='city',url='http://api.twitter.com/1/geo/id/b2927bfe01505f46.json',fullname='rumbai,kota pekan baru',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@70b7ca0],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:10:04 pst 2012", 
-            "tweet": "harus ad terobosannnn .., bismilah", 
-            "fb_assoc": "min ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='katibung',streetaddress='null',countrycode='id',id='7884f000ca947284',country='indonesia',placetype='city',url='http://api.twitter.com/1/geo/id/7884f000ca947284.json',fullname='katibung,lampung selatan',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4c874481],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:17:13 pst 2012", 
-            "tweet": "i viaggi interiori sono terribili, ti costringono ad affrontare quelle paure che avevi nascosto in un angolo rispolverandole per l'occasione", 
-            "fb_assoc": "min ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='ozzano dell'emilia',streetaddress='null',countrycode='it',id='0643d4146ba6d804',country='italy',placetype='city',url='http://api.twitter.com/1/geo/id/0643d4146ba6d804.json',fullname='ozzano dell'emilia,bologna',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4754a750],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:49:27 pst 2012", 
-            "tweet": "@justinbieber stop grabbing your crotch ad stop dancing with nicki it's all makin me very uncomfortable", 
-            "fb_assoc": "min ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='upper dublin',streetaddress='null',countrycode='us',id='c5c98ed66d62fd7e',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/c5c98ed66d62fd7e.json',fullname='upper dublin,pa',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@efd81de],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 21:11:56 pst 2012", 
-            "tweet": "wealah,,, nie bukti ne tak sapa2 by tweet.. hehehe.. rt @abiallamsyah: buktinya, lama g ad sapa2. smbong smua. rt @ayik_cutegirl:", 
-            "fb_assoc": "min ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='gubeng',streetaddress='null',countrycode='id',id='c05dfe6f552ce6b1',country='indonesia',placetype='city',url='http://api.twitter.com/1/geo/id/c05dfe6f552ce6b1.json',fullname='gubeng,kota surabaya',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4be9246f],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
             "date_time": "sun nov 25 09:51:07 pst 2012", 
             "tweet": "@raffyazmiee weyh..tiket ad lgi x mggu dpn meesia vs indon..", 
             "fb_assoc": "min ", 
@@ -6284,55 +5577,6 @@
             "geoloc": "6.60020532,3.51829362"
         }, 
         {
-            "date_time": "sun nov 18 16:00:09 pst 2012", 
-            "tweet": "cowboys beat browns in ot, which is like taking 8 rounds to beat a corpse in a boxing match.", 
-            "fb_assoc": "dal cle ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='greeneville',streetaddress='null',countrycode='us',id='a46b4fbafe0dd5af',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/a46b4fbafe0dd5af.json',fullname='greeneville,tn',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6bee2292],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:55:51 pst 2012", 
-            "tweet": "chris brown, trey songz, or usher for fav r&b artist..... #teamtrey", 
-            "fb_assoc": "cle fb ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='dickson city',streetaddress='null',countrycode='us',id='5d7ccc32a0f15431',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/5d7ccc32a0f15431.json',fullname='dickson city,pa',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@5222a11b],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:14:12 pst 2012", 
-            "tweet": "@macmiller your a fuck your current music represents steeler football... shitty #gobrowns", 
-            "fb_assoc": "pit cle ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='st. petersburg',streetaddress='null',countrycode='us',id='33ab2c2ae7a9e89d',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/33ab2c2ae7a9e89d.json',fullname='st. petersburg,fl',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@645bb9b8],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:42:45 pst 2012", 
-            "tweet": "@flyjujube yeah. it is just a lot of tofu mixed with vegetables, with random slices of tomato and some dry hash browns. 6/10 would digest", 
-            "fb_assoc": "cle ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='brownsville',streetaddress='null',countrycode='us',id='d48f32df6ecc8aaa',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/d48f32df6ecc8aaa.json',fullname='brownsville,tx',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@2bb9f4fc],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:48:09 pst 2012", 
-            "tweet": "got another birthday gift today (: two browns tickets to the browns and steelers game (:", 
-            "fb_assoc": "cle pit ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='north ridgeville',streetaddress='null',countrycode='us',id='dba7a6611427dc73',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/dba7a6611427dc73.json',fullname='north ridgeville,oh',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@200db873],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:18:34 pst 2012", 
-            "tweet": "everyone get your epi-pens out the steelers are playing in their throwbacks #gobrowns", 
-            "fb_assoc": "pit cle ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='boston',streetaddress='null',countrycode='us',id='67b98f17fdcf20be',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/67b98f17fdcf20be.json',fullname='boston,ma',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6bb33971],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:39:29 pst 2012", 
-            "tweet": "browns totally got screwed over", 
-            "fb_assoc": "cle ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='deforest',streetaddress='null',countrycode='us',id='fc9dc242984b1609',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/fc9dc242984b1609.json',fullname='deforest,wi',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@7d66924e],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
             "date_time": "sun nov 25 09:50:27 pst 2012", 
             "tweet": "@andyandyahh i'd say brown. carolina is one of the worst teams in the nfl. on top of that, they rank 18th in rush d vs. giants 14th.", 
             "fb_assoc": "cle fb nyg ", 
@@ -7054,34 +6298,6 @@
             "fb_assoc": "oak ", 
             "fb_weight": "2", 
             "geoloc": "36.7912758,-121.6716403"
-        }, 
-        {
-            "date_time": "sun nov 18 15:27:52 pst 2012", 
-            "tweet": "way to make it a close game raiders", 
-            "fb_assoc": "oak ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='manteca',streetaddress='null',countrycode='us',id='7cfaf4a257bca60a',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/7cfaf4a257bca60a.json',fullname='manteca,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@7bb3be4f],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:45:08 pst 2012", 
-            "tweet": "@dabz4dayz @nickpasquale27 @nnaaanddo @biigdcox the raiders suck", 
-            "fb_assoc": "oak ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='antioch',streetaddress='null',countrycode='us',id='9b101e0451f073b6',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/9b101e0451f073b6.json',fullname='antioch,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4d7d26eb],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:19:11 pst 2012", 
-            "tweet": "@fezziksports  so the raiders were the \"sharp play\" is that what all the pros played today? lmao at you.stop talking about fb u never played", 
-            "fb_assoc": "oak fb ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='schaumburg',streetaddress='null',countrycode='us',id='918c943e88cc3e5d',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/918c943e88cc3e5d.json',fullname='schaumburg,il',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@105c552f],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:21:51 pst 2012", 
-            "tweet": "see: last 10 yrs rt@timkawakami: what's the raiders' greatest weakness? really, what isn't, right now?: http://t.co/a2v1c1xr\"", 
-            "fb_assoc": "oak ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='austin',streetaddress='null',countrycode='us',id='c3f37afa9efcf94b',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/c3f37afa9efcf94b.json',fullname='austin,tx',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4341c758],geometrytype='null',geometrycoordinates=null,containedwithin=null"
         }, 
         {
             "date_time": "sun nov 25 11:13:07 pst 2012", 
@@ -7912,174 +7128,6 @@
             "geoloc": "-25.51587347,-48.53523743"
         }, 
         {
-            "date_time": "sun nov 18 15:12:43 pst 2012", 
-            "tweet": "the patriots cant go for these fuckboy colts!", 
-            "fb_assoc": "ne ind ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='salt creek',streetaddress='null',countrycode='us',id='1bfc92792baa03b5',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/1bfc92792baa03b5.json',fullname='salt creek,in',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4463a4bb],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:21:24 pst 2012", 
-            "tweet": "had wilfork caught that ball it would have been a top 10 play of all time. #patriots", 
-            "fb_assoc": "fb ne ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='manchester',streetaddress='null',countrycode='us',id='f1d134c7fd204d74',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/f1d134c7fd204d74.json',fullname='manchester,ct',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@3ff47b18],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:27:29 pst 2012", 
-            "tweet": "i have a #badbadfeeling that the @patriots will let the #colts back into the game. @nfloncbs #indvsne", 
-            "fb_assoc": "ne ind ", 
-            "fb_weight": "11", 
-            "geoloc": "placejsonimpl{name='canton',streetaddress='null',countrycode='us',id='11ad2827efa16878',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/11ad2827efa16878.json',fullname='canton,ga',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@240e4cbb],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:28:24 pst 2012", 
-            "tweet": "stop trying to be the #patriots and try to score on the punt return! just go down #colts", 
-            "fb_assoc": "fb ne ind ", 
-            "fb_weight": "13", 
-            "geoloc": "placejsonimpl{name='manhattan',streetaddress='null',countrycode='us',id='086752cb03de1d5d',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/086752cb03de1d5d.json',fullname='manhattan,ny',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@37021de],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:31:55 pst 2012", 
-            "tweet": "woohoo interception then touchdown gronk! #lovemyboys  #patriots", 
-            "fb_assoc": "fb ne ", 
-            "fb_weight": "9", 
-            "geoloc": "placejsonimpl{name='blackstone',streetaddress='null',countrycode='us',id='ba0428632ec4a76f',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/ba0428632ec4a76f.json',fullname='blackstone,ma',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@265a7006],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:33:13 pst 2012", 
-            "tweet": "awesome to see the #patriots score off a great defensive turnover", 
-            "fb_assoc": "fb ne ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='boston',streetaddress='null',countrycode='us',id='67b98f17fdcf20be',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/67b98f17fdcf20be.json',fullname='boston,ma',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@37423658],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:46:28 pst 2012", 
-            "tweet": "my patriots raping the colts", 
-            "fb_assoc": "ne ind ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='florida',streetaddress='null',countrycode='us',id='4ec01c9dbc693497',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/4ec01c9dbc693497.json',fullname='florida,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@93271bd],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:47:23 pst 2012", 
-            "tweet": "f the patriots lol look at that score lol", 
-            "fb_assoc": "ne ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='west springfield',streetaddress='null',countrycode='us',id='33ff2516301663e7',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/33ff2516301663e7.json',fullname='west springfield,va',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@67115cea],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:48:31 pst 2012", 
-            "tweet": "tom brady looks stupid in that toboggan.", 
-            "fb_assoc": "ne ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='berea',streetaddress='null',countrycode='us',id='79331dfa19658042',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/79331dfa19658042.json',fullname='berea,ky',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6f84cdab],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:53:36 pst 2012", 
-            "tweet": "how the pats defense get me 42 lmao", 
-            "fb_assoc": "ne fb ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='owings mills',streetaddress='null',countrycode='us',id='d84a2837f4d13599',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/d84a2837f4d13599.json',fullname='owings mills,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@2d656f92],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:16:52 pst 2012", 
-            "tweet": "the patriots came to fuck shit up", 
-            "fb_assoc": "ne ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='virginia beach',streetaddress='null',countrycode='us',id='84229b03659050aa',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/84229b03659050aa.json',fullname='virginia beach,va',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@1680748d],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:23:43 pst 2012", 
-            "tweet": "people say the patriots d sucked, and well the did but something must have clicked in practice cuz they are going #beastmode", 
-            "fb_assoc": "ne fb ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='massachusetts',streetaddress='null',countrycode='us',id='cd450c94084cbf9b',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/cd450c94084cbf9b.json',fullname='massachusetts,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@49d44a2],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:27:43 pst 2012", 
-            "tweet": "#demolition of the cols. what a game! #whosandrewluck? #patsnation", 
-            "fb_assoc": "ne ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='frederiksberg',streetaddress='null',countrycode='dk',id='6d83e8fc83a7c28f',country='denmark',placetype='city',url='http://api.twitter.com/1/geo/id/6d83e8fc83a7c28f.json',fullname='frederiksberg,capital region',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@305ba3ee],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:29:23 pst 2012", 
-            "tweet": "199 wins for patriots coach", 
-            "fb_assoc": "ne ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='bryan',streetaddress='null',countrycode='us',id='f70be696d1eb1051',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/f70be696d1eb1051.json',fullname='bryan,oh',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@5bc0ece2],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:35:23 pst 2012", 
-            "tweet": "@aduhjones_42  gronk has a broken forearm !!! wtf", 
-            "fb_assoc": "ne ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='weymouth',streetaddress='null',countrycode='us',id='69b7ed640da9394f',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/69b7ed640da9394f.json',fullname='weymouth,ma',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@1e6d1501],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:42:12 pst 2012", 
-            "tweet": "@robgronkowski out 4-6 weeks. consider me officially depressed. also screwed in fantasy. #patsfanprobs #patriots #gronknation", 
-            "fb_assoc": "ne ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='west palm beach',streetaddress='null',countrycode='us',id='03ee378d6ed2a73f',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/03ee378d6ed2a73f.json',fullname='west palm beach,fl',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4e3d24d8],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:52:38 pst 2012", 
-            "tweet": "@gibbey44 that's rough hope for the best i'm not a pats fan but i wouldn't wish that on anyone", 
-            "fb_assoc": "ne ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='new york',streetaddress='null',countrycode='us',id='94965b2c45386f87',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/94965b2c45386f87.json',fullname='new york,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6f2c508f],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:02:17 pst 2012", 
-            "tweet": "gronks forearm is broken. the pats are close to being fucked and a quarter of my fantasy team's points each week just went bye-bye. #done", 
-            "fb_assoc": "ne ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='somerville',streetaddress='null',countrycode='us',id='ae845a49091f2727',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/ae845a49091f2727.json',fullname='somerville,ma',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@186a3850],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:32:25 pst 2012", 
-            "tweet": "patriots fuckin the colts up", 
-            "fb_assoc": "ne ind ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='baltimore',streetaddress='null',countrycode='us',id='c0b8e8dc81930292',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/c0b8e8dc81930292.json',fullname='baltimore,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@5a0a4ec7],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:34:33 pst 2012", 
-            "tweet": "gronk broke his arm. i hate everything right now.", 
-            "fb_assoc": "ne ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='hempfield',streetaddress='null',countrycode='us',id='b83cd460efd74e93',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/b83cd460efd74e93.json',fullname='hempfield,pa',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6494c757],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:30:00 pst 2012", 
-            "tweet": "wait... gronk broke his arm today!?!?!", 
-            "fb_assoc": "ne ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='hamlin',streetaddress='null',countrycode='us',id='8d8ae6f3b21532cd',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/8d8ae6f3b21532cd.json',fullname='hamlin,ny',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@3766d107],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:37:56 pst 2012", 
-            "tweet": "@justindion gronk? ya. i can't stop thinking about him either. #poorguy", 
-            "fb_assoc": "ne ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='bristol',streetaddress='null',countrycode='us',id='958003fe9e8c1af2',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/958003fe9e8c1af2.json',fullname='bristol,ri',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@234c602d],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:47:47 pst 2012", 
-            "tweet": "@nadeemfakiri23 bro are you kidding me broncos played atlanta houston and patriots three weeks in a row i think", 
-            "fb_assoc": "den ne ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='newark',streetaddress='null',countrycode='us',id='e6d914169d6928b6',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/e6d914169d6928b6.json',fullname='newark,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@37115138],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:58:43 pst 2012", 
-            "tweet": "the pats are so petty, they ran up the score on the colts 59, so they could have the highest score on the season,over the ravens 55,  weak!!", 
-            "fb_assoc": "ne ind bal ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='elkridge',streetaddress='null',countrycode='us',id='d4f00e013186b461',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/d4f00e013186b461.json',fullname='elkridge,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@258185ce],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
             "date_time": "sun nov 25 10:52:54 pst 2012", 
             "tweet": "on thanksgiving, the patriots should play the redskins-and afterwards, steal their stadium.", 
             "fb_assoc": "ne fb ", 
@@ -8894,13 +7942,6 @@
             "geoloc": "41.33214138,-73.12997781"
         }, 
         {
-            "date_time": "sun nov 18 15:21:39 pst 2012", 
-            "tweet": "jets win. no one gets fired today.", 
-            "fb_assoc": "nyj ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='manhattan',streetaddress='null',countrycode='us',id='086752cb03de1d5d',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/086752cb03de1d5d.json',fullname='manhattan,ny',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@3cb0f929],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
             "date_time": "sun nov 25 14:51:08 pst 2012", 
             "tweet": "@rebekahjune same spot.  why didn't i see you?  were you late?  did you jet afterwards?", 
             "fb_assoc": "fb nyj ", 
@@ -9391,27 +8432,6 @@
             "fb_assoc": "hou ", 
             "fb_weight": "2", 
             "geoloc": "29.71079137,-95.66237293"
-        }, 
-        {
-            "date_time": "sun nov 18 14:59:04 pst 2012", 
-            "tweet": "schaub had 527 yards passing #damn", 
-            "fb_assoc": "hou fb ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='georgia',streetaddress='null',countrycode='us',id='7142eb97ae21e839',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/7142eb97ae21e839.json',fullname='georgia,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@1c843d62],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:13:32 pst 2012", 
-            "tweet": "i'm at reliant stadium for jacksonville jaguars vs houston texans (houston, tx) w/ 68 others http://t.co/alcg48yz", 
-            "fb_assoc": "jac hou ", 
-            "fb_weight": "8", 
-            "geoloc": "placejsonimpl{name='reliant stadium',streetaddress='null',countrycode='us',id='18bdd4c30e70fca2',country='united states',placetype='poi',url='http://api.twitter.com/1/geo/id/18bdd4c30e70fca2.json',fullname='reliant stadium,houston',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@16e16c5],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:36:25 pst 2012", 
-            "tweet": "jacoby jones is cheezin how come he didn't do that for the texans?!", 
-            "fb_assoc": "hou bal ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='liberty',streetaddress='null',countrycode='us',id='27a0a7a61c83eb4e',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/27a0a7a61c83eb4e.json',fullname='liberty,tx',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@7026df7e],geometrytype='null',geometrycoordinates=null,containedwithin=null"
         }, 
         {
             "date_time": "sun nov 25 13:48:41 pst 2012", 
@@ -9981,27 +9001,6 @@
             "fb_assoc": "phi was ", 
             "fb_weight": "7", 
             "geoloc": "40.26417936,-76.80213899"
-        }, 
-        {
-            "date_time": "sun nov 18 15:00:28 pst 2012", 
-            "tweet": "damn the redskins blew out the eagals", 
-            "fb_assoc": "was ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='calumet city',streetaddress='null',countrycode='us',id='6b745382f2cdbb67',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/6b745382f2cdbb67.json',fullname='calumet city,il',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@35801f01],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:01:00 pst 2012", 
-            "tweet": "my mvr's (most valuable @redskins) today. offense: @rgiii defense: @ryankerrigan91. great game guys!", 
-            "fb_assoc": "was fb ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='chatham-kent',streetaddress='null',countrycode='ca',id='93216b5c697cc292',country='canada',placetype='city',url='http://api.twitter.com/1/geo/id/93216b5c697cc292.json',fullname='chatham-kent,ontario',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@31a4ef37],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:08:45 pst 2012", 
-            "tweet": "santana moss has 12 points on my bench and torrey smith has 0 points in my lineup #fuckmeright #mosscouldntgetapointtosavehislifelastweek", 
-            "fb_assoc": "sf fb was bal ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='philadelphia',streetaddress='null',countrycode='us',id='e4a0d228eb6be76b',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/e4a0d228eb6be76b.json',fullname='philadelphia,pa',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@787faefa],geometrytype='null',geometrycoordinates=null,containedwithin=null"
         }, 
         {
             "date_time": "sun dec 02 12:21:02 pst 2012", 
@@ -11357,13 +10356,6 @@
             "geoloc": "40.79964606,-73.15032426"
         }, 
         {
-            "date_time": "sun nov 18 17:34:32 pst 2012", 
-            "tweet": "@dejan_kovacevic that offense has won the giants two super bowls.", 
-            "fb_assoc": "fb nyg ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='baltimore',streetaddress='null',countrycode='us',id='c0b8e8dc81930292',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/c0b8e8dc81930292.json',fullname='baltimore,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@495541d7],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
             "date_time": "sun nov 25 09:50:27 pst 2012", 
             "tweet": "@andyandyahh i'd say brown. carolina is one of the worst teams in the nfl. on top of that, they rank 18th in rush d vs. giants 14th.", 
             "fb_assoc": "cle fb nyg ", 
@@ -12666,55 +11658,6 @@
             "fb_assoc": "dal phi ", 
             "fb_weight": "4", 
             "geoloc": "33.97655835,-118.38825563"
-        }, 
-        {
-            "date_time": "sun nov 18 17:21:19 pst 2012", 
-            "tweet": "eagles & ravens>>>", 
-            "fb_assoc": "phi bal ", 
-            "fb_weight": "8", 
-            "geoloc": "placejsonimpl{name='killona',streetaddress='null',countrycode='us',id='6c9cc62f62de3018',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/6c9cc62f62de3018.json',fullname='killona,la',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@3cf62b64],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:20:59 pst 2012", 
-            "tweet": "@joshgibbel you prolly don't need to google the fact that he killed the eagles.", 
-            "fb_assoc": "phi ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='lancaster',streetaddress='null',countrycode='us',id='0774aa7280ccd221',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/0774aa7280ccd221.json',fullname='lancaster,pa',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@7ce5bd],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:29:17 pst 2012", 
-            "tweet": "@all_philled_up haha truth!! i do like the eagles, but....we all know how that's going", 
-            "fb_assoc": "phi ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='pennsauken',streetaddress='null',countrycode='us',id='f89051370206c434',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/f89051370206c434.json',fullname='pennsauken,nj',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@37dcf2dd],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:54:21 pst 2012", 
-            "tweet": "\"@sportsshitnos: look out, the eagles are on a hot streak\" @itshonestlybray", 
-            "fb_assoc": "phi ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='heathrow',streetaddress='null',countrycode='us',id='5087d9a47d575e00',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/5087d9a47d575e00.json',fullname='heathrow,fl',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@be60d4b],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:42:02 pst 2012", 
-            "tweet": "@thatbeardeddude ha i know man your happy because skins destroyed the eagles lol", 
-            "fb_assoc": "phi ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='poquoson',streetaddress='null',countrycode='us',id='1b43a94412b22135',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/1b43a94412b22135.json',fullname='poquoson,va',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@48e0339f],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:43:36 pst 2012", 
-            "tweet": "@chrisburke_si better than the skins - eagles... really bad games today.", 
-            "fb_assoc": "phi ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='cuajimalpa de morelos',streetaddress='null',countrycode='mx',id='e86e154b91acd5a3',country='mexico',placetype='city',url='http://api.twitter.com/1/geo/id/e86e154b91acd5a3.json',fullname='cuajimalpa de morelos,distrito federal',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@65e6cf27],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:50:21 pst 2012", 
-            "tweet": "@airforcefalvey just don't even talk, the fact that you like the eagles is insulting enough towards your intelligence", 
-            "fb_assoc": "phi ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='virginia',streetaddress='null',countrycode='us',id='5635c19c2b5078d1',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/5635c19c2b5078d1.json',fullname='virginia,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@1ef32c0d],geometrytype='null',geometrycoordinates=null,containedwithin=null"
         }, 
         {
             "date_time": "sun nov 25 12:18:59 pst 2012", 
@@ -14945,27 +13888,6 @@
             "geoloc": "30.0873384,-94.15067797"
         }, 
         {
-            "date_time": "sun nov 18 16:00:09 pst 2012", 
-            "tweet": "cowboys beat browns in ot, which is like taking 8 rounds to beat a corpse in a boxing match.", 
-            "fb_assoc": "dal cle ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='greeneville',streetaddress='null',countrycode='us',id='a46b4fbafe0dd5af',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/a46b4fbafe0dd5af.json',fullname='greeneville,tn',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6bee2292],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:20:09 pst 2012", 
-            "tweet": "i really wish i could play cowboys and indians right about now...", 
-            "fb_assoc": "fb dal ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='auburn',streetaddress='null',countrycode='us',id='deb349182b3f42bb',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/deb349182b3f42bb.json',fullname='auburn,al',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@3e8f0e73],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 21:45:47 pst 2012", 
-            "tweet": "@walkertxben thanks ;) i hope so! congrats on your cowboys", 
-            "fb_assoc": "dal ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='lakewood',streetaddress='null',countrycode='us',id='0fc6568d145d84ac',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/0fc6568d145d84ac.json',fullname='lakewood,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@1aa152b9],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
             "date_time": "sun nov 25 10:20:19 pst 2012", 
             "tweet": "@marclamonthill @ericbolling sigh. cowboys fan :-(  i hear you & empathize with you. but, i've been sad for many more post seasons than you.", 
             "fb_assoc": "dal fb ", 
@@ -15535,76 +14457,6 @@
     ], 
     "buf": [
         {
-            "date_time": "sun oct 21 11:20:09 pdt 2012", 
-            "tweet": "i could run for 100 yards against the buffalo bills #nojoke #awful", 
-            "fb_assoc": "fb buf ", 
-            "fb_weight": "4", 
-            "geoloc": "43.21025583,-79.9591125"
-        }, 
-        {
-            "date_time": "sun oct 21 12:08:26 pdt 2012", 
-            "tweet": "did donald jones just 'jump on it'? yeaaah! #sirmixalot", 
-            "fb_assoc": "buf ", 
-            "fb_weight": "2", 
-            "geoloc": "37.6131138,-122.3851294"
-        }, 
-        {
-            "date_time": "sun oct 21 12:24:22 pdt 2012", 
-            "tweet": "@growlphc because a lot of people are tweeting donald jones?", 
-            "fb_assoc": "buf ", 
-            "fb_weight": "2", 
-            "geoloc": "36.17002681,-115.25397252"
-        }, 
-        {
-            "date_time": "sun oct 21 12:57:46 pdt 2012", 
-            "tweet": "steve johnson #gangnamstyle #loveit #loveyou #awesome  #billieve #nfl", 
-            "fb_assoc": "buf fb ", 
-            "fb_weight": "8", 
-            "geoloc": "43.13559521,-77.60551813"
-        }, 
-        {
-            "date_time": "sun oct 21 13:03:58 pdt 2012", 
-            "tweet": "typical bills defense", 
-            "fb_assoc": "buf fb ", 
-            "fb_weight": "3", 
-            "geoloc": "35.77952097,-78.73390285"
-        }, 
-        {
-            "date_time": "sun oct 21 13:08:13 pdt 2012", 
-            "tweet": "@rpulvino good to see they are all best friends after the game. i stress way more than those stupid athletes. #bills", 
-            "fb_assoc": "buf ", 
-            "fb_weight": "5", 
-            "geoloc": "43.17105214,-77.55311749"
-        }, 
-        {
-            "date_time": "sun oct 21 13:10:18 pdt 2012", 
-            "tweet": "@buffalobills announcers clown on no pressure wannstedt", 
-            "fb_assoc": "buf ", 
-            "fb_weight": "3", 
-            "geoloc": "30.50450265,-87.39054713"
-        }, 
-        {
-            "date_time": "sun oct 21 13:15:05 pdt 2012", 
-            "tweet": "#bullsonparade", 
-            "fb_assoc": "buf ", 
-            "fb_weight": "3", 
-            "geoloc": "39.4321435,-87.4187846"
-        }, 
-        {
-            "date_time": "sun oct 21 13:20:11 pdt 2012", 
-            "tweet": "can't even get the materialistic things in life. thanks #bills", 
-            "fb_assoc": "buf ", 
-            "fb_weight": "5", 
-            "geoloc": "42.62486523,-78.75850772"
-        }, 
-        {
-            "date_time": "sun oct 21 13:32:51 pdt 2012", 
-            "tweet": "babyyyyy @giarratano18 #billsmafia  @ ralph wilson stadium http://t.co/v1itirye", 
-            "fb_assoc": "buf ", 
-            "fb_weight": "2", 
-            "geoloc": "42.77389902,-78.78807399"
-        }, 
-        {
             "date_time": "sun oct 21 15:54:58 pdt 2012", 
             "tweet": "miss the high schools days, no #bills #worries", 
             "fb_assoc": "buf ", 
@@ -15876,41 +14728,6 @@
             "fb_assoc": "buf ", 
             "fb_weight": "2", 
             "geoloc": "38.30774962,-104.61720949"
-        }, 
-        {
-            "date_time": "sun nov 18 15:39:26 pst 2012", 
-            "tweet": "@mayfieldxc 26. bill rodgers: \"a change of pace in terms of your running pace will give you strength psychologically.\"", 
-            "fb_assoc": "buf gb ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='shaftsbury',streetaddress='null',countrycode='us',id='d12b9b5d0e2cfc8c',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/d12b9b5d0e2cfc8c.json',fullname='shaftsbury,vt',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@1dfd90d9],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:42:25 pst 2012", 
-            "tweet": "i fucken hate being broke its gonna be a sad christmas for me i won't be able to buy anything for myself or anyone else only bills", 
-            "fb_assoc": "buf ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='salinas',streetaddress='null',countrycode='us',id='fa37e818b629e4ea',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/fa37e818b629e4ea.json',fullname='salinas,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@2c373b85],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:20:54 pst 2012", 
-            "tweet": "both my buffalo bills and atlanta falcons won this week #billsmafia #atlantafalcons", 
-            "fb_assoc": "buf atl ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='new york',streetaddress='null',countrycode='us',id='94965b2c45386f87',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/94965b2c45386f87.json',fullname='new york,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@9be2eac],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:04:39 pst 2012", 
-            "tweet": "if you're a bills fan you look forward to college football. #billsnation", 
-            "fb_assoc": "buf ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='huntington',streetaddress='null',countrycode='us',id='e4197a23034fa912',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/e4197a23034fa912.json',fullname='huntington,wv',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@7655ff39],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:39:49 pst 2012", 
-            "tweet": "bout dat fast food life bitch it pay dim bills doe", 
-            "fb_assoc": "buf ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='portage lakes',streetaddress='null',countrycode='us',id='5b4e97d2697a59a0',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/5b4e97d2697a59a0.json',fullname='portage lakes,oh',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4258426],geometrytype='null',geometrycoordinates=null,containedwithin=null"
         }, 
         {
             "date_time": "sun nov 25 09:51:47 pst 2012", 
@@ -16540,13 +15357,6 @@
             "geoloc": "38.94984573,-76.82591837"
         }, 
         {
-            "date_time": "sun nov 18 15:18:05 pst 2012", 
-            "tweet": "@espn_firsttake injured last year in college still drafted #1 overall with a $50mil rookie contract? have the rams won their division?", 
-            "fb_assoc": "fb stl ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='rock hill',streetaddress='null',countrycode='us',id='f840129794eba96f',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/f840129794eba96f.json',fullname='rock hill,va',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@465c16],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
             "date_time": "sun nov 25 11:35:11 pst 2012", 
             "tweet": "i wish the few rams fans in albuquerque were this cute haha. #hevean", 
             "fb_assoc": "stl ", 
@@ -16918,20 +15728,6 @@
             "fb_assoc": "den car ", 
             "fb_weight": "6", 
             "geoloc": "35.22578807,-80.85283041"
-        }, 
-        {
-            "date_time": "sun nov 18 15:00:32 pst 2012", 
-            "tweet": "panthers are ass to", 
-            "fb_assoc": "car ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='baltimore',streetaddress='null',countrycode='us',id='c0b8e8dc81930292',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/c0b8e8dc81930292.json',fullname='baltimore,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@46157e43],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:43:56 pst 2012", 
-            "tweet": "really @panthers? useless twits", 
-            "fb_assoc": "car ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='concord',streetaddress='null',countrycode='us',id='ec689e69912965d0',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/ec689e69912965d0.json',fullname='concord,nc',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@469657c4],geometrytype='null',geometrycoordinates=null,containedwithin=null"
         }, 
         {
             "date_time": "sun nov 25 13:21:54 pst 2012", 
@@ -17676,13 +16472,6 @@
             "fb_assoc": "atl fb ", 
             "fb_weight": "3", 
             "geoloc": "30.02820358,-95.44666779"
-        }, 
-        {
-            "date_time": "sun nov 18 17:20:54 pst 2012", 
-            "tweet": "both my buffalo bills and atlanta falcons won this week #billsmafia #atlantafalcons", 
-            "fb_assoc": "buf atl ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='new york',streetaddress='null',countrycode='us',id='94965b2c45386f87',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/94965b2c45386f87.json',fullname='new york,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@9be2eac],geometrytype='null',geometrycoordinates=null,containedwithin=null"
         }, 
         {
             "date_time": "sun nov 25 09:50:26 pst 2012", 
@@ -18583,34 +17372,6 @@
             "geoloc": "38.9645301,-75.788177"
         }, 
         {
-            "date_time": "sun nov 18 15:27:26 pst 2012", 
-            "tweet": "@adamaizer outdoor lance moore?? what is this?", 
-            "fb_assoc": "no ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='troy',streetaddress='null',countrycode='us',id='14e0718693c32fdb',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/14e0718693c32fdb.json',fullname='troy,il',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@5bb10cf0],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:38:10 pst 2012", 
-            "tweet": "nobody is more elite than brees!", 
-            "fb_assoc": " no ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='shreveport',streetaddress='null',countrycode='us',id='4ec71fc3f2579572',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/4ec71fc3f2579572.json',fullname='shreveport,la',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@617e0655],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:48:12 pst 2012", 
-            "tweet": "dammit play the fucking saints highlights", 
-            "fb_assoc": "fb no ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='south san gabriel',streetaddress='null',countrycode='us',id='2d6aea733609e3e4',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/2d6aea733609e3e4.json',fullname='south san gabriel,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@5e4fd89b],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:52:14 pst 2012", 
-            "tweet": "lol @ will smith throwback #ama", 
-            "fb_assoc": "no ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='charlotte',streetaddress='null',countrycode='us',id='512a8a4a4c4b4be0',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/512a8a4a4c4b4be0.json',fullname='charlotte,nc',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@1c040a30],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
             "date_time": "sun nov 25 10:36:03 pst 2012", 
             "tweet": "@muzzakman07 well u said my folks and i dont want the saints to think im rude!!!", 
             "fb_assoc": "no ", 
@@ -19129,55 +17890,6 @@
             "fb_assoc": "chi det ", 
             "fb_weight": "6", 
             "geoloc": "41.74380442,-88.27462161"
-        }, 
-        {
-            "date_time": "sun nov 18 15:01:53 pst 2012", 
-            "tweet": "lions suck", 
-            "fb_assoc": "det ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='avon',streetaddress='null',countrycode='us',id='9d8a608c1895dce3',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/9d8a608c1895dce3.json',fullname='avon,oh',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@7b910b0],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:25:43 pst 2012", 
-            "tweet": "#team1410. who were those blowhards on the western final pregame show? so confident that bc lions would win. egg on your face now!", 
-            "fb_assoc": "det ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='greater vancouver',streetaddress='null',countrycode='ca',id='216dd1bcf824f9f7',country='canada',placetype='city',url='http://api.twitter.com/1/geo/id/216dd1bcf824f9f7.json',fullname='greater vancouver,british columbia',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6a4993d4],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:25:52 pst 2012", 
-            "tweet": "@gregy20723 go lions!", 
-            "fb_assoc": "det ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='division no. 11',streetaddress='null',countrycode='ca',id='a4250159876a9671',country='canada',placetype='city',url='http://api.twitter.com/1/geo/id/a4250159876a9671.json',fullname='division no. 11,alberta',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@77878e70],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:39:56 pst 2012", 
-            "tweet": "the only person more pissed about that garbage time backdoor cover bullshit touchdown is calvin johnson", 
-            "fb_assoc": "fb det ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='north carolina',streetaddress='null',countrycode='us',id='3b98b02fba3f9753',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/3b98b02fba3f9753.json',fullname='north carolina,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@79dba740],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:42:53 pst 2012", 
-            "tweet": "my dreads represent that i have a heart of lion .", 
-            "fb_assoc": "det ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='gastonia',streetaddress='null',countrycode='us',id='e7aa53e3e1531b99',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/e7aa53e3e1531b99.json',fullname='gastonia,nc',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@445a14e3],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:21:04 pst 2012", 
-            "tweet": "rise and then rise again until lambs become lions.", 
-            "fb_assoc": "det ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='kalamazoo',streetaddress='null',countrycode='us',id='413ef5a0d23bfe4f',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/413ef5a0d23bfe4f.json',fullname='kalamazoo,mi',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@1a59d9b3],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:15:42 pst 2012", 
-            "tweet": "snoop dogg is dead, long live snoop lion !", 
-            "fb_assoc": "det ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='paris',streetaddress='null',countrycode='fr',id='3102b24b5af90698',country='france',placetype='admin',url='http://api.twitter.com/1/geo/id/3102b24b5af90698.json',fullname='paris,\u00eele-de-france',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@10c14e39],geometrytype='null',geometrycoordinates=null,containedwithin=null"
         }, 
         {
             "date_time": "sun nov 25 10:34:06 pst 2012", 
@@ -19702,13 +18414,6 @@
             "geoloc": "48.48415205,-108.76001717"
         }, 
         {
-            "date_time": "sun nov 18 16:13:32 pst 2012", 
-            "tweet": "i'm at reliant stadium for jacksonville jaguars vs houston texans (houston, tx) w/ 68 others http://t.co/alcg48yz", 
-            "fb_assoc": "jac hou ", 
-            "fb_weight": "8", 
-            "geoloc": "placejsonimpl{name='reliant stadium',streetaddress='null',countrycode='us',id='18bdd4c30e70fca2',country='united states',placetype='poi',url='http://api.twitter.com/1/geo/id/18bdd4c30e70fca2.json',fullname='reliant stadium,houston',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@16e16c5],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
             "date_time": "sun nov 25 10:03:55 pst 2012", 
             "tweet": "to the 203 jaguars fans who came to the stadium today - y'all are hardcore", 
             "fb_assoc": "jac ", 
@@ -20003,55 +18708,6 @@
             "fb_assoc": "den car ", 
             "fb_weight": "6", 
             "geoloc": "35.22578807,-80.85283041"
-        }, 
-        {
-            "date_time": "sun nov 18 15:03:23 pst 2012", 
-            "tweet": "lost in fantasy in my big league, matty ice played horrible. broncos putting in work though #bittersweet", 
-            "fb_assoc": "den ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='jersey city',streetaddress='null',countrycode='us',id='b046074b1030a44d',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/b046074b1030a44d.json',fullname='jersey city,nj',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@44705b81],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:17:15 pst 2012", 
-            "tweet": "i don't think i've ever seen a defense harrass p.rivers like the broncos i smell a wait for it wait for it int!", 
-            "fb_assoc": "fb den ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='spring valley',streetaddress='null',countrycode='us',id='b1bde2bd6a60ac14',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/b1bde2bd6a60ac14.json',fullname='spring valley,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@417f69df],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 15:30:36 pst 2012", 
-            "tweet": "#broncos 2nd half = yawn.", 
-            "fb_assoc": "den ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='colorado',streetaddress='null',countrycode='us',id='e21c8e4914eef2b3',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/e21c8e4914eef2b3.json',fullname='colorado,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@aeaed8d],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:56:42 pst 2012", 
-            "tweet": "wah. wah. phillip rivers. wah. #broncos", 
-            "fb_assoc": "den ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='denver',streetaddress='null',countrycode='us',id='b49b3053b5c25bf5',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/b49b3053b5c25bf5.json',fullname='denver,co',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@400a3bdc],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:56:47 pst 2012", 
-            "tweet": "peyton manning taking the broncos places !", 
-            "fb_assoc": "fb den ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='wayne',streetaddress='null',countrycode='us',id='5a700e3c73cbf9b9',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/5a700e3c73cbf9b9.json',fullname='wayne,nj',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@2ac702f7],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:12:28 pst 2012", 
-            "tweet": "broncos all dayyyy baby!!  @ sports authority field http://t.co/rolufgba", 
-            "fb_assoc": "den ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='denver',streetaddress='null',countrycode='us',id='b49b3053b5c25bf5',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/b49b3053b5c25bf5.json',fullname='denver,co',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@3b64d328],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:47:47 pst 2012", 
-            "tweet": "@nadeemfakiri23 bro are you kidding me broncos played atlanta houston and patriots three weeks in a row i think", 
-            "fb_assoc": "den ne ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='newark',streetaddress='null',countrycode='us',id='e6d914169d6928b6',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/e6d914169d6928b6.json',fullname='newark,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@37115138],geometrytype='null',geometrycoordinates=null,containedwithin=null"
         }, 
         {
             "date_time": "sun nov 25 09:53:57 pst 2012", 
@@ -20868,20 +19524,6 @@
             "geoloc": "30.30414142,-97.73891552"
         }, 
         {
-            "date_time": "sun nov 18 20:40:42 pst 2012", 
-            "tweet": "can the bears defense get less than 3 points!?", 
-            "fb_assoc": "chi fb ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='franklin',streetaddress='null',countrycode='us',id='e0fab424bd189e61',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/e0fab424bd189e61.json',fullname='franklin,wi',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@770440dd],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 22:45:29 pst 2012", 
-            "tweet": "anybody going to be tailgating at the #bears game tomorrow?", 
-            "fb_assoc": "chi ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='west sacramento',streetaddress='null',countrycode='us',id='6040101bd06b2f86',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/6040101bd06b2f86.json',fullname='west sacramento,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@5c5a072a],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
             "date_time": "sun nov 25 10:15:10 pst 2012", 
             "tweet": "the bears are already looking bad...", 
             "fb_assoc": "chi ", 
@@ -21619,272 +20261,6 @@
             "geoloc": "41.93728929,-87.65448078"
         }, 
         {
-            "date_time": "sun nov 18 16:01:33 pst 2012", 
-            "tweet": "joe flacco is sexy as fuuuuuhhh. just sayinnnnnn", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='new york',streetaddress='null',countrycode='us',id='94965b2c45386f87',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/94965b2c45386f87.json',fullname='new york,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@69e3f60e],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:08:18 pst 2012", 
-            "tweet": "ready to see my #steelers take on them #ravens hopefully it'll be a great game win or lose", 
-            "fb_assoc": "pit bal ", 
-            "fb_weight": "10", 
-            "geoloc": "placejsonimpl{name='cayce',streetaddress='null',countrycode='us',id='11067e379dc320b8',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/11067e379dc320b8.json',fullname='cayce,sc',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@ccd26df],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 16:48:45 pst 2012", 
-            "tweet": "i'm sure the ravens will lose tonight just to twist the knife a little deeper. again why am i in this pool?!!", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='boston',streetaddress='null',countrycode='us',id='67b98f17fdcf20be',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/67b98f17fdcf20be.json',fullname='boston,ma',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@486038e4],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:08:35 pst 2012", 
-            "tweet": "#ravens  @ maui's bar http://t.co/jgcvn8je", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='portland',streetaddress='null',countrycode='us',id='ac88a4f17a51c7fc',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/ac88a4f17a51c7fc.json',fullname='portland,or',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@52d8bae2],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:21:19 pst 2012", 
-            "tweet": "eagles & ravens>>>", 
-            "fb_assoc": "phi bal ", 
-            "fb_weight": "8", 
-            "geoloc": "placejsonimpl{name='killona',streetaddress='null',countrycode='us',id='6c9cc62f62de3018',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/6c9cc62f62de3018.json',fullname='killona,la',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@3cf62b64],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:27:18 pst 2012", 
-            "tweet": "4 quarters of fury: ravens @steelers", 
-            "fb_assoc": "bal pit ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='rosaryville',streetaddress='null',countrycode='us',id='99057e9806f6d0e0',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/99057e9806f6d0e0.json',fullname='rosaryville,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@7da07162],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:38:11 pst 2012", 
-            "tweet": "cmon ed reed", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='chuckwalla',streetaddress='null',countrycode='us',id='17cb9f10c359cd06',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/17cb9f10c359cd06.json',fullname='chuckwalla,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@7dd86bfa],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:44:56 pst 2012", 
-            "tweet": "terrell suggs is apparently from \"ball so hard university.\"", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='methuen',streetaddress='null',countrycode='us',id='175c3b19d7306f06',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/175c3b19d7306f06.json',fullname='methuen,ma',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@48f98163],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:46:07 pst 2012", 
-            "tweet": "ray lewis is probaly my favorite player.", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='bear',streetaddress='null',countrycode='us',id='92291a71f0bfba69',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/92291a71f0bfba69.json',fullname='bear,de',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@65ce90f5],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:47:23 pst 2012", 
-            "tweet": "so close@markajacob: with or without roethlisberger, ravens-steelers is always an exciting game! ed reed will score tonight in a ravens win!", 
-            "fb_assoc": "pit bal ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='rosemount',streetaddress='null',countrycode='us',id='1f0c90a1556ced8b',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/1f0c90a1556ced8b.json',fullname='rosemount,mn',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4a7d4add],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:47:52 pst 2012", 
-            "tweet": "go ravens kick the steelers ass #ravensnation", 
-            "fb_assoc": "bal fb pit ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='maryland',streetaddress='null',countrycode='us',id='dea1eac2d7ef8878',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/dea1eac2d7ef8878.json',fullname='maryland,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6ca5db85],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:48:39 pst 2012", 
-            "tweet": "ravens- o steelers-7", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='carson',streetaddress='null',countrycode='us',id='56909099a1d44057',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/56909099a1d44057.json',fullname='carson,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@2978124d],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:49:37 pst 2012", 
-            "tweet": "just gave the ravens 3 points they should of never had.", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='maryland',streetaddress='null',countrycode='us',id='dea1eac2d7ef8878',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/dea1eac2d7ef8878.json',fullname='maryland,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@53b49076],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:55:20 pst 2012", 
-            "tweet": "paul kruger with the sack !!", 
-            "fb_assoc": "fb bal ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='newark',streetaddress='null',countrycode='us',id='fa3435044b52ecc7',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/fa3435044b52ecc7.json',fullname='newark,nj',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6f220804],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:58:48 pst 2012", 
-            "tweet": "in other news, i need the #ravens to get me some fantasy football points. come on now. can't lose tonight.", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "5", 
-            "geoloc": "placejsonimpl{name='houston',streetaddress='null',countrycode='us',id='1c69a67ad480e1b1',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/1c69a67ad480e1b1.json',fullname='houston,tx',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@79b92dbf],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 17:59:55 pst 2012", 
-            "tweet": "@tracey_walker86 ehh it's too early to tell but my prediction is 17-21 ravens", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='pennsylvania',streetaddress='null',countrycode='us',id='dd9c503d6c35364b',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/dd9c503d6c35364b.json',fullname='pennsylvania,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@5ee5c122],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:06:38 pst 2012", 
-            "tweet": "typical ravens steelers game.  3 and out then punt.  typically the team that wins the turnover battle in these games wins. # snf", 
-            "fb_assoc": "bal pit fb ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='georgia',streetaddress='null',countrycode='us',id='7142eb97ae21e839',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/7142eb97ae21e839.json',fullname='georgia,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@6d6849cf],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:08:02 pst 2012", 
-            "tweet": "touchdown ravens! on the punt return! and the 1-point conversion is good too! 10-7 for the ravens.", 
-            "fb_assoc": "fb bal ", 
-            "fb_weight": "8", 
-            "geoloc": "placejsonimpl{name='niagara',streetaddress='null',countrycode='ca',id='e44a9458fb7da832',country='canada',placetype='city',url='http://api.twitter.com/1/geo/id/e44a9458fb7da832.json',fullname='niagara,ontario',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@3e8ab07],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:12:41 pst 2012", 
-            "tweet": "leehhhgoo. ravens", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='san antonio',streetaddress='null',countrycode='us',id='3df4f427b5a60fea',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/3df4f427b5a60fea.json',fullname='san antonio,tx',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@3f8eebb6],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:16:58 pst 2012", 
-            "tweet": "this is the best special teams the #ravens have ever had ub the harbaugh era. place kicking, coverage, and explosives return hame.", 
-            "fb_assoc": "fb bal ", 
-            "fb_weight": "8", 
-            "geoloc": "placejsonimpl{name='white marsh',streetaddress='null',countrycode='us',id='3d15925dbe48f7e6',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/3d15925dbe48f7e6.json',fullname='white marsh,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@2341c0c1],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:08:45 pst 2012", 
-            "tweet": "santana moss has 12 points on my bench and torrey smith has 0 points in my lineup #fuckmeright #mosscouldntgetapointtosavehislifelastweek", 
-            "fb_assoc": "sf fb was bal ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='philadelphia',streetaddress='null',countrycode='us',id='e4a0d228eb6be76b',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/e4a0d228eb6be76b.json',fullname='philadelphia,pa',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@787faefa],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:11:08 pst 2012", 
-            "tweet": "if not for jones the ravens would have a big ol 0, jones's returns are why we have any points , at this point. lol.  come the hell on ravens", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='elkridge',streetaddress='null',countrycode='us',id='d4f00e013186b461',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/d4f00e013186b461.json',fullname='elkridge,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@1f36db31],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:11:14 pst 2012", 
-            "tweet": "damn the ravens get the ball first", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='delaware',streetaddress='null',countrycode='us',id='3f5897b87d2bf56c',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/3f5897b87d2bf56c.json',fullname='delaware,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@722670b1],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:27:26 pst 2012", 
-            "tweet": "tucker! ravens!!!!", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='columbus',streetaddress='null',countrycode='us',id='3df0e3eb1e91170b',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/3df0e3eb1e91170b.json',fullname='columbus,oh',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@32bc4216],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:29:45 pst 2012", 
-            "tweet": "i'm a ravens fan and today when bryon leftwich scored a td this girl texted me right away where is the ravens d and now that is sexy", 
-            "fb_assoc": "bal fb ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='grand rapids',streetaddress='null',countrycode='us',id='a81f9ed24c15d6af',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/a81f9ed24c15d6af.json',fullname='grand rapids,mi',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@521ae570],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 19:44:54 pst 2012", 
-            "tweet": "this ravens steelers game is on point!!!", 
-            "fb_assoc": "bal pit ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='morton',streetaddress='null',countrycode='us',id='6f3cb43929d42a99',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/6f3cb43929d42a99.json',fullname='morton,ms',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@2a747a37],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:23:42 pst 2012", 
-            "tweet": "@sublimehippie daaaa ravens!", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='hagerstown',streetaddress='null',countrycode='us',id='fb4e19c906cdaa73',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/fb4e19c906cdaa73.json',fullname='hagerstown,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@7d83bb5e],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:26:43 pst 2012", 
-            "tweet": "better try and run this cause flacco doesn't haven't the mental capacity to make this first down. if he does then it's retard strength.", 
-            "fb_assoc": "bal fb ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='pennsylvania',streetaddress='null',countrycode='us',id='dd9c503d6c35364b',country='united states',placetype='admin',url='http://api.twitter.com/1/geo/id/dd9c503d6c35364b.json',fullname='pennsylvania,us',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@1277d7ba],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:28:44 pst 2012", 
-            "tweet": "let's go leftwich . get this drive going. i hate the steelers and the ravens but i hate the ravens more", 
-            "fb_assoc": "fb pit bal ", 
-            "fb_weight": "7", 
-            "geoloc": "placejsonimpl{name='white marsh',streetaddress='null',countrycode='us',id='3d15925dbe48f7e6',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/3d15925dbe48f7e6.json',fullname='white marsh,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@4f5992e6],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:32:22 pst 2012", 
-            "tweet": "ravens win", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='baltimore',streetaddress='null',countrycode='us',id='c0b8e8dc81930292',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/c0b8e8dc81930292.json',fullname='baltimore,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@2a5af141],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:35:27 pst 2012", 
-            "tweet": "bernard pollard just killed jerricho cotchery #thatswhathedoes", 
-            "fb_assoc": "bal pit ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='taunton',streetaddress='null',countrycode='us',id='642651131f2e976b',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/642651131f2e976b.json',fullname='taunton,ma',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@311a3c9d],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:36:25 pst 2012", 
-            "tweet": "jacoby jones is cheezin how come he didn't do that for the texans?!", 
-            "fb_assoc": "hou bal ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='liberty',streetaddress='null',countrycode='us',id='27a0a7a61c83eb4e',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/27a0a7a61c83eb4e.json',fullname='liberty,tx',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@7026df7e],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:37:13 pst 2012", 
-            "tweet": "ahhhhhhhhhh fuck the fucking ravens", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='lower burrell',streetaddress='null',countrycode='us',id='3424ab40e2a13083',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/3424ab40e2a13083.json',fullname='lower burrell,pa',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@290d1875],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:37:20 pst 2012", 
-            "tweet": "who cares about the ravens", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='corpus christi',streetaddress='null',countrycode='us',id='a3d770a00f15bcb1',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/a3d770a00f15bcb1.json',fullname='corpus christi,tx',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@39346bcc],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:47:42 pst 2012", 
-            "tweet": "people are hating in the ravens fans i mean i would be hype to", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='easton',streetaddress='null',countrycode='us',id='870410c07f185520',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/870410c07f185520.json',fullname='easton,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@a89beaf],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:49:22 pst 2012", 
-            "tweet": "how i feel when i think of how great the ravens performed at flacco field tonight http://t.co/h1zl9ikk @mathisonmac", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "3", 
-            "geoloc": "placejsonimpl{name='cockeysville',streetaddress='null',countrycode='us',id='9c26889eea7fba30',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/9c26889eea7fba30.json',fullname='cockeysville,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@300283d9],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:58:43 pst 2012", 
-            "tweet": "the pats are so petty, they ran up the score on the colts 59, so they could have the highest score on the season,over the ravens 55,  weak!!", 
-            "fb_assoc": "ne ind bal ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='elkridge',streetaddress='null',countrycode='us',id='d4f00e013186b461',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/d4f00e013186b461.json',fullname='elkridge,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@258185ce],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 21:02:06 pst 2012", 
-            "tweet": "i guess i tweet the most when i watch ravens games. i love me some ravens football!", 
-            "fb_assoc": "bal ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='elkridge',streetaddress='null',countrycode='us',id='d4f00e013186b461',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/d4f00e013186b461.json',fullname='elkridge,md',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@19331f6e],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
             "date_time": "sun nov 25 11:34:51 pst 2012", 
             "tweet": "pre game warm up #powderblues #ravens #boltup @ qualcomm stadium http://t.co/lnd0thni", 
             "fb_assoc": "bal sd ", 
@@ -22587,13 +20963,6 @@
             "geoloc": "37.71345565,-122.38623619"
         }, 
         {
-            "date_time": "sun nov 18 19:08:45 pst 2012", 
-            "tweet": "santana moss has 12 points on my bench and torrey smith has 0 points in my lineup #fuckmeright #mosscouldntgetapointtosavehislifelastweek", 
-            "fb_assoc": "sf fb was bal ", 
-            "fb_weight": "6", 
-            "geoloc": "placejsonimpl{name='philadelphia',streetaddress='null',countrycode='us',id='e4a0d228eb6be76b',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/e4a0d228eb6be76b.json',fullname='philadelphia,pa',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@787faefa],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
             "date_time": "sun nov 25 10:56:10 pst 2012", 
             "tweet": "game time: saints vs 49ers. this san franciscan is gettin' the hell outta dodge! @ mercedes-benz superdome http://t.co/pgaslxse", 
             "fb_assoc": "no sf ", 
@@ -23126,27 +21495,6 @@
             "fb_assoc": "fb sd ", 
             "fb_weight": "2", 
             "geoloc": "54.83881594,-1.49730499"
-        }, 
-        {
-            "date_time": "sun nov 18 15:21:23 pst 2012", 
-            "tweet": "safety on manning.. 2 points for the chargers", 
-            "fb_assoc": "fb sd ", 
-            "fb_weight": "4", 
-            "geoloc": "placejsonimpl{name='los angeles',streetaddress='null',countrycode='us',id='3b77caf94bfc81fe',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/3b77caf94bfc81fe.json',fullname='los angeles,ca',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@667b614e],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 18:44:38 pst 2012", 
-            "tweet": "phone dying & only gotta car charger , fml . bbl", 
-            "fb_assoc": "sd ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='warren',streetaddress='null',countrycode='us',id='579f9e4d93c529b1',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/579f9e4d93c529b1.json',fullname='warren,oh',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@66e9a2c4],geometrytype='null',geometrycoordinates=null,containedwithin=null"
-        }, 
-        {
-            "date_time": "sun nov 18 20:00:06 pst 2012", 
-            "tweet": "hammer with psy just made me forget about the chargers.... nope... too legit to quit! #firenorv", 
-            "fb_assoc": "sd ", 
-            "fb_weight": "2", 
-            "geoloc": "placejsonimpl{name='manhattan',streetaddress='null',countrycode='us',id='086752cb03de1d5d',country='united states',placetype='city',url='http://api.twitter.com/1/geo/id/086752cb03de1d5d.json',fullname='manhattan,ny',boundingboxtype='polygon',boundingboxcoordinates=[[ltwitter4j.geolocation;@41cc5b64],geometrytype='null',geometrycoordinates=null,containedwithin=null"
         }, 
         {
             "date_time": "sun nov 25 11:34:51 pst 2012", 
