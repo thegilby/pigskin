@@ -22,7 +22,9 @@ app.config.from_object(__name__)
 def home():
     f = open('allFootballTweetsAndNon.json','r')
     data = json.load(f)
-    return render_template('index.html', data=data)
+    geo = open('geoloc.json','r')
+    geoData = json.load(geo)
+    return render_template('index.html', data=data, geo=geoData)
 
 #week
 @app.route("/week/<week>/")

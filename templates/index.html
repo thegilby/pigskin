@@ -30,13 +30,39 @@
     </div>
 
     <hr class="soften">
-
+    <div id="map_canvas" class="span10"></div>
   </div> <!-- /container -->
 
 {% endblock %}
 
 {% block scripts %}
+<style type="text/css">
+    #map_canvas { height: 500px;}
+  </style>
+<script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB4TF2ftzpJrPmsIl3W2nr6119X8g2KSs&sensor=false">
+</script>
 <script type="text/javascript">
-  var data = {{ data | tojson | safe }};
+    var data = {{ data | tojson | safe }};
+    var geo = {{ geo | tojson | safe }};
+
+    $(function(){
+        
+        $('#map_canvas').gmap({'center': '39.774769,-96.165527','zoom':4}).bind('init', function () {
+            // Initialize stuff for the map here if needed
+        });
+        $.each(geo, function(teamName, teamArray){
+            $.each(teamArray, function(index, object){
+                $('#map_canvas').gmap('addMarker', { 'position': object['geoloc']}).click(function() {
+                    var content = '<strong>Team Association:</strong> ' + object['fb_assoc'] 
+                                  + '<br/><strong>Tweet:</strong> ' + object['tweet']
+                                  + '<br /><strong>Weight:</strong> ' + object['fb_weight'] ;
+                    $('#map_canvas').gmap('openInfoWindow', {'content': content}, this);
+                });
+            })
+        });
+        
+
+    });
 </script>
 {% endblock %}
