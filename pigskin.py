@@ -31,11 +31,15 @@ def week(week=None, matchup=None):
     if matchup:
         teams = matchup.split("_")
         teamData = {}
+        topTen = {}
         for team in teams:
             data = open('tweetsPerMinute_'+team+'.json','r')
             teamData[team] = json.load(data)
+        for team in teams:
+            data2 = open('top_ten_wk_'+week+'_'+team+'.json','r')
+            topTen[team] = json.load(data2)
         # print teamData
-        return render_template('matchup.html', week=week, matchup=matchup, teamData=teamData)
+        return render_template('matchup.html', week=week, matchup=matchup, teamData=teamData, topTen=topTen)
     else:
         teams = ["ari","atl","bal","buf","car","chi","cin","cle","dal","den","det","gb","hou","ind","jac","kc","mia","min","ne","no","nyg","nyj","oak","phi","pit","sd","sea","sf","stl","tb","ten","was"]
         teamData = {}

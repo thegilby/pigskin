@@ -346,6 +346,16 @@ if ( $('#matchup').length ) {
   $("#away .twitter-follow-button").attr('href','https://twitter.com/'+teams[awayTeam]["username"]).text('Follow @'+teams[awayTeam]["username"]);
   $("#home .twitter-follow-button").attr('href','https://twitter.com/'+teams[homeTeam]["username"]).text('Follow @'+teams[homeTeam]["username"]);
 
+  var awayTopTen = topTen[awayTeam][awayTeam];
+  $.each(awayTopTen, function(i){
+      $("<li>").html('<a href="https://twitter.com/'+awayTopTen[i]["username"]+'">@' + awayTopTen[i]["username"]+'</a> - '+ awayTopTen[i]["tweet"] ).appendTo('#awayTopTen');
+  });
+
+  var homeTopTen = topTen[homeTeam][homeTeam];
+  $.each(awayTopTen, function(i){
+      $("<li>").html('<a href="https://twitter.com/'+homeTopTen[i]["username"]+'">@' + homeTopTen[i]["username"]+'</a> - '+ homeTopTen[i]["tweet"] ).appendTo('#homeTopTen');
+  });
+
   // Instantiate our graph!
   var graph = new Rickshaw.Graph( {
     element: document.querySelector("#chart"),
