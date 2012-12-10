@@ -242,6 +242,11 @@ body > .navbar .brand:hover {
   color: rgba(255,255,255,.25);
 }
 
+/* Map Nav
+------------------------- */
+#map_filter li {
+  cursor: pointer;
+}
 
 /* Footer
 -------------------------------------------------- */

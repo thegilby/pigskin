@@ -30,7 +30,13 @@
     </div>
 
     <hr class="soften">
-    <div id="map_canvas" class="span10"></div>
+    <div class="row">
+      <div id="map_canvas" class="span10"></div>
+      <div class="span2">
+        <ul id="map_filter">
+        </ul>
+      </div>
+    </div>
   </div> <!-- /container -->
 
 {% endblock %}
@@ -48,18 +54,43 @@
 
     $(function(){
         
+        $.each(teams, function(index, value){
+            var team = $("<li>").attr('fb_assoc',index).html(value['name']);
+            $("#map_filter").append(team);
+        });
+
+
         $('#map_canvas').gmap({'center': '39.774769,-96.165527','zoom':4}).bind('init', function () {
             // Initialize stuff for the map here if needed
         });
         $.each(geo, function(teamName, teamArray){
             $.each(teamArray, function(index, object){
-                $('#map_canvas').gmap('addMarker', { 'position': object['geoloc']}).click(function() {
+                var re = /[\s]+/g
+                var fb_assoc = $.trim(object['fb_assoc']).replace(re,',');
+                // console.log(fb_assoc);
+                $('#map_canvas').gmap('addMarker', { 'fb_assoc':fb_assoc, 'position': object['geoloc']}).click(function() {
                     var content = '<strong>Team Association:</strong> ' + object['fb_assoc'] 
                                   + '<br/><strong>Tweet:</strong> ' + object['tweet']
                                   + '<br /><strong>Weight:</strong> ' + object['fb_weight'] ;
                     $('#map_canvas').gmap('openInfoWindow', {'content': content}, this);
                 });
             })
+        });
+
+        $("#map_filter li").on("click", function(event){
+            console.log("click")
+            var filter = $(this).attr("fb_assoc");
+            var index = 0; 
+            $('#map_canvas').gmap('find', 'markers', {}, function(marker, found) {
+                var assocArray = marker.fb_assoc.split(',')
+                marker.setVisible(false);
+                $.each(assocArray, function(index, value){
+                    // console.log(value);
+                    if(value == filter){
+                        marker.setVisible(true);
+                    }      
+                });
+            });
         });
         
 
