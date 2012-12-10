@@ -30,10 +30,18 @@
     </div>
 
     <hr class="soften">
+
     <div class="row">
-      <div id="map_canvas" class="span10"></div>
+      <div class="span10">
+        <h3>Map of all geolocated tweets in dataset
+          <small>Click on a marker for more information</small></h3>
+
+        <div id="map_canvas"></div>
+      </div>
       <div class="span2">
+        <h6>Click team name to filter</h6>
         <ul id="map_filter">
+          <li fb_assoc="all"><h6>Show All</h6></li>
         </ul>
       </div>
     </div>
@@ -42,20 +50,18 @@
 {% endblock %}
 
 {% block scripts %}
-<style type="text/css">
-    #map_canvas { height: 500px;}
-  </style>
 <script type="text/javascript"
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB4TF2ftzpJrPmsIl3W2nr6119X8g2KSs&sensor=false">
 </script>
 <script type="text/javascript">
-    var data = {{ data | tojson | safe }};
-    var geo = {{ geo | tojson | safe }};
+    var data = {{ data | tojson | safe }},
+        geo = {{ geo | tojson | safe }};
 
     $(function(){
-        
+
         $.each(teams, function(index, value){
-            var team = $("<li>").attr('fb_assoc',index).html(value['name']);
+            var team = $("<li>").attr('fb_assoc',index).html('<small>'+value['name']+
+              '</small>');
             $("#map_filter").append(team);
         });
 
@@ -69,7 +75,7 @@
                 var fb_assoc = $.trim(object['fb_assoc']).replace(re,',');
                 // console.log(fb_assoc);
                 $('#map_canvas').gmap('addMarker', { 'fb_assoc':fb_assoc, 'position': object['geoloc']}).click(function() {
-                    var content = '<strong>Team Association:</strong> ' + object['fb_assoc'] 
+                    var content = '<strong>Team Association:</strong> ' + object['fb_assoc']
                                   + '<br/><strong>Tweet:</strong> ' + object['tweet']
                                   + '<br /><strong>Weight:</strong> ' + object['fb_weight'] ;
                     $('#map_canvas').gmap('openInfoWindow', {'content': content}, this);
@@ -80,19 +86,23 @@
         $("#map_filter li").on("click", function(event){
             console.log("click")
             var filter = $(this).attr("fb_assoc");
-            var index = 0; 
+            var index = 0;
             $('#map_canvas').gmap('find', 'markers', {}, function(marker, found) {
                 var assocArray = marker.fb_assoc.split(',')
-                marker.setVisible(false);
-                $.each(assocArray, function(index, value){
-                    // console.log(value);
-                    if(value == filter){
-                        marker.setVisible(true);
-                    }      
-                });
+                if (filter == "all") {
+                  marker.setVisible(true);
+                } else {
+                  marker.setVisible(false);
+                  $.each(assocArray, function(index, value){
+                      // console.log(value);
+                      if(value == filter){
+                          marker.setVisible(true);
+                      }
+                  });
+                }
             });
         });
-        
+
 
     });
 </script>

@@ -246,6 +246,13 @@ body > .navbar .brand:hover {
 ------------------------- */
 #map_filter li {
   cursor: pointer;
+  list-style-type: square;
+}
+#map_canvas {
+  height: 500px;
+}
+#index #map_canvas {
+ height: 650px;
 }
 
 /* Footer

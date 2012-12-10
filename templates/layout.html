@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- BASE URL | Change for production/local -->
+    <!-- <base href="http://groups.ischool.berkeley.edu/pigskin/"> -->
+    <base href="http://localhost:61001/">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Pigskin | Visualizing Football Tweets</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="How popular is the NFL on Twitter? Which teams and matchups are the most popular? Pigskin visualizes tweets about NFL games to help answer these questions.">
     <meta name="author" content="Andrew Chao, Gilbert Hernandez, Jacob Portnoff">
+    <link rel=”icon” href=”static/img/favicon.ico”>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!--<link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">-->
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/rickshaw.min.css') }}">
+    <!--<link rel="stylesheet" href="static/css/normalize.css">-->
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/rickshaw.min.css">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
-    <!--<script src="{{ url_for('static', filename='js/vendor/modernizr-2.6.2.min.js') }}"></script>-->
+    <link rel="stylesheet" href="static/css/main.css">
+    <!--<script src="static/js/vendor/modernizr-2.6.2.min.js"></script>-->
     <script type="text/javascript" src="//use.typekit.net/tui0fki.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
@@ -38,61 +42,61 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="">
-                <a href="/">Home</a>
+                <a href="./">Home</a>
               </li>
               <li class="dropdown">
                 <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Teams <b class="caret"></b></a>
                 <ul class="dropdown-menu span6" role="menu" aria-labelledby="drop1">
                     <li class="column-menu span3 firstcolumn">
                         <ul>
-                          <li><a tabindex="-1" href="/teams/">All Teams</a></li>
-                          <li><img class="logoTinyConf" src="{{ url_for('static', filename='img/logo/NFC.gif') }}"></li>
+                          <li><a tabindex="-1" href="teams/">All Teams</a></li>
+                          <li><img class="logoTinyConf" src="static/img/logo/NFC.gif"></li>
                           <li class="divider"></li>
-                          <li><a tabindex="-1" href="/teams/dal">Dallas Cowboys</a></li>
-                          <li><a tabindex="-1" href="/teams/nyg">New York Giants</a></li>
-                          <li><a tabindex="-1" href="/teams/phi">Philadelphia Eagles</a></li>
-                          <li><a tabindex="-1" href="/teams/was">Washington Redskins</a></li>
+                          <li><a tabindex="-1" href="teams/dal">Dallas Cowboys</a></li>
+                          <li><a tabindex="-1" href="teams/nyg">New York Giants</a></li>
+                          <li><a tabindex="-1" href="teams/phi">Philadelphia Eagles</a></li>
+                          <li><a tabindex="-1" href="teams/was">Washington Redskins</a></li>
                           <li class="divider"></li>
-                          <li><a tabindex="-1" href="/teams/chi">Chicago Bears</a></li>
-                          <li><a tabindex="-1" href="/teams/det">Detroit Lions</a></li>
-                          <li><a tabindex="-1" href="/teams/gb">Green Bay Packers</a></li>
-                          <li><a tabindex="-1" href="/teams/min">Minnesota Vikings</a></li>
+                          <li><a tabindex="-1" href="teams/chi">Chicago Bears</a></li>
+                          <li><a tabindex="-1" href="teams/det">Detroit Lions</a></li>
+                          <li><a tabindex="-1" href="teams/gb">Green Bay Packers</a></li>
+                          <li><a tabindex="-1" href="teams/min">Minnesota Vikings</a></li>
                           <li class="divider"></li>
-                          <li><a tabindex="-1" href="/teams/atl">Atlanta Falcons</a></li>
-                          <li><a tabindex="-1" href="/teams/car">Carolina Panthers</a></li>
-                          <li><a tabindex="-1" href="/teams/no">New Orleans Saints</a></li>
-                          <li><a tabindex="-1" href="/teams/tb">Tampa Bay Buccaneers</a></li>
+                          <li><a tabindex="-1" href="teams/atl">Atlanta Falcons</a></li>
+                          <li><a tabindex="-1" href="teams/car">Carolina Panthers</a></li>
+                          <li><a tabindex="-1" href="teams/no">New Orleans Saints</a></li>
+                          <li><a tabindex="-1" href="teams/tb">Tampa Bay Buccaneers</a></li>
                           <li class="divider"></li>
-                          <li><a tabindex="-1" href="/teams/ari">Arizona Cardinals</a></li>
-                          <li><a tabindex="-1" href="/teams/stl">Saint Louis Rams</a></li>
-                          <li><a tabindex="-1" href="/teams/sf">San Francisco 49ers</a></li>
-                          <li><a tabindex="-1" href="/teams/sea">Seattle Seahawks</a></li>
+                          <li><a tabindex="-1" href="teams/ari">Arizona Cardinals</a></li>
+                          <li><a tabindex="-1" href="teams/stl">Saint Louis Rams</a></li>
+                          <li><a tabindex="-1" href="teams/sf">San Francisco 49ers</a></li>
+                          <li><a tabindex="-1" href="teams/sea">Seattle Seahawks</a></li>
                         </ul>
                     </li>
                     <li class="column-menu span3">
                         <ul>
                           <li><a href="#">&nbsp;</a></li>
-                          <li><img class="logoTinyConf" src="{{ url_for('static', filename='img/logo/AFC.gif') }}"></li>
+                          <li><img class="logoTinyConf" src="static/img/logo/AFC.gif"></li>
                           <li class="divider"></li>
-                          <li><a tabindex="-1" href="/teams/buf">Buffalo Bills</a></li>
-                          <li><a tabindex="-1" href="/teams/mia">Miami Dolphins</a></li>
-                          <li><a tabindex="-1" href="/teams/ne">New England Patriots</a></li>
-                          <li><a tabindex="-1" href="/teams/nyj">New York Jets</a></li>
+                          <li><a tabindex="-1" href="teams/buf">Buffalo Bills</a></li>
+                          <li><a tabindex="-1" href="teams/mia">Miami Dolphins</a></li>
+                          <li><a tabindex="-1" href="teams/ne">New England Patriots</a></li>
+                          <li><a tabindex="-1" href="teams/nyj">New York Jets</a></li>
                           <li class="divider"></li>
-                          <li><a tabindex="-1" href="/teams/bal">Baltimore Ravens</a></li>
-                          <li><a tabindex="-1" href="/teams/cin">Cincinnati Bengals</a></li>
-                          <li><a tabindex="-1" href="/teams/cle">Cleveland Browns</a></li>
-                          <li><a tabindex="-1" href="/teams/pit">Pittsburgh Steelers</a></li>
+                          <li><a tabindex="-1" href="teams/bal">Baltimore Ravens</a></li>
+                          <li><a tabindex="-1" href="teams/cin">Cincinnati Bengals</a></li>
+                          <li><a tabindex="-1" href="teams/cle">Cleveland Browns</a></li>
+                          <li><a tabindex="-1" href="teams/pit">Pittsburgh Steelers</a></li>
                           <li class="divider"></li>
-                          <li><a tabindex="-1" href="/teams/ten">Tennessee Titans</a></li>
-                          <li><a tabindex="-1" href="/teams/hou">Houston Texans</a></li>
-                          <li><a tabindex="-1" href="/teams/ind">Indianapolis Colts</a></li>
-                          <li><a tabindex="-1" href="/teams/jac">Jacksonville Jaguars</a></li>
+                          <li><a tabindex="-1" href="teams/ten">Tennessee Titans</a></li>
+                          <li><a tabindex="-1" href="teams/hou">Houston Texans</a></li>
+                          <li><a tabindex="-1" href="teams/ind">Indianapolis Colts</a></li>
+                          <li><a tabindex="-1" href="teams/jac">Jacksonville Jaguars</a></li>
                           <li class="divider"></li>
-                          <li><a tabindex="-1" href="/teams/den">Denver Broncos</a></li>
-                          <li><a tabindex="-1" href="/teams/kc">Kansas City Chiefs</a></li>
-                          <li><a tabindex="-1" href="/teams/oak">Oakland Raiders</a></li>
-                          <li><a tabindex="-1" href="/teams/sd">San Diego Chargers</a></li>
+                          <li><a tabindex="-1" href="teams/den">Denver Broncos</a></li>
+                          <li><a tabindex="-1" href="teams/kc">Kansas City Chiefs</a></li>
+                          <li><a tabindex="-1" href="teams/oak">Oakland Raiders</a></li>
+                          <li><a tabindex="-1" href="teams/sd">San Diego Chargers</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -114,6 +118,7 @@
         <div class="container">
             <p class="pull-right"><i class="icon-arrow-up icon-white"></i><a href="#">Back to top</a></p>
             <p>Pigskin | Visualizing Football Tweets</p>
+            <p>I290: Analyzing Big Data with Twitter | Andrew Chao, Gilbert Hernandez, Jacob Portnoff</p>
             <p><small>NFL and the NFL shield design are registered trademarks of the National Football League.The team names and logo designs are registered trademarks of the teams indicated. All other NFL-related trademarks are trademarks of the National Football League.</small></p>
         </div>
     </div>
@@ -123,19 +128,19 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>-->
-    <script src="{{ url_for('static', filename='js/vendor/d3.v2.js') }}"></script>
+    <script src="static/js/vendor/d3.v2.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
     <!--<script src="http://d3js.org/d3.v2.js"></script>-->
    <!-- <script>window.d3 || document.write('<script src="js/vendor/d3.v2.min.js"><\/script>')</script>-->
-    <script src="{{ url_for('static', filename='js/jquery.ui.map.full.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/rickshaw.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/extensions.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/plugins.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/global.js') }}"></script>
+    <script src="static/js/jquery.ui.map.full.min.js"></script>
+    <script src="static/js/rickshaw.js"></script>
+    <script src="static/js/extensions.js"></script>
+    <script src="static/js/bootstrap.js"></script>
+    <script src="static/js/plugins.js"></script>
+    <script src="static/js/global.js"></script>
     {% block scripts %}{% endblock %}
-    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="static/js/main.js"></script>
 
     <!-- Google Analytics: UA-31630965-1 (lab.thegilby.com) -->
     <script>

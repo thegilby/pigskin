@@ -2,7 +2,7 @@
 {% block body %}
   <div class="jumbotron">
     <div class="container">
-      <img class="logo" src="{{ url_for('static', filename='img/logo/'+team+'.gif') }}">
+      <img class="logo" src="{{ 'static/img/logo/'+team+'.gif' }}">
       <h2 id="teamName"></h2>
         <a href="" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true"></a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -11,24 +11,70 @@
 
   <div id="team" data-team="{{team}}" class="container">
     <div class="row">
-      <div class="span10">
+      <div class="span12">
         <h3>Number of Tweets about Team per Week</h3>
+        <h4 id="teamTweets"></h4>
         <div id="chart"></div>
         <div id="y_axis"></div>
       </div>
-      <div class="span2">
-        <div id="legend"></div>
-        <h4 id="teamTweets"></h4>
-      </div>
     </div>
+
+
+    <hr class="soften">
+
+    <div class="row">
+      <div class="span12">
+        <h3>Map of all geolocated tweets associated with team</h3>
+        <h4>Click on a marker for more information</h4>
+        <div id="map_canvas"></div>
+      </div>
+
+    </div>
+
   </div> <!-- /container -->
 
 {% endblock %}
 
 {% block scripts %}
+<script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB4TF2ftzpJrPmsIl3W2nr6119X8g2KSs&sensor=false">
+</script>
+
 <script type="text/javascript">
   var teamCounts = {{ teamCounts | tojson | safe }},
       teamCount = {{ teamCount | tojson | safe }};
-      teamCounts = teamCounts["{{team}}"];
+      teamCounts = teamCounts["{{team}}"],
+      geo = {{ geo | tojson | safe }};
+
+    $(function(){
+        $('#map_canvas').gmap({'center': '39.774769,-96.165527','zoom':2}).bind('init', function () {
+            // Initialize stuff for the map here if needed
+        });
+        $.each(geo, function(teamName, teamArray){
+            $.each(teamArray, function(index, object){
+                var re = /[\s]+/g
+                var fb_assoc = $.trim(object['fb_assoc']).replace(re,',');
+                // console.log(fb_assoc);
+                $('#map_canvas').gmap('addMarker', { 'fb_assoc':fb_assoc, 'position': object['geoloc']}).click(function() {
+                    var content = '<strong>Team Association:</strong> ' + object['fb_assoc']
+                                  + '<br/><strong>Tweet:</strong> ' + object['tweet']
+                                  + '<br /><strong>Weight:</strong> ' + object['fb_weight'] ;
+                    $('#map_canvas').gmap('openInfoWindow', {'content': content}, this);
+                });
+            })
+        });
+
+        $('#map_canvas').gmap('find', 'markers', {}, function(marker, found) {
+            var assocArray = marker.fb_assoc.split(',')
+              marker.setVisible(false);
+              $.each(assocArray, function(index, value){
+                  // console.log(value);
+                  if(value == {{'"' | safe + team +'"' | safe}}){
+                      marker.setVisible(true);
+                  }
+              });
+        });
+    });
 </script>
 {% endblock %}
+

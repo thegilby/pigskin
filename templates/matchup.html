@@ -30,26 +30,37 @@
 
   <div id="matchup" class="container">
     <div class="row">
-      <div class="span11">
-        <h3>Number of Tweets per Minute about teams over the course of the day</h3>
+      <div class="span10">
+        <h3>Number of Tweets per Minute over the course of the day</h3>
         <div id="chart"></div>
         <div id="y_axis"></div>
+
+        <small>Adjust slider to narrow down time window</small>
         <div id="slider"></div>
       </div>
-      <div class="span1">
+      <div class="span2">
+        <small>Click to toggle teams</small>
         <div id="legend"></div>
+      </div>
+    </div>
+
+    <hr class="soften">
+
+    <div class="row">
+      <div class="span12">
+        <h3>Top 10 Tweets (associated to each team by weight)</h3>
       </div>
     </div>
 
     <div class="row">
       <div class="span6">
-        <h3>Away Top Ten Tweets</h3>
+        <h3>Away</h3>
         <ul id="awayTopTen"></ul>
       </div>
       <!-- <div class="span4">
       </div> -->
       <div class="span6">
-        <h3>Home Top Ten Tweets</h3>
+        <h3>Home</h3>
         <ul id="homeTopTen"></ul>
       </div>
     </div>
@@ -63,7 +74,5 @@
       topTen = {{ topTen | tojson | safe }},
       matchup = {{ matchup | tojson | safe }},
       week = {{ week | tojson | safe }};
-
-      // console.log(topTen);
 </script>
 {% endblock %}

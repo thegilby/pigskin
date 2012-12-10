@@ -12,7 +12,7 @@ DEBUG = True
 SECRET_KEY = 'development key'
 
 # create application
-app = Flask('pigskin', static_url_path='/pigskin/static')
+app = Flask('pigskin')
 # app = Flask(__name__)
 app.config.from_object(__name__)
 
@@ -61,7 +61,9 @@ def team(team=None):
         data = open('teamCount_'+team+'.json','r')
         teamCount = json.load(data)
         teamCounts = json.load(open('teamCounts.json','r'))
-        return render_template('team.html', team=team, teamCount=teamCount, teamCounts=teamCounts)
+        geo = open('geoloc.json','r')
+        geoData = json.load(geo)
+        return render_template('team.html', team=team, teamCount=teamCount, teamCounts=teamCounts, geo=geoData)
     else:
         return render_template('teams.html')
 

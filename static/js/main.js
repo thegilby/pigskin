@@ -1,5 +1,4 @@
 $(function() {
-
 generateMatchups();
 // Generate week/matchup dropdowns for nav bar
 function generateMatchups() {
@@ -14,7 +13,7 @@ function generateMatchups() {
                           'data-toggle':'dropdown'
                           })
                       .html('Week '+w+' <b class="caret"></b>'),
-        allLink = $('<li>').html('<a tabindex="-1" href="/week/'+w+'/">All Matchups</a>'),
+        allLink = $('<li>').html('<a tabindex="-1" href="week/'+w+'/">All Matchups</a>'),
         weekList = $('<ul>').attr({'class':'dropdown-menu', 'role':'menu', 'aria-labelledby':'dweek'+w});
     weekLink.appendTo(weekNav);
     weekList.appendTo(weekNav);
@@ -27,8 +26,8 @@ function generateMatchups() {
           awayTeam = matchupInfo.away,
           homeTeam = matchupInfo.home,
           matchupNav = $('<li>'),
-          matchupLink = $('<a>').attr({'class':'matchup','tabindex':'-1','href':'/week/'+w+'/matchup/'+i+'/'})
-                                .html('<img class="pull-left logoTiny" src="/pigskin/static/img/logo/'+awayTeam+'.gif">'+ awayTeam.toUpperCase() +' vs ' + homeTeam.toUpperCase() + '<img class="pull-right logoTiny" src="/pigskin/static/img/logo/'+homeTeam+'.gif">');
+          matchupLink = $('<a>').attr({'class':'matchup','tabindex':'-1','href':'week/'+w+'/matchup/'+i+'/'})
+                                .html('<img class="pull-left logoTiny" src="static/img/logo/'+awayTeam+'.gif">'+ awayTeam.toUpperCase() +' vs ' + homeTeam.toUpperCase() + '<img class="pull-right logoTiny" src="static/img/logo/'+homeTeam+'.gif">');
       matchupLink.appendTo(matchupNav);
       matchupNav.appendTo(weekList);
     });
@@ -96,7 +95,7 @@ if ( $('#teams').length ) {
     var info = teams[i],
         entry = $('<div>')
                   .attr('class','teamListing')
-                  .html('<a href="/teams/'+i+'"><img class="logoSmall" src="/pigskin/static/img/logo/'+i+'.gif"><span>'+info.name+'</span></a>');
+                  .html('<a href="/teams/'+i+'"><img class="logoSmall" src="static/img/logo/'+i+'.gif"><span>'+info.name+'</span></a>');
     if (info.conf == "NFC") {
       entry.appendTo('#nfc');
     } else {
@@ -112,11 +111,11 @@ if ( $('#team').length ) {
   $(document).attr('title', info.name+' | Pigskin | Visualizing Football Tweets');
   $('#teamName').text(info.name);
   $(".twitter-follow-button").attr('href','https://twitter.com/'+info.username).text('Follow @'+info.username);
-  $('#teamTweets').html(teamCounts + ' tweets <small> total about team</small>');
+  $('#teamTweets').html(teamCounts + ' tweets total about team');
     // Instantiate our graph!
   var graph = new Rickshaw.Graph( {
     element: document.querySelector("#chart"),
-    width: 800,
+    // width: 800,
     height: 400,
     renderer: 'bar',
     series: [{
@@ -138,15 +137,15 @@ if ( $('#team').length ) {
     }
   } );
 
-  var legend = new Rickshaw.Graph.Legend( {
-    graph: graph,
-    element: document.getElementById('legend')
-  } );
+  // var legend = new Rickshaw.Graph.Legend( {
+  //   graph: graph,
+  //   element: document.getElementById('legend')
+  // } );
 
-  var shelving = new Rickshaw.Graph.Behavior.Series.Toggle( {
-    graph: graph,
-    legend: legend
-  });
+  // var shelving = new Rickshaw.Graph.Behavior.Series.Toggle( {
+  //   graph: graph,
+  //   legend: legend
+  // });
 
   var ticksTreatment = 'glow';
 
@@ -248,8 +247,8 @@ if ( $('#matchup').length ) {
   $("#matchupLocation").html(matchupInfo["stadium"]);
   $("#matchupScore").html(matchupInfo["awayScore"] +' - '+ matchupInfo["homeScore"]);
 
-  $('#away img').attr("src","/pigskin/static/img/logo/"+awayTeam+".gif");
-  $('#home img').attr("src","/pigskin/static/img/logo/"+homeTeam+".gif");
+  $('#away img').attr("src","static/img/logo/"+awayTeam+".gif");
+  $('#home img').attr("src","static/img/logo/"+homeTeam+".gif");
 
   $('#away h3').text(teams[awayTeam]["name"]);
   $('#home h3').text(teams[homeTeam]["name"]);
@@ -259,12 +258,12 @@ if ( $('#matchup').length ) {
 
   var awayTopTen = topTen[awayTeam][awayTeam];
   $.each(awayTopTen, function(i){
-      $("<li>").html('<a href="https://twitter.com/'+awayTopTen[i]["username"]+'">@' + awayTopTen[i]["username"]+'</a> - '+ awayTopTen[i]["tweet"] ).appendTo('#awayTopTen');
+      $("<li>").html('<a href="https://twitter.com/'+awayTopTen[i]["username"]+'">@' + awayTopTen[i]["username"]+'</a> | '+ awayTopTen[i]["fb_weight"] +' | '+ awayTopTen[i]["tweet"]).appendTo('#awayTopTen');
   });
 
   var homeTopTen = topTen[homeTeam][homeTeam];
   $.each(awayTopTen, function(i){
-      $("<li>").html('<a href="https://twitter.com/'+homeTopTen[i]["username"]+'">@' + homeTopTen[i]["username"]+'</a> - '+ homeTopTen[i]["tweet"] ).appendTo('#homeTopTen');
+      $("<li>").html('<a href="https://twitter.com/'+homeTopTen[i]["username"]+'">@' + homeTopTen[i]["username"]+'</a> | '+ homeTopTen[i]["fb_weight"] +' | '+ homeTopTen[i]["tweet"] ).appendTo('#homeTopTen');
   });
 
   // Instantiate our graph!
