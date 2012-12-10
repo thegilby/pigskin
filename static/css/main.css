@@ -288,7 +288,7 @@ body > .navbar .brand:hover {
   color: #fff;
   opacity: 1;
 }
-.footer .pull-right a, .footer .pull-right a:hover {
+.footer a, .footer a:hover {
   color: #fff;
 }
 .footer-links {

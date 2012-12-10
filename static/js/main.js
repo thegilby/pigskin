@@ -95,7 +95,7 @@ if ( $('#teams').length ) {
     var info = teams[i],
         entry = $('<div>')
                   .attr('class','teamListing')
-                  .html('<a href="/teams/'+i+'"><img class="logoSmall" src="static/img/logo/'+i+'.gif"><span>'+info.name+'</span></a>');
+                  .html('<a href="teams/'+i+'"><img class="logoSmall" src="static/img/logo/'+i+'.gif"><span>'+info.name+'</span></a>');
     if (info.conf == "NFC") {
       entry.appendTo('#nfc');
     } else {
