@@ -1,0 +1,483 @@
+-Term List-	a
+American Football Conference	fb
+Assisted tackles	fb
+Against the Spread	fb
+Attempts	fb
+Punts blocked	fb
+Field goals blocked	fb
+Completion	fb
+Carries	fb
+Defensive Lineman	fb
+Fumble	fb
+Forced fumbles	fb
+Field goal	fb
+Field goals	fb
+Fumbles	fb
+Fumble recoveries	fb
+Interceptions	fb
+Kicker	fb
+Kick Return	fb
+Lost fumbles	fb
+Moneyline	fb
+National Football Conference	fb
+Offensive Lineman	fb
+Passes deflected	fb
+Punt Return	fb
+Rushes	fb
+Rushing attempts	fb
+Running Back	fb
+Time of possession	fb
+Quarterback	fb
+First Quarter	fb
+Second Quarter	fb
+Third Quarter	fb
+Fourth Quarter	fb
+1st Quarter	fb
+2nd Quarter	fb
+3rd Quarter	fb
+4th Quarter	fb
+Safety	fb
+Sacks	fb
+Solo tackles	fb
+Straight Up	fb
+Tackles	fb
+Touchback	fb
+Touchdown	fb
+Targets	fb
+Total plays	fb
+Extra points	fb
+Extra point	fb
+Yards per attempt	fb
+Yards	fb
+Arizona Cardinals	ari
+Atlanta Falcons	atl
+Baltimore Ravens	bal
+Buffalo Bills	buf
+Carolina Panthers	car
+Chicago Bears	chi
+Cincinnati Bengals	cin
+Cleveland Browns	cle
+Dallas Cowboys	dal
+Denver Broncos	den
+Detroit Lions	det
+Green Bay Packers	gb
+Houston Texans	hou
+Indianapolis Colts	ind
+Jacksonville Jaguars	jac
+Kansas City Chiefs	kc
+Miami Dolphins	mia
+Minnesota Vikings	min
+New England Patriots	ne
+New Orleans Saints	no
+New York Giants	nyg
+New York Jets	nyj
+Oakland Raiders	oak
+Philadelphia Eagles	phi
+Pittsburgh Steelers	pit
+San Diego Chargers	sd
+Seattle Seahawks	sea
+San Francisco 49ers	sf
+Saint Louis Rams	stl
+Tampa Bay Buccaneers	tb
+Tennessee Titans	ten
+Washington Redskins	was
+Assistant Coach	fb
+Artificial Turf	fb
+Astroturf	fb
+Audible	fb
+Automatic	fb
+Back Judge	fb
+Backfield	fb
+Balanced Line	fb
+Ball Carrier	fb
+Bench	fb
+Blackout	fb
+Blind Side	fb
+Blitz	fb
+Block	fb
+Bomb	fb
+Bootleg	fb
+Bowl Game	fb
+Bump and Run	fb
+Buttonhook	fb
+Center	fb
+CFL	fb
+Cheap Shot	fb
+Cheat Sheet	fb
+Check Off	fb
+Chop Block	fb
+Clipping	fb
+Clothesline	fb
+Coffin Corner	fb
+Coin Toss	fb
+Completion	fb
+Conferences	fb
+Controlling the Clock	fb
+Cornerback	fb
+Coverage	fb
+Crackback Block	fb
+Curl	fb
+Cut Back	fb
+Dead Ball	fb
+Defense	fb
+Defensive Back	fb
+Defensive Backfield	fb
+Defensive End	fb
+Defensive Holding	fb
+Defensive Line	fb
+Defensive Lineman	fb
+Defensive Tackle	fb
+Defensive Team	fb
+Delay of Game	fb
+Dime Back	fb
+Dime Coverage	fb
+Dime Package	fb
+Division	fb
+Double Coverage	fb
+Double Foul	fb
+Double Team	fb
+First Down	fb
+Second Down	fb
+Third Down	fb
+Fourth Down	fb
+1st Down	fb
+2nd Down	fb
+3rd Down	fb
+4th Down	fb
+Down and In	fb
+Down and Out	fb
+Down Box	fb
+Down Lineman	fb
+Draft	fb
+Draft Choice	fb
+Draw	fb
+Drive	fb
+Drop Back	fb
+Drop Kick	fb
+Eligible Receiver	fb
+Encroachment	fb
+End	fb
+End Line	fb
+End Zone	fb
+Excessive Time Outs	fb
+Extra Point	fb
+Face Mask	fb
+Fair Catch	fb
+Fair Catch Interference	fb
+Faking a Roughing	fb
+False Start	fb
+Field Goal	fb
+Field Judge	fb
+Field of Play	fb
+Field Position	fb
+First and Ten	fb
+First Down	fb
+Flag Football	fb
+Flanker	fb
+Flat	fb
+Flood	fb
+Formation	fb
+Forward Pass	fb
+Forward Progress	fb
+Foul	fb
+Franchise	fb
+Franchise Player	fb
+Free Agency	fb
+Free Agent	fb
+Free Kick	fb
+Free Safety	fb
+Freeze	fb
+Front Four	fb
+Front Seven	fb
+Fullback	fb
+Fumble	fb
+Game Ball	fb
+Gap	fb
+Goal Line	fb
+Goal-Line Stand	fb
+Goalpost	fb
+Gridiron	fb
+Guard	fb
+Hail Mary	fb
+Halfback	fb
+Handoff	fb
+Hands Team	fb
+Hang Time	fb
+Hash Marks	fb
+Head Coach	fb
+Head Linesman	fb
+Helping the Runner	fb
+Holding	fb
+Hole Number	fb
+Homefield Advantage	fb
+Hook and Ladder	fb
+Hot Receiver	fb
+Huddle	fb
+Hurry-up Offense	fb
+I Formation	fb
+Illegal Formation	fb
+Illegal Motion	fb
+Illegal Procedure	fb
+Illegal Shift	fb
+In Bounds	fb
+Incomplete Pass	fb
+Incompletion	fb
+Ineligible Receiver	fb
+Intentional Grounding	fb
+Interception	fb
+Interference	fb
+Key	fb
+Kick	fb
+Kicker	fb
+Kicking Game	fb
+Kickoff	fb
+Kick Returner	fb
+Lateral	fb
+Linebacker	fb
+Line Judge	fb
+Linemen	fb
+Line of Scrimmage	fb
+Live Ball	fb
+Long Snapper	fb
+Loose Ball	fb
+Man in Motion	fb
+Man-to-Man Coverage	fb
+Middle Guard	fb
+Midfield	fb
+Motion	fb
+Mousetrap	fb
+Multiple Offense	fb
+National Football League	fb
+Necessary Line	fb
+Neutral Zone	fb
+NFL Championship	fb
+Nickel Back	fb
+Nickel Defense	fb
+Nose Guard	fb
+Nose Tackle	fb
+Odds	fb
+Offending Team	fb
+Offense	fb
+Offensive Backfield	fb
+Offensive Holding	fb
+Offensive Line	fb
+Offensive Linemen	fb
+Offensive Pass Interference	fb
+Officials	fb
+Off-Season	fb
+Offside	fb
+Off-Tackle	fb
+Onside Kick	fb
+Open Receiver	fb
+Option	fb
+Out of Bounds	fb
+Overtime	fb
+Pass	fb
+Pass Defender	fb
+Pass Interference	fb
+Pass Pattern	fb
+Pass Protection	fb
+Pass Route	fb
+Pass Rush	fb
+Passing Game	fb
+PAT	fb
+Penalty	fb
+Personal Foul	fb
+Pick	fb
+Pick Off	fb
+Pigskin	fb
+Piling On	fb
+Pistol Formation	fb
+Pitch	fb
+Pitch Out	fb
+Placekick	fb
+Placekicker	fb
+Play	fb
+Play-Action Pass	fb
+Playbook	fb
+Play Clock	fb
+Playmaker	fb
+Playoffs	fb
+Pocket	fb
+Point After Touchdown	fb
+Point Spread	fb
+Possession	fb
+Post	fb
+Post-Season	fb
+Power Sweep	fb
+Preseason	fb
+Previous Spot	fb
+Primary Receiver	fb
+Pulling	fb
+Punt Fake	fb
+Punt	fb
+Punter	fb
+Punt Return	fb
+Pylon	fb
+Quarterback Rating	fb
+Quarterback Sneak	fb
+Quick Count	fb
+Quick Kick	fb
+Reading the Defense	fb
+Ready List	fb
+Receiver	fb
+Recover	fb
+Redshirt	fb
+Red Zone	fb
+Referee	fb
+Regular Season	fb
+Return	fb
+Returner	fb
+Reverse	fb
+Roll	fb
+Roll Out	fb
+Rookie	fb
+Roster	fb
+Roughing the Kicker	fb
+Roughing the Passer	fb
+Route	fb
+Runback	fb
+Running Back	fb
+Running Into the Kicker	fb
+Rush	fb
+Sack	fb
+Safety	fb
+Safety Blitz	fb
+Safety Valve	fb
+Salary Cap	fb
+Scheme	fb
+Scramble	fb
+Scrambler	fb
+Scrambling	fb
+Screen Pass	fb
+Scrimmage	fb
+Secondary	fb
+Second Forward Pass	fb
+Series	fb
+Shift	fb
+Shotgun	fb
+Side Judge	fb
+Sidelines	fb
+Signal Caller	fb
+Signals	fb
+Single Elimination	fb
+Single-Wing Formation	fb
+Slant	fb
+Slot	fb
+Snap	fb
+Spearing	fb
+Special Teams	fb
+Spike	fb
+Spiral	fb
+Split End	fb
+Spot	fb
+Square In	fb
+Square Out	fb
+Squib Kick	fb
+Stance	fb
+Stiff Arm	fb
+Straight Arm	fb
+Strength of Schedule	fb
+Striking an Official	fb
+Striking an Opponent	fb
+Strong Safety	fb
+Strong Side	fb
+Stunt	fb
+Substitution	fb
+Super Bowl	fb
+Sweep	fb
+T-Formation	fb
+Tackle	fb
+Tailback	fb
+Takeaway	fb
+Territory	fb
+Third-and-Long	fb
+Three-Point Stance	fb
+Tight End	fb
+Time Out	fb
+Touchback	fb
+Touchdown	fb
+Trap Block	fb
+Trenches	fb
+Tripping	fb
+Turnover	fb
+Two-Minute Warning	fb
+Two-Point Conversion	fb
+Unbalanced Line	fb
+Unnecessary Roughness	fb
+Unsportsmanlike Conduct	fb
+Uprights	fb
+Vince Lombardi Trophy	fb
+Weak Side	fb
+Wideout	fb
+Wide Receiver	fb
+Wild Card	fb
+Wing Back	fb
+Winning Percentage	fb
+Wishbone Formation	fb
+-Hashtag List-	a
+bills	bufdolphins	miatakeaknee	fbbillieve	fbtnf	fbondemgs	fbbufvsne	buf,nepatriots	nemiavsbuf	mia,bufseavsmia	sea,miatenvsmia	ten,miafinsiders	fbfinsfriday	fbfinsiderstv	fbtannehill	miahartline	miafasano	miapouncey	mianevsmia	ne,miamiavsind	mia,indindvsne	ind,nepatriotsnation	nefaulktrivia	fbddgronkoff	nepatsgameface	neppgs	fbgameday	fbaskapat	nebigplaybreakdown	fbpatssalutetoservice	netroopthanks	fbleaders	fbgoodguy	fbpatspride	nepatsnation	neteamslater	fbbyeweekbonus	fbpatshalloween	neaskthejets	nyjjetsstats	nyjjets	nyjinsidethejets	nyjletsgojets	nyjgreenandwhite	nyjnyjvssea	nyjpaintseattlegreen	nyjgamedaygreen	nyjjetsnation	nyjgreene	nyjlandry	nyjkerley	nyjcromartie	nyjaskrex	nyjnyjets	nyjjetsnotes	nyjravens	balchuckstrong	fbraevns	balravensmemories	baldefense	fbbengalsnation	cinbengals	cincinvskc	cin,kcnygvscin	nyg,cinbengalsdj	cinwhodeyhungry	nosuperbowl	fbdenvscin	den,cinjunglezone	fbpitvscin	pit,cinsundaynightfootball	fbcincinnati	cinwhodey	nosteelers	pitsnf	fbbeatpittsburgh	fbbrowns	cleclevsdal	cle,dalbrownsgiving	clesportsauction	fbnflplay60	fbtrentrichardson	cleeverything2prove	fbbalvscle	bal,clebrownsravens	bal,clegobrowns	clechargers	sdsdvscle	sdbrownschargers	cle,sdladieschalktalk	fbsteelersnation	pitsteelersgame	pitmnf	fbddfieldpass	fbsteelersmnf	pitsteelersmemories	pitsteelernation	pittexans	houwearetexans	houhoustontexans	houjaguars	jactexansradio	houdeepsteelsunday	pitbullsonparade	bufgotexans	houdonniejones	bufjonweeks	houbears	chitexansgameday	houtexansmobile	houbeatthebears	chihaveanicedayandgotexans	houjagsallin	jaccoltsnation	indcoltstrong	indindvsmia	ind,miacolts	indjaguarstache	jacjaguarsstache	jacsxmblitz	fbindvsjac	ind,jacmomentumchanger	fboneteam	fbscobeejersey	fbtitans	tennfl	fbchivsten	fb12thtitan	tentitanscostume	tenbroncos	denelwayaccess	dendenvscar	den,carbroncosroadtrip	densalute	fbchiefs	kcchiefskingdom	kcnflte	fbchiefsgame	kckcvspit	kc,pitnflsalute	fbteamjohnson	kckcvssd	kc,sdkcvsd	kc,sdchiefscr	kcoakvskc	oak,kcoakvkc	oak,kcjoplin	fbchiefsgrillville	kcraidersweek	oakraiders	oakraidernation	oakaskacharger	sdsdvsden	sd,densdvstb	sd,stlboltup	sdchargerstnf	sdwinfromwithin	fbcowboysnation	dalfastisfaster	fbcowboys	daldallascowboys	dalntta	fbcoorslightnyg	nygnygfanphoto	nyggiants	nygbigblue	nygpaul90	nygcruz80	nygrolle26	nygeagles	phiphivswas	phi,waseaglesfans	phiflyeaglesfly	phieagleslive	phigogreen	phidalvsphi	dal,phifanfriday	fbeaglesmeetup	phieaglesmeetups	phisaints	nophivsno	phi,noeaglesnation	phieaglestbc	phiredskins	wasredskinsrally	wasbalvswas	bal,wasblitz4tix	fbredskins80th	waspanthers	car36hangout	fbredskinsreplay	wasredskinstalk	was15yards	fb1stdown	fb1937nflchampionredskins	wasredskinsnation	waslumberjack	fbneanderthal	fbhouvschi	hou,chigould	chigamepreviewq	fbmadden13skills	fblionsvsgb	det,gblionsatgb	det,gbbeattherush	fblionsinsider	detlions	detlivingforthecity	fbbelletiremondaypresser	fblionsatmin	det,mindetvsmin	det,minvikings	minmegatron	detlionsvsmin	det,mingbvsdet	gb,detpackers	gbazvsgb	ari,gbjacvsgb	jac,gbdetvsminsupport	det,minapvspeyton	denmvpvsdet	detminvssea	min,seabeastmode	fbseahawks	seaskol	fbatlaz12	atl,ariatlno12	atl,nobuccaneers	tbtruefan	fbkeeppounding	fbpantherspulse	carpanthertalk	carpantherspostgame	carfootballfood	fbpanthershuddle	carpanthernation	carpantherpatrol	carpantherpride	carpanther	cartheleg	fbatlvsno	atl,noitsabucslife	tbbigredrage	fbazvsatl	ari,atlazcards	ariazcc	arinoquestion	fbprobowl	fbpatsrun	nevotecards	fbteamcoop	fblambeau	gbazflightplan	aricardshq	arisfvsaz	sf,aricardinaltalk	aricardsfocus	arirams	stlramsnation	stlapdstlouis	stlvoterams	stlramsuk	stlrichardson	stlbradford	stl49ers	sfvote49ers	sfmorningtailgate	fbmakeitepic	fbsfunite	sfcover2	fbbeattherams	sfteddyfootball	fb49ersteamstore	sfscstadium	fbweeklyconversation	fbaskdontewhitner	sfninertalk	sf49ersclassic	sf49ersink	sf49erscostume	sfsteamrollers	fbbeatthecardinals	sfmossing	sfplay60	fbvictorymonday	fbfalsestart	fbbinghawks	fbseahawkssalute	seaseahawksblue	seascarvesuphigher	fbfantasyfootball	fbnflturningpoint	fbrookieoftheweek	fbredzone	fb
+-Team name stems-	a
+Cardinal	ari
+Falcon	atl
+Raven	bal
+Bill	buf
+Panther	car
+Bear	chi
+Bengal	cin
+Brown	cle
+Cowboy	dal
+Bronco	den
+Lion	det
+Packer	gb
+Texan	hou
+Colt	ind
+Jaguar	jac
+Chief	kc
+Dolphin	mia
+Viking	min
+Patriot	ne
+Saint	no
+Giant	nyg
+Jet	nyj
+Raider	oak
+Eagle	phi
+Steeler	pit
+Charger	sd
+Seahawk	sea
+49er	sf
+Ram	stl
+Buccaneer	tb
+Titan	ten
+Redskin	was
+-@ names-	a
+@buffalobills	buf@MiamiDolphins	mia@Patriots	ne@nyjets	nyj@Ravens	bal@Bengals	ben@OfficialBrowns	cle@steelers	pit@HoustonTexans	hou@nflcolts	ind@jaguars	jac@tennesseetitans	ten@Denver_Broncos	den@kcchiefs	kc@RAIDERS	oak@chargers	sd@dallascowboys	dal@Giants	nyg@Eagles	phi@Redskins	was@ChicagoBears	chi@DetroitLionsNFL	det@packers	gb@VikingsFootball	min@Atlanta_Falcons	atl@Panthers	car@Saints	no@TBBuccaneers	tb@AZCardinals	ari@STLouisRams	stl@49ers	sf@Seahawks	sea
+-Full Player Names-	a
+Ryan Fitzpatrick	bufTarvaris Jackson	bufBrad Smith	bufTyler Thigpen	bufTashard Choice	bufFred Jackson	bufC.J. Spiller	bufCorey McIntyre	bufMarcus Easley	bufT.J. Graham	bufSteve Johnson	bufDonald Jones	bufRuvell Martin	bufDavid Nelson	bufMike Caussin	bufScott Chandler	bufDorin Dickerson	bufLee Smith	bufColin Brown	bufDavid Snow	bufEric Wood	bufAndy Levitre	bufChad Rinehart	bufKraig Urbik	bufCordy Glenn	bufChris Hairston	bufErik Pears	bufZebrie Sanders	bufThomas Welch	bufSam Young	bufMark Anderson	bufSpencer Johnson	bufChris Kelsay	bufKyle Moore	bufMario Williams	bufAlex Carrington	bufMarcell Dareus	bufKyle Williams	bufTorell Troup	bufNick Barnett	bufNigel Bradham	bufShawne Merriman	bufArthur Moats	bufKirk Morrison	bufBryan Scott	bufKelvin Sheppard	bufChris White	bufRon Brooks	bufCrezdon Butler	bufStephon Gilmore	bufTerrence McGee	bufLeodis McKelvin	bufJustin Rogers	bufAaron Williams	bufJairus Byrd	bufDa'Norris Searcy	bufMana Silva	bufGeorge Wilson	bufRian Lindell	bufShawn Powell	bufGarrison Sanborn	bufPat Devlin	miaMatt Moore	miaRyan Tannehill	miaReggie Bush	miaLamar Miller	miaMarcus Thigpen	miaDaniel Thomas	miaCharles Clay	miaJorvorskie Lane	miaDavone Bess	miaJabar Gaffney	miaBrian Hartline	miaRishard Matthews	miaMarlon Moore	miaMichael Egnew	miaAnthony Fasano	miaJeron Mastrud	miaMike Pouncey	miaRichie Incognito	miaJohn Jerry	miaJosh Samuda	miaNate Garner	miaJake Long	miaJonathan Martin	miaWill Yeatman	miaJared Odrick	miaDerrick Shelby	miaRandy Starks	miaOlivier Vernon	miaTony McDaniel	miaKheeston Randall	miaPaul Soliai	miaKevin Burnett	miaKarlos Dansby	miaJonathan Freeny	miaJosh Kaddu	miaKoa Misi	miaAustin Spitler	miaJason Trusnik	miaCameron Wake	miaNolan Carroll	miaRichard Marshall	miaBryan McCann	miaSean Smith	miaR.J. Stanford	miaJimmy Wilson	miaKelcie McCray	miaJonathon Amaya	miaChris Clemons	miaReshad Jones	miaAnderson Russell	miaDan Carpenter	miaBrandon Fields	miaJohn Denney	miaTom Brady	neRyan Mallett	neBrandon Bolden	neJeff Demps	neStevan Ridley	neShane Vereen	neDanny Woodhead	neSpencer Larsen	neDeion Branch	neJulian Edelman	neBrandon Lloyd	neMatthew Slater	neWes Welker	neJake Ballard	neDaniel Fells	neRob Gronkowski	neBrad Herman	neAaron Hernandez	neMichael Hoomanawanui	neVisanthe Shiancoe	neRyan Wendell	neDan Connolly	neLogan Mankins	neNick McDonald	neDonald Thomas	neMarcus Cannon	neKyle Hix	neNate Solder	neSebastian Vollmer	neJamey Richard	neJake Bequette	neRon Brace	neBrandon Deaderick	neJustin Francis	neChandler Jones	neKyle Love	neMyron Pryor	neVince Wilfork	neJermaine Cunningham	neDane Fletcher	neDont'a Hightower	neNiko Koutouvides	neJerod Mayo	neRob Ninkovich	neMike Rivera	neTrevor Scott	neBrandon Spikes	neJeff Tarpinian	neTracy White	neWill Allen	neKyle Arrington	neMarquice Cole	neAlfonzo Dennard	neRas-I Dowling	neDevin McCourty	neAqib Talib	neMalcolm Williams	neJosh Barrett	nePatrick Chung	neNate Ebner	neSteve Gregory	neDerrick Martin	neTavon Wilson	neStephen Gostkowski	neZoltan Mesko	neDanny Aiken	neGreg McElroy	nyjMark Sanchez	nyjTim Tebow	nyjShonn Greene	nyjJoe McKnight	nyjBilal Powell	nyjLex Hilliard	nyjRoyce Adams	nyjClyde Gates	nyjJason Hill	nyjStephen Hill	nyjSantonio Holmes	nyjJeremy Kerley	nyjChaz Schilens	nyjJosh Baker	nyjJeff Cumberland	nyjDedrick Epps	nyjDustin Keller	nyjKonrad Reuland	nyjHayden Smith	nyjNick Mangold	nyjBrandon Moore	nyjCaleb Schlauderaff	nyjMatt Slauson	nyjVladimir Ducasse	nyjD'Brickashaw Ferguson	nyjAustin Howard	nyjJason Smith	nyjHayworth Hicks	nyjQuinton Coples	nyjMike DeVito	nyjRicky Sapp	nyjMuhammad Wilkerson	nyjKenrick Ellis	nyjDamon Harrison	nyjSione Pouha	nyjNick Bellore	nyjDeMario Davis	nyjMarcus Dowtin	nyjDavid Harris	nyjJosh Mauga	nyjAaron Maybin	nyjGarrett McIntyre	nyjCalvin Pace	nyjBart Scott	nyjBryan Thomas	nyjAaron Berry	nyjAntonio Cromartie	nyjEllis Lankster	nyjDarrelle Revis	nyjIsaiah Trufant	nyjKyle Wilson	nyjYeremiah Bell	nyjJosh Bush	nyjLaRon Landry	nyjEric Smith	nyjNick Folk	nyjRobert Malone	nyjTanner Purdum	nyjCaleb Hanie	nyjPeyton Manning	denBrock Osweiler	denLance Ball	denMario Fannin	denRonnie Hillman	denWillis McGahee	denKnowshon Moreno	denChris Gronkowski	denAndre Caldwell	denEric Decker	denTrindon Holliday	denBrandon Stokley	denDemaryius Thomas	denMatt Willis	denJoel Dreessen	denVirgil Green	denJacob Tamme	denJulius Thomas	denPhilip Blake	denC.J. Davis	denDan Koppen	denJ.D. Walton	denZane Beadles	denChris Kuper	denManny Ramirez	denRyan Clady	denChris Clark	denOrlando Franklin	denRobert Ayers	denJeremy Beal	denElvis Dumervil	denJason Hunter	denMalik Jackson	denTy Warren	denDerek Wolfe	denJustin Bannan	denSealver Siliga	denMitch Unrein	denKevin Vickerson	denKeith Brooking	denNate Irving	denSteven Johnson	denJoe Mays	denVon Miller	denDanny Trevathan	denD.J. Williams	denWesley Woodyard	denChamp Bailey	denOmar Bolden	denTony Carter	denChris Harris	denTracy Porter	denMike Adams	denDavid Bruton	denQuinton Carter	denDuke Ihenacho	denJim Leonhard	denRahim Moore	denMatt Prater	denBritton Colquitt	denAaron Brewer	denMatt Cassel	kcBrady Quinn	kcRicky Stanzi	kcAlex Tanney	kcJamaal Charles	kcShaun Draughn	kcNate Eachus	kcCyrus Gray	kcPeyton Hillis	kcJon Baldwin	kcDwayne Bowe	kcSteve Breaston	kcTerrance Copper	kcDexter McCluster	kcDevon Wylie	kcKevin Boss	kcSteve Maneri	kcTony Moeaki	kcJake O'Connell	kcMartin Rucker	kcRodney Hudson	kcBryan Mattison	kcJeff Allen	kcJon Asamoah	kcRuss Hochstein	kcRyan Lilja	kcBranden Albert	kcDonald Stephenson	kcEric Winston	kcAllen Bailey	kcGlenn Dorsey	kcTyson Jackson	kcRopati Pitoitua	kcShaun Smith	kcAnthony Toribio	kcDontari Poe	kcJerrell Powe	kcJovan Belcher	kcCory Greenwood	kcTamba Hali	kcJustin Houston	kcDerrick Johnson	kcEdgar Jones	kcBryan Kehl	kcBrandon Siler	kcAndy Studebaker	kcJavier Arenas	kcJalil Brown	kcTravis Daniels	kcBrandon Flowers	kcDeQuan Menzie	kcEric Berry	kcAbram Elam	kcTysyn Hartman	kcKendrick Lewis	kcKyle McCarthy	kcRyan Succop	kcDustin Colquitt	kcThomas Gafford	kcMatt Leinart	oakCarson Palmer	oakTerrelle Pryor	oakMike Goodson	oakTaiwan Jones	oakDarren McFadden	oakOwen Schmitt	oakMarcel Reece	oakJeremy Stewart	oakDuke Calhoun	oakJuron Criner	oakJacoby Ford	oakDerek Hagan	oakDarrius Heyward-Bey	oakDenarius Moore	oakRod Streater	oakDavid Ausberry	oakRichard Gordon	oakBrandon Myers	oakMike Brisiel	oakCooper Carlisle	oakLucas Nix	oakAlex Parsons	oakStefen Wisniewski	oakKhalif Barnes	oakTony Bergstrom	oakWillie Smith	oakJared Veldheer	oakZach Hurd	oakAndre Carter	oakJack Crawford	oakLamarr Houston	oakMatt Shaughnessy	oakDave Tollefson	oakChristo Bilukidi	oakDesmond Bryant	oakTommy Kelly	oakRichard Seymour	oakMiles Burris	oakKeenan Clayton	oakAaron Curry	oakTravis Goethel	oakMario Kurn	oakRolando McClain	oakPhilip Wheeler	oakPhillip Adams	oakRon Bartell	oakCoye Francies	oakJoselio Hanson	oakBrandian Ross	oakShawntae Spencer	oakTyvon Branch	oakMatt Giordano	oakMichael Huff	oakMike Mitchell	oakSebastian Janikowski	oakMarquette King	oakShane Lechler	oakJon Condo	oakPhilip Rivers	sdCharlie Whitehurst	sdJackie Battle	sdCurtis Brinkley	sdRonnie Brown	sdRyan Mathews	sdLe'Ron McClain	sdSeyi Ajirotutu	sdDanario Alexander	sdVincent Brown	sdMalcom Floyd	sdRichard Goodman	sdRobert Meachem	sdEddie Royal	sdAntonio Gates	sdLadarius Green	sdRandy McMichael	sdDante Rosario	sdRex Hadnot	sdNick Hardwick	sdDavid Molk	sdTyronne Green	sdLouis Vasquez	sdJeromey Clary	sdJared Gaither	sdMichael Harris	sdCorey Liuget	sdVaughn Martin	sdKendall Reyes	sdAubrayo Franklin	sdAntonio Garay	sdCam Thomas	sdAntwan Barnes	sdDonald Butler	sdLarry English	sdAndrew Gachkar	sdMelvin Ingram	sdJarret Johnson	sdJonas Mouton	sdShaun Phillips	sdTakeo Spikes	sdDemorrio Williams	sdAntoine Cason	sdMarcus Gilchrist	sdQuentin Jammer	sdShareece Wright	sdChris Carr	sdAtari Bigby	sdCorey Lynch	sdDarrell Stuckey	sdBrandon Taylor	sdEric Weddle	sdNick Novak	sdMike Scifres	sdMike Windt	sdJoe Flacco	balTyrod Taylor	balAnthony Allen	balDamien Berry	balBernard Pierce	balBobby Rainey	balRay Rice	balVonta Leach	balAnquan Boldin	balTandon Doss	balJacoby Jones	balDavid Reed	balTorrey Smith	balTommy Streeter	balDeonte Thompson	balLaQuan Williams	balBilly Bajema	balEd Dickson	balDennis Pitta	balMatt Birk	balGino Gradkowski	balKelechi Osemele	balBobbie Williams	balMarshal Yanda	balRamon Harewood	balBryant McKinnie	balMichael Oher	balJah Reid	balArthur Jones	balMike McAdoo	balPernell McPhee	balDeAngelo Tyson	balBryan Hall	balRyan McBean	balHaloti Ngata	balTerrence Cody	balMa'ake Kemoeatu	balBrendon Ayanbadejo	balRicky Brown	balJosh Bynes	balDannell Ellerbe	balPaul Kruger	balRay Lewis	balJameel McClain	balAlbert McClellan	balTerrell Suggs	balCourtney Upshaw	balChykie Brown	balCorey Graham	balAsa Jackson	balJimmy Smith	balLardarius Webb	balCary Williams	balSean Considine	balEmanuel Cook	balJames Ihedigbo	balBernard Pollard	balEd Reed	balChristian Thompson	balJustin Tucker	balSam Koch	balMorgan Cox	balAndy Dalton	cinBruce Gradkowski	cinBenJarvus Green-Ellis	cinBrian Leonard	cinCedric Peerman	cinBernard Scott	cinChris Pressley	cinArmon Binns	cinAJ Green	cinAndrew Hawkins	cinMarvin Jones	cinTaveon Rogers	cinMohamed Sanu	cinBrandon Tate	cinRyan Whalen	cinOrson Charles	cinJermaine Gresham	cinRichard Quinn	cinKyle Cook	cinJeff Faine	cinClint Boling	cinTrevor Robinson	cinKevin Zeitler	cinAnthony Collins	cinDennis Roland	cinAndre Smith	cinAndrew Whitworth	cinTravelle Wharton	cinJamaal Anderson	cinCarlos Dunlap	cinRobert Geathers	cinWallace Gilberry	cinMichael Johnson	cinGeno Atkins	cinDomata Peko	cinPat Sims	cinDevon Still	cinBrandon Thompson	cinVontaze Burfict	cinThomas Howard	cinEmmanuel Lamur	cinManny Lawson	cinRey Maualuga	cinVincent Rey	cinDan Skuta	cinJason Allen	cinNate Clements	cinBrandon Ghee	cinLeon Hall	cinAdam Jones	cinDre Kirkpatrick	cinTerence Newman	cinShaun Prater	cinTony Dye	cinChris Crocker	cinGeorge Iloka	cinTaylor Mays	cinJeromy Miles	cinReggie Nelson	cinRobert Sands	cinMike Nugent	cinKevin Huber	cinClark Harris	cinColt McCoy	cleBrandon Weeden	cleMontario Hardesty	cleBrandon Jackson	cleChris Ogbonnaya	cleTrent Richardson	cleOwen Marecic	cleEddie Williams	cleTravis Benjamin	cleJosh Cooper	cleJosh Cribbs	cleJosh Gordon	cleGreg Little	cleMohamed Massaquoi	cleJordan Norwood	cleJordan Cameron	cleAlex Smith	cleBenjamin Watson	cleAlex Mack	cleJohn Greco	cleShawn Lauvao	cleRyan Miller	cleJason Pinkston	cleOniel Cousins	cleMitchell Schwartz	cleJoe Thomas	cleJarrod Shaw	cleAuston English	cleJuqua Parker	cleFrostee Rucker	cleBrian Sanford	cleJabaal Sheard	cleEmmanuel Stephens	cleRonnie Cameron	cleJohn Hughes	cleAhtyba Rubin	clePhillip Taylor	cleBilly Winn	cleIshmaa'ily Kitchen	cleEmmanuel Acho	cleTank Carder	cleL.J. Fort	cleScott Fujita	cleChris Gocong	cleD'Qwell Jackson	cleJames-Michael Johnson	cleKaluka Maiava	cleCraig Robertson	cleJohnson Bademosi	cleSheldon Brown	cleTashaun Gipson	cleJoe Haden	cleDimitri Patterson	cleBuster Skrine	cleTrevin Wade	cleEric Hagg	cleRaymond Ventrone	cleT.J. Ward	cleUsama Young	clePhil Dawson	cleReggie Hodges	cleChristian Yount	cleCharlie Batch	pitByron Leftwich	pitBen Roethlisberger	pitBaron Batch	pitJonathan Dwyer	pitRashard Mendenhall	pitChris Rainey	pitIsaac Redman	pitWill Johnson	pitAntonio Brown	pitJerricho Cotchery	pitEmmanuel Sanders	pitMike Wallace	pitDavid Johnson	pitHeath Miller	pitDavid Paulson	pitLeonard Pope	pitMaurkice Pouncey	pitKelvin Beachum	pitRamon Foster	pitDoug Legursky	pitMike Adams	pitWillie Colon	pitMarcus Gilbert	pitMax Starks	pitDavid DeCastro	pitCameron Heyward	pitZiggy Hood	pitBrett Keisel	pitAl Woods	pitSteve McLendon	pitCasey Hampton	pitAlameda Ta'amu	pitChris Carter	pitLarry Foote	pitJames Harrison	pitBrandon Johnson	pitAdrian Robinson	pitSean Spence	pitStevenson Sylvester	pitLawrence Timmons	pitLaMarr Woodley	pitJason Worilds	pitCortez Allen	pitCurtis Brown	pitKeenan Lewis	pitIke Taylor	pitDeMarcus Van Dyke	pitWill Allen	pitRyan Clark	pitRobert Golden	pitRyan Mundy	pitTroy Polamalu	pitShaun Suisham	pitDrew Butler	pitJeremy Kapinos	pitGreg Warren	pitMatt Schaub	houT.J. Yates	houJustin Forsett	houArian Foster	houJonathan Grimes	houBen Tate	houJames Casey	houTyler Clutts	houLestar Jean	houAndre Johnson	houKeshawn Martin	houDeVier Posey	houKevin Walter	houOwen Daniels	houGarrett Graham	houBen Jones	houChris Myers	houBrandon Brooks	houAntoine Caldwell	houAndrew Gardner	houWade Smith	houDuane Brown	houRashad Butler	houRyan Harris	houDerek Newton	houCody White	houJared Crick	houRa'Shon Harris	houTim Jamison	houAntonio Smith	houJ.J. Watt	houShaun Cody	houDavid Hunter	houTerrell McClain	houEarl Mitchell	houConnor Barwin	houBryan Braman	houBrian Cushing	houTim Dobbins	houKeyaron Fox	houBradie James	houWhitney Mercilus	houJesse Nading	houBrooks Reed	houBarrett Ruud	houDarryl Sharpton	houAlan Ball	houRoc Carmichael	houBrandon Harris	houKareem Jackson	houJohnathan Joseph	houBrice McCain	houQuintin Demps	houShiloh Keo	houDanieal Manning	houTroy Nolan	houGlover Quin	houRandy Bullock	houShayne Graham	houDonnie Jones	houJon Weeks	houAndrew Luck	indDrew Stanton	indVick Ballard	indDonald Brown	indDelone Carter	indRobert Hughes	indDonnie Avery	indLaVon Brazill	indAustin Collie	indT.Y. Hilton	indNathan Palmer	indReggie Wayne	indGriff Whalen	indDwayne Allen	indCoby Fleener	indWeslye Saunders	indMike McGlynn	indSamson Satele	indA.Q. Shipley	indSeth Olsen	indJoe Reitz	indAnthony Castonzo	indTony Hills	indBen Ijalana	indWinston Justice	indJeffrey Linkenbach	indBradley Sowell	indJustin Anderson	indClifton Geathers	indLawrence Guy	indFili Moala	indCory Redding	indRicardo Mathews	indBrandon McKinney	indDrake Nevis	indAntonio Johnson	indMartin Tevaseu	indPat Angerer	indKavell Conner	indA.J. Edds	indMoise Fokou	indJerrell Freeman	indDwight Freeney	indMario Harvey	indJustin Hickman	indJerry Hughes	indScott Lutrus	indRobert Mathis	indDarius Butler	indVontae Davis	indJosh Gordy	indMarshay Green	indJerraud Powers	indCassius Vaughn	indAntoine Bethea	indSergio Brown	indJoe Lefeged	indTom Zbikowski	indAdam Vinatieri	indPat McAfee	indMatt Overton	indMatt Hasselbeck	tenJake Locker	tenRusty Smith	tenJamie Harper	tenChris Johnson	tenDarius Reynaud	tenJavon Ringer	tenQuinn Johnson	tenKenny Britt	tenLavelle Hawkins	tenMarc Mariani	tenNate Washington	tenDamian Williams	tenKendall Wright	tenBeau Brinkley	tenJared Cook	tenCraig Stevens	tenTaylor Thompson	tenEugene Amano	tenKevin Matthews	tenLeroy Harris	tenSteve Hutchinson	tenDeuce Lutui	tenFernando Velasco	tenMichael Otto	tenMichael Roos	tenDavid Stewart	tenByron Stingily	tenKyle DeVan	tenDave Ball	tenKeyunta Dawson	tenDerrick Morgan	tenScott Solomon	tenKamerion Wimbley	tenJarius Wynn	tenJurrell Casey	tenLeger Douzable	tenDaJohn Harris	tenKarl Klug	tenSen'Derrick Marks	tenMike Martin	tenXavier Adibi	tenAkeem Ayers	tenPatrick Bailey	tenZach Brown	tenZac Diles	tenKevin Malast	tenColin McCarthy	tenGerald McRath	tenTim Shaw	tenWill Witherspoon	tenTommie Campbell	tenJason McCourty	tenRyan Mouton	tenCoty Sensabaugh	tenAlterraun Verner	tenRobert Johnson	tenTracy Wilson	tenAl Afalava	tenJordan Babineaux	tenMichael Griffin	tenMarkelle Martin	tenRob Bironas	tenBrett Kern	tenBlaine Gabbert	jacChad Henne	jacRashad Jennings	jacMaurice Jones-Drew	jacMontell Owens	jacJalen Parmele	jacBrock Bolen	jacGreg Jones	jacWill Ta'ufo'ou	jacAnthony Armstrong	jacJustin Blackmon	jacKevin Elliott	jacTaylor Price	jacLaurent Robinson	jacCecil Shorts	jacMicheal Spurlock	jacBrett Brackett	jacMarcedes Lewis	jacZach Potter	jacMaurice Stovall	jacMatt Veldman	jacMichael Brewster	jacJohn Estes	jacBrad Meester	jacSteve Vallos	jacEben Britton	jacUche Nwaneri	jacCameron Bradfield	jacEugene Monroe	jacGuy Whimper	jacWill Rackley	jacJason Spitz	jacAndre Branch	jacJohn Chick	jacAusten Lane	jacJeremy Mincey	jacGeorge Selvie	jacTyson Alualu	jacTerrance Knighton	jacC.J. Mosley	jacDrew Nowak	jacJeris Pendleton	jacD'Anthony Smith	jacRussell Allen	jacKyle Bosworth	jacPaul Posluszny	jacClint Session	jacDaryl Smith	jacJulian Stanford	jacAntwon Blake	jacDerek Cox	jacMike Harris	jacRashean Mathis	jacWilliam Middleton	jacAaron Ross	jacKevin Rutland	jacChris Harris	jacDawan Landry	jacDwight Lowery	jacChris Prosinski	jacJosh Scobee	jacBryan Anger	jacJeremy Cain	jacKyle Orton	jacTony Romo	dalLance Dunbar	dalFelix Jones	dalDeMarco Murray	dalPhillip Tanner	dalLawrence Vickers	dalMiles Austin	dalCole Beasley	dalDez Bryant	dalDwayne Harris	dalAndre Holmes	dalDonavon Kemp	dalKevin Ogletree	dalJames Hanna	dalJohn Phillips	dalJason Witten	dalRyan Cook	dalPhil Costa	dalKevin Kowalski	dalDavid Arkin	dalMackenzy Bernadeau	dalDerrick Dockery	dalNate Livings	dalDoug Free	dalJermey Parnell	dalTyron Smith	dalKenyon Coleman	dalJason Hatcher	dalSean Lissemore	dalTyrone Crawford	dalMarcus Spears	dalJosh Brent	dalJay Ratliff	dalAlex Albright	dalVictor Butler	dalBruce Carter	dalDan Connor	dalSean Lee	dalOrie Lemon	dalCaleb McSurdy	dalErnie Sims	dalAnthony Spencer	dalDeMarcus Ware	dalKyle Wilber	dalVince Agnew	dalBrandon Carr	dalMorris Claiborne	dalMike Jenkins	dalOrlando Scandrick	dalBarry Church	dalEric Frampton	dalMatt Johnson	dalDanny McCray	dalCharlie Peprah	dalGerald Sensabaugh	dalDan Bailey	dalChris Jones	dalBrian Moorman	dalL.P. LaDouceur	dalDavid Carr	nygEli Manning	nygAhmad Bradshaw	nygAndre Brown	nygDa'Rel Scott	nygDavid Wilson	nygHenry Hynoski	nygRamses Barden	nygVictor Cruz	nygDomenik Hixon	nygJerrel Jernigan	nygHakeem Nicks	nygRueben Randle	nygTravis Beckum	nygMartellus Bennett	nygBear Pascoe	nygAdrien Robinson	nygDavid Baas	nygJim Cordle	nygKevin Boothe	nygChris Snee	nygWill Beatty	nygJames Brewer	nygDavid Diehl	nygSean Locklear	nygBrandon Mosley	nygAdewale Ojomo	nygJason Pierre-Paul	nygAdrian Tracy	nygJustin Trattou	nygJustin Tuck	nygOsi Umenyiora	nygMarvin Austin	nygRocky Bernard	nygChris Canty	nygLinval Joseph	nygMarkus Kuhn	nygMartin Parker	nygShaun Rogers	nygChase Blackburn	nygMichael Boley	nygMark Herzlich	nygMathias Kiwanuka	nygSpencer Paysinger	nygKeith Rivers	nygJacquian Williams	nygPrince Amukamara	nygMichael Coe	nygJayron Hosley	nygBruce Johnson	nygTerrell Thomas	nygJustin Tryon	nygCorey Webster	nygBrian Witherspoon	nygStevie Brown	nygWill Hill	nygKenny Phillips	nygAntrel Rolle	nygTyler Sash	nygLawrence Tynes	nygSteve Weatherford	nygZak DeOssie	nygTrent Edwards	phiNick Foles	phiMichael Vick	phiBryce Brown	phiDion Lewis	phiLeSean McCoy	phiChris Polk	phiStanley Havili	phiJason Avant	phiRiley Cooper	phiMardy Gilyard	phiDeSean Jackson	phiDamaris Johnson	phiRonald Johnson	phiJeremy Maclin	phiBrent Celek	phiClay Harbor	phiJason Kelce	phiMatt Tennant	phiEvan Mathis	phiDallas Reynolds	phiDanny Watkins	phiDemetress Bell	phiKing Dunlap	phiTodd Herremans	phiDennis Kelly	phiNate Menkin	phiJulian Vandervelde	phiJason Babin	phiTrent Cole	phiVinny Curry	phiBrandon Graham	phiPhillip Hunt	phiDarryl Tapp	phiFletcher Cox	phiCullen Jenkins	phiDerek Landri	phiMike Patterson	phiCedric Thornton	phiJamar Chaney	phiAkeem Jordan	phiMychal Kendricks	phiCasey Matthews	phiDeMeco Ryans	phiNnamdi Asomugha	phiBrandon Boykin	phiBrandon Hughes	phiCurtis Marsh	phiDominique Rodgers-Cromartie	phiNate Allen	phiColt Anderson	phiKurt Coleman	phiDavid Sims	phiAlex Henery	phiMat McBriar	phiJon Dorenbos	phiKirk Cousins	wasRobert Griffin III	wasRex Grossman	wasTristan Davis	wasRoy Helu	wasAlfred Morris	wasEvan Royster	wasKeiland Williams	wasDorson Boyce	wasDarrel Young	wasBrandon Banks	wasDezmon Briscoe	wasPierre Garcon	wasLeonard Hankerson	wasDarius Hanks	wasJosh Morgan	wasSantana Moss	wasAldrick Robinson	wasChris Cooley	wasFred Davis	wasNiles Paul	wasLogan Paulsen	wasWill Montgomery	wasChris Chester	wasAdam Gettis	wasMaurice Hurt	wasJosh LeRibeus	wasKory Lichtensteiger	wasJordan Black	wasJammal Brown	wasTyler Polumbus	wasTrent Williams	wasStephen Bowen	wasAdam Carriker	wasKedric Golston	wasJarvis Jenkins	wasDoug Worthington	wasChris Baker	wasBarry Cofield	wasChris Neild	wasMario Addison	wasLorenzo Alexander	wasLondon Fletcher	wasRob Jackson	wasRyan Kerrigan	wasBrian Orakpo	wasPerry Riley	wasKeenan Robinson	wasChris Wilson	wasJordan Bernstine	wasRichard Crawford	wasCedric Griffin	wasDeAngelo Hall	wasDJ Johnson	wasJosh Wilson	wasReed Doughty	wasDeJon Gomes	wasTanard Jackson	wasBrandon Meriweather	wasJordan Pugh	wasMadieu Williams	wasKai Forbath	wasSav Rocca	wasKevin Kolb	ariRyan Lindley	ariJohn Skelton	ariJared Crank	ariJavarris James	ariWilliam Powell	ariAlfonso Smith	ariLaRod Stephens-Howling	ariBeanie Wells	ariRyan Williams	ariAnthony Sherman	ariLaRon Byrd	ariEarly Doucet	ariLarry Fitzgerald	ariMichael Floyd	ariAndre Roberts	ariStephen Williams	ariJim Dray	ariTodd Heap	ariRob Housler	ariJeff King	ariRyan Bartholomew	ariLyle Sendlein	ariDaryn Colledge	ariSenio Kelemete	ariRich Ohrnberger	ariAdam Snyder	ariBlake DeChristopher	ariD'Anthony Batiste	ariLevi Brown	ariBobby Massie	ariPat McQuistan	ariNate Potter	ariCalais Campbell	ariVonnie Holliday	ariZack Nash	ariRonald Talley	ariDavid Carter	ariDarnell Dockett	ariNick Eason	ariDan Williams	ariSam Acho	ariStewart Bradley	ariQuentin Groves	ariParis Lenon	ariO'Brien Schofield	ariReggie Walker	ariDaryl Washington	ariJamaal Westerman	ariBrandon Williams	ariMichael Adams	ariJamell Fleming	ariWilliam Gay	ariPatrick Peterson	ariGreg Toler	ariJustin Bethel	ariRashad Johnson	ariKerry Rhodes	ariJames Sanders	ariAdrian Wilson	ariJay Feely	ariDave Zastudil	ariMike Leach	ariColin Kaepernick	sfAlex Smith	sfScott Tolzien	sfAnthony Dixon	sfFrank Gore	sfKendall Hunter	sfBrandon Jacobs	sfLaMichael James	sfBruce Miller	sfMichael Crabtree	sfTed Ginn	sfA.J. Jenkins	sfMario Manningham	sfRandy Moss	sfKyle Williams	sfGarrett Celek	sfVernon Davis	sfDemarcus Dobbs	sfBrian Jennings	sfDelanie Walker	sfJonathan Goodwin	sfLeonard Davis	sfMike Iupati	sfDaniel Kilgore	sfJoe Looney	sfAlex Boone	sfAnthony Davis	sfJoe Staley	sfRicky Jean Francois	sfRay McDonald	sfJustin Smith	sfIsaac Sopoaga	sfWill Tukuafu	sfIan Williams	sfNaVorro Bowman	sfAhmad Brooks	sfDarius Fleming	sfTavares Gooden	sfLarry Grant	sfClark Haggans	sfParys Haralson	sfAldon Smith	sfPatrick Willis	sfTramaine Brock	sfTarell Brown	sfPerrish Cox	sfChris Culliver	sfCarlos Rogers	sfDashon Goldson	sfDarcel McBath	sfTrenton Robinson	sfC.J. Spillman	sfDonte Whitner	sfDavid Akers	sfAndy Lee	sfMatt Flynn	seaRussell Wilson	seaMarshawn Lynch	seaRobert Turbin	seaLeon Washington	seaMichael Robinson	seaDoug Baldwin	seaBraylon Edwards	seaJermaine Kearse	seaBen Obomanu	seaSidney Rice	seaGolden Tate	seaAnthony McCoy	seaZach Miller	seaEvan Moore	seaCameron Morrah	seaMax Unger	seaJames Carpenter	seaLemuel Jeanpierre	seaJohn Moffitt	seaFrank Omiyale	seaJ.R. Sweezy	seaBreno Giacomini	seaPaul McQuistan	seaRussell Okung	seaMike Person	seaRed Bryant	seaChris Clemons	seaDexter Davis	seaBruce Irvin	seaGreg Scruggs	seaAlan Branch	seaJaye Howard	seaJason Jones	seaClinton McDonald	seaBrandon Mebane	seaHeath Farwell	seaLeroy Hill	seaMike Morgan	seaMalcolm Smith	seaBobby Wagner	seaK.J. Wright	seaBrandon Browner	seaJeremy Lane	seaChris Maragos	seaByron Maxwell	seaRichard Sherman	seaWalter Thurmond	seaMarcus Trufant	seaKam Chancellor	seaWinston Guy	seaJeron Johnson	seaEarl Thomas	seaSteven Hauschka	seaJon Ryan	seaClint Gresham	seaSam Bradford	stlKellen Clemens	stlAustin Davis	stlTerrance Ganaway	stlSteven Jackson	stlBrit Miller	stlIsaiah Pead	stlDaryl Richardson	stlDanny Amendola	stlBrandon Gibson	stlChris Givens	stlAustin Pettis	stlBrian Quick	stlSteve Smith	stlLance Kendricks	stlMike McNeill	stlMatthew Mulligan	stlTim Barnes	stlRobert Turner	stlScott Wells	stlHarvey Dahl	stlShelley Smith	stlJoe Barksdale	stlWayne Hunter	stlBarry Richardson	stlRodger Saffold	stlChris Williams	stlRokevious Watkins	stlWilliam Hayes	stlKendall Langford	stlChris Long	stlRobert Quinn	stlEugene Sims	stlMichael Brockers	stlMatt Conrath	stlJermelle Cudjo	stlTrevor Laws	stlJustin Cole	stlJo-Lonn Dunbar	stlMario Haggan	stlJosh Hull	stlJames Laurinaitis	stlRocky McIntosh	stlCortland Finnegan	stlBradley Fletcher	stlJanoris Jenkins	stlTrumaine Johnson	stlQuinton Pointer	stlCraig Dahl	stlMatt Daniels	stlRodney McLeod	stlQuintin Mikell	stlDarian Stewart	stlGreg Zuerlein	stlJohnny Hekker	stlJake McQuaide	stlJason Campbell	chiJay Cutler	chiArmando Allen	chiMichael Bush	chiMatt Forte	chiEvan Rodriguez	chiEarl Bennett	chiDevin Hester	chiAlshon Jeffery	chiJohnny Knox	chiBrandon Marshall	chiDane Sanzenbacher	chiEric Weems	chiKyle Adams	chiKellen Davis	chiBrody Eldridge	chiMatt Spaeth	chiChris Spencer	chiRoberto Garza	chiLance Louis	chiChilo Rachal	chiEdwin Williams	chiGabe Carimi	chiJonathan Scott	chiJ'Marcus Webb	chiNick Pieschel	chiIsrael Idonije	chiShea McClellin	chiHenry Melton	chiCheta Ozougwu	chiJulius Peppers	chiCorey Wootton	chiNate Collins	chiAmobi Okoye	chiStephen Paea	chiMatt Toeaina	chiLance Briggs	chiBlake Costanzo	chiGeno Hayes	chiNick Roach	chiJ.T. Thomas	chiBrian Urlacher	chiZack Bowman	chiKelvin Hayden	chiTim Jennings	chiSherrick McManis	chiD.J. Moore	chiCharles Tillman	chiChris Conte	chiCraig Steltz	chiAnthony Walters	chiMajor Wright	chiBrandon Hardin	chiRobbie Gould	chiAdam Podlesh	chiPatrick Mannelly	chiShaun Hill	detKellen Moore	detMatthew Stafford	detJoique Bell	detJahvid Best	detMikel Leshoure	detStefan Logan	detKevin Smith	detRyan Broyles	detNate Burleson	detCalvin Johnson	detKassim Osgood	detBrian Robiskie	detMike Thomas	detTitus Young	detWill Heller	detBrandon Pettigrew	detTony Scheffler	detBill Nagy	detDominic Raiola	detDylan Gandy	detStephen Peterman	detRob Sims	detJeff Backus	detGosder Cherilus	detJason Fox	detCorey Hilliard	detRiley Reiff	detCliff Avril	detLawrence Jackson	detRonnell Lewis	detKyle Vanden Bosch	detWillie Young	detNick Fairley	detSammie Lee Hill	detNdamukong Suh	detCorey Williams	detJustin Durant	detDeAndre Levy	detTravis Lewis	detAshlee Palmer	detStephen Tulloch	detTahir Whitehead	detBill Bentley	detDon Carey	detDrayton Florence	detJonte Green	detChris Greenwood	detChris Houston	detJacob Lacey	detAlphonso Smith	detErik Coleman	detLouis Delmas	detRicardo Silva	detAmari Spievey	detJohn Wendling	detJason Hanson	detNick Harris	detDon Muhlbach	detGraham Harrell	gbAaron Rodgers	gbCedric Benson	gbAlex Green	gbBrandon Saine	gbJames Starks	gbJohnny White	gbJohn Kuhn	gbJarrett Boykin	gbRandall Cobb	gbDonald Driver	gbGreg Jennings	gbJames Jones	gbJordy Nelson	gbTom Crabtree	gbJermichael Finley	gbAndrew Quarless	gbRyan Taylor	gbD.J. Williams	gbEvan Dietrich-Smith	gbJeff Saturday	gbDon Barclay	gbT.J. Lang	gbJosh Sitton	gbBryan Bulaga	gbMarshall Newhouse	gbDerek Sherrod	gbGreg Van Roten	gbMike Daniels	gbMike Neal	gbC.J. Wilson	gbJerel Worthy	gbJohnny Jones	gbRyan Pickett	gbB.J. Raji	gbDesmond Bishop	gbRob Francois	gbA.J. Hawk	gbBrad Jones	gbJamari Lattimore	gbTerrell Manning	gbClay Matthews	gbDezman Moses	gbNick Perry	gbD.J. Smith	gbErik Walden	gbFrank Zombo	gbJarrett Bush	gbCasey Hayward	gbDavon House	gbSam Shields	gbTramon Williams	gbMorgan Burnett	gbM.D. Jennings	gbJerron McMillian	gbSean Richardson	gbCharles Woodson	gbMason Crosby	gbTim Masthay	gbBrett Goode	gbMcLeod Bethel-Thompson	minChristian Ponder	minJoe Webb	minToby Gerhart	minAdrian Peterson	minMatt Asiata	minJerome Felton	minDevin Aromashodu	minStephen Burton	minGreg Childs	minPercy Harvin	minMichael Jenkins	minJerome Simpson	minJarius Wright	minJohn Carlson	minRhett Ellison	minAllen Reisner	minKyle Rudolph	minBrandon Fusco	minJohn Sullivan	minMark Asper	minJoe Berger	minGeoff Schwartz	minCharlie Johnson	minMatt Kalil	minPhil Loadholt	minDeMarcus Love	minJared Allen	minEverson Griffen	minD'Aundre Reed	minBrian Robison	minChristian Ballard	minFred Evans	minLetroy Guion	minKevin Williams	minJasper Brinkley	minAudie Cole	minLarry Dean	minChad Greenway	minErin Henderson	minTyrone McKenzie	minMarvin Mitchell	minBrandon Burton	minChris Cook	minA.J. Jefferson	minJosh Robinson	minMarcus Sherels	minAntoine Winfield	minNick Taylor	minRobert Blanton	minMistral Raymond	minJamarca Sanford	minAndrew Sendejo	minHarrison Smith	minBlair Walsh	minChris Kluwe	minCullen Loeffler	minDominique Davis	atlLuke McCown	atlMatt Ryan	atlBradie Ewing	atlJacquizz Rodgers	atlAntone Smith	atlJason Snelling	atlMichael Turner	atlMike Cox	atlKevin Cone	atlDrew Davis	atlHarry Douglas	atlJulio Jones	atlKerry Meier	atlRoddy White	atlTommy Gallarda	atlTony Gonzalez	atlAdam Nissley	atlMichael Palmer	atlJoe Hawley	atlTodd McClure	atlJustin Blalock	atlMike Johnson	atlPeter Konz	atlGarrett Reynolds	atlSam Baker	atlTyson Clabo	atlLamar Holmes	atlWill Svitek	atlPhillipkeith Manley	atlJohn Abraham	atlKroy Biermann	atlRay Edwards	atlJonathan Massaquoi	atlCliff Matthews	atlLawrence Sidbury	atlJonathan Babineaux	atlPeria Jerry	atlCorey Peters	atlTravian Robertson	atlVance Walker	atlAkeem Dent	atlRobert James	atlStephen Nicholas	atlMike Peterson	atlSean Weatherspoon	atlDominique Franks	atlBrent Grimes	atlRobert McClain	atlChris Owens	atlDunta Robinson	atlAsante Samuel	atlThomas DeCoud	atlChris Hope	atlCharles Mitchell	atlWilliam Moore	atlShann Schillinger	atlMatt Bryant	atlMatt Bosher	atlJosh Harris	atlDerek Anderson	noJimmy Clausen	noCam Newton	noTauren Poole	noJonathan Stewart	noDeAngelo Williams	noMike Tolbert	noJoe Adams	noArmanti Edwards	noDavid Gettis	noBrandon LaFell	noLouis Murphy	noKealoha Pilares	noSteve Smith	noGary Barnidge	noRichie Brockel	noBen Hartsock	noGreg Olsen	noJeff Byers	noRyan Kalil	noGeoff Hangartner	noMike Pollak	noAmini Silatolu	noByron Bell	noBruce Campbell	noJordan Gross	noGarry Williams	noLee Ziemba	noZack Williams	noFrank Alexander	noAntwan Applewhite	noGreg Hardy	noCharles Johnson	noThomas Keiser	noNate Chandler	noDwan Edwards	noRon Edwards	noSione Fua	noAndre Neblett	noJames Anderson	noJon Beason	noThomas Davis	noDoug Hogue	noLuke Kuechly	noKenny Onatolu	noJason Phillips	noJordan Senn	noJason Williams	noJames Dockery	noChris Gamble	noCaptain Munnerlyn	noNate Ness	noJosh Norman	noJosh Thomas	noD.J. Campbell	noCharles Godfrey	noColin Jones	noSherrod Martin	noHaruki Nakamura	noJustin Medlock	noBrad Nortman	noJ.J. Jansen	noDrew Brees	noChase Daniel	noTravaris Cadet	noMark Ingram	noChris Ivory	noDarren Sproles	noPierre Thomas	noJed Collins	noGreg Camarillo	noMarques Colston	noChris Givens	noDevery Henderson	noLance Moore	noJoe Morgan	noCourtney Roby	noNick Toon	noJimmy Graham	noDavid Thomas	noBrian De La Puente	noJahri Evans	noBen Grubbs	noEric Olsen	noCharles Brown	noJermon Bushrod	noBryce Harris	noMarcel Jones	noZach Strief	noFenuki Tupou	noAndrew Tiller	noScott Winnewisser	noJunior Galette	noCameron Jordan	noTurk McBride	noGreg Romeus	noWill Smith	noMartez Wilson	noBrodrick Bunkley	noSedrick Ellis	noAkiem Hicks	noTom Johnson	noTyrunn Walker	noJonathan Casillas	noChris Chamberlain	noDavid Hawthorne	noWill Herring	noRamon Humber	noCurtis Lofton	noScott Shanle	noJonathan Vilma	noJabari Greer	noElbert Mack	noJohnny Patrick	noPatrick Robinson	noCorey White	noIsa Abdul-Quddus	noRafael Bush	noRoman Harper	noMalcolm Jenkins	noGarrett Hartley	noThomas Morstead	noJustin Drescher	noJosh Freeman	tbDan Orlovsky	tbLeGarrette Blount	tbDoug Martin	tbMichael Smith	tbD.J. Ware	tbErik Lorig	tbArrelious Benn	tbVincent Jackson	tbChris Owusu	tbRoscoe Parrish	tbSammie Stroughter	tbTiquan Underwood	tbMike Williams	tbNate Byham	tbDallas Clark	tbDanny Noble	tbLuke Stocker	tbTed Larsen	tbCody Wallace	tbJeremy Zuttah	tbCarl Nicks	tbDemar Dotson	tbJamon Meredith	tbDonald Penn	tbJeremy Trueblood	tbRoger Allen	tbDavin Joseph	tbDesmond Wynn	tbMichael Bennett	tbDa'Quan Bowers	tbAdrian Clayborn	tbAaron Morgan	tbDaniel Te'o-Nesheim	tbGary Gibson	tbCorvey Irvin	tbGerald McCoy	tbRoy Miller	tbQuincy Black	tbJacob Cutrera	tbLavonte David	tbMason Foster	tbNajee Goode	tbAdam Hayward	tbDekoda Watson	tbRonde Barber	tbE.J. Biggers	tbAnthony Gaitor	tbDanny Gorrer	tbLeonard Johnson	tbLeQuan Lewis	tbMyron Lewis	tbKeith Tandy	tbEric Wright	tbMark Barron	tbAhmad Black	tbCody Grimm	tbConnor Barth	tbMichael Koenen	tbAndrew Economos	tb
+-Stadiums-	a
+Ralph Wilson Stadium	bufLucas Oil Stadium	indReliant Stadium	houEdward Jones Dome	stlRaymond James Stadium	tbBank of America Stadium	carMall of America Field	minMetrodome	minMetLife Stadium	nygGillette Stadium	neO.co Coliseum	oakColiseum	oakPaul Brown Stadium	cinHeinz Field	pitFord Field	detSoldier Field	chiLincoln Financial Field	phiWembley Stadium	stlLP Field	tenLambeau Field	gbArrowhead Stadium	kcCowboys Stadium	dalSports Authority Field	denMile High Stadium	denEverBank Field	jacFedEx Field	wasCenturyLink Field	seaGeorgia Dome	atlMercedes-Benz Superdome	noM&T Bank Stadium	balSun Life Stadium	miaRaymond James Stadium	tbLincoln Financial Field	phiCandlestick Park	sf-Strong Nicknames-	a
+NFL	fb
+AFC	fb
+NFC	fb
+TD	fb
+FG	fb
+Stillers	pit
+49ers	sf
+9ers	sf
+Ain'ts		noAmerica's Team	dalBlitzburgh	pitShitsburgh	pitBulls on Parade	houBungles	cin
+Da Bears	chiDeadskins	wasDirty Birds	atlForty Whiners	sfGang Green	nyjPats	neLegion of Boom	seaFaiders	oakSea Slugs	seaSea Chickens 	seaSeasquawks	seaViqueens	minNiner	sfNiners	sfWho Dat	noCheesehead	gbCheeseheads	gbMile High 	denTerrible Towel	pitMuscle Hamster	tbMegatron	detLegatron	stlReceptatron	detRg3	wasRgiii	was
+RG 3	was
+Rg iii	wasAD	minAmish Rifle	buf		Beast Mode	seaBig Ben	pit	Big Snack	pitBreesus	no	CJ2K	tenCJ2	tenComeback Kid	fbDeebo	pitFitzmagic	buf	The Flyin Hawaiian	pitGolden Graham	noGronk	neJJ Swat	hou	Mossiah	sf	MoJo	jacMJD	jac	Mr. Rodgers	gb	Pocket Hercules	jac	Purple Jesus	min	Quiet Storm	noRed Rifle	cin	Samoan Head Hunter	pitSlot Machine	neTebow Time	nyjTom Terrific	neThe Tasmanian Devil		pitFlying Hawaiian	pit
+-Weak Nicknames-	a
+INT	fb
+FUM	fb
+WR	fb
+QB	fb
+RB	fb
+ELIte		nygAll Day	minAP	min	Law Firm	cinMilkman	houThe Natural	houOptimus Prime	houRun DMC	oak	Silverback	pit
+Superman	car
+Cards	ari
+Cowgirls	dalCowpies	dalDolts	indBolts	sdEvil Empire	neG Men	nygJokeland	oakPatsies	nePewter Pirates	tbPurple People Eaters	minSuper Chargers	sdSteel Curtain	pitSeagulls	seaSquawks	seaYucks	tbYuccaneers	tb
+-Player Last Names-	a
+Tebow	nyjFitzpatrick	bufMoss	sfGronkowski	neManning	fbFoster	houKaepernick	sfFlacco	balBrees	noRodgers	gbStafford	detPeterson	minRomo	dalSchaub	houCruz	nygRoethlisberger	pitWelker	ne
+The Freezer	gb
