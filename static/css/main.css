@@ -6,12 +6,26 @@ body {
   height: 150px;
 }
 .logo {
-  /*width: 150px;*/
-  /*height: auto;*/
-  /*width: auto;
-  height: 100px;*/
   margin-bottom: 10px;
 }
+#learn i {
+  vertical-align: middle;
+  margin-top: -2px;
+}
+.popover {
+  width: 300px;
+}
+.popover-title, .popover-content p{
+  color: #333;
+  font-size: 14px !important;
+  text-shadow: none;
+  margin-bottom: 0px !important;
+}
+.popover-content p {
+  text-align: left;
+  line-height: 1;
+}
+
 #team, #teams, #matchups {
   margin-top: 40px;
 }

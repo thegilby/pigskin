@@ -4,7 +4,8 @@
   <div class="jumbotron">
     <div class="container">
       <h1>Pigskin</h1>
-      <p>Visualizing Football Tweets</p>
+      <p>Visualizing Football Tweets <a id="learn" href="#" rel="popover" data-content="Pigskin is an exploratory visualization of over 13.3 million tweets collected over 7 Sundays of the NFL season. We developed a weighting algorithm for determining whether a tweet is or is not about football and visualized this data at various levels of granularity (overall, by week, by matchup, and by team)." data-original-title="More About Pigskin"><i class="icon-info-sign icon-white"></i></a></p>
+
     </div>
   </div>
 
@@ -59,7 +60,10 @@
         geo = {{ geo | tojson | safe }};
 
     $(function(){
+        // Additional Info Popover
+        $("#learn").popover({"placement":"right", "trigger": "hover"});
 
+        // List teams for map filter
         $.each(teams, function(index, value){
             var team = $("<li>").attr('fb_assoc',index).html('<small>'+value['name']+
               '</small>');
